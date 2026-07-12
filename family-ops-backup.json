@@ -2090,27 +2090,7 @@
     ],
     "lastProcessedEpoch": 1752071210,
     "lastRunAt": "2026-07-12T19:52:00.000Z",
-    "pending": [
-      {
-        "candidates": [
-          {
-            "boardId": "childcare",
-            "cardId": "cc30-21",
-            "cardName": "The Learning Nest Academy",
-            "currentStatus": "To Apply",
-            "selected": false,
-            "suggestedStatus": "To Apply"
-          }
-        ],
-        "from": "michaela.cappadocia@childventures.ca",
-        "id": "es-p3",
-        "reason": "Second consecutive marketing/tour-invite email, not a status signal. Flagging alongside the other Learning Nest thread since a human may want to respond to the tour invite even though no tracker status change applies.",
-        "receivedAt": "2026-07-09T12:52:42Z",
-        "snippet": "Follow-up marketing email from the same Learning Nest Academy administrator, again inviting a tour — no waitlist/application status content.",
-        "subject": "Come see what makes The Learning Nest Academy so special!",
-        "threadId": "19f46f005d60ce0b"
-      }
-    ]
+    "pending": []
   },
   "homeLocation": {
     "label": "Lansdowne Ave & Dupont St, Toronto",
