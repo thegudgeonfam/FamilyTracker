@@ -1639,28 +1639,28 @@
         {
           "createdAt": "2026-07-06",
           "fields": {
+            "name": "Rawlinson Early Learning & Child Care Centre",
             "address": "40 Earnscliffe Rd, Toronto",
-            "ageRange": "Infant / Toddler / Preschool",
-            "appliedDate": "2026-07-06",
-            "auspice": "Public/School-based",
-            "cadenceDays": 90,
-            "capacityScore": "",
-            "channel": "Direct online form",
-            "complianceScore": "",
-            "confirmationReceived": "",
-            "contact": "416-392-5068",
-            "costScore": "",
             "crossStreets": "Eglinton / Dufferin",
+            "ageRange": "Infant / Toddler / Preschool",
+            "infantProgram": "Yes",
+            "auspice": "Public/School-based",
             "cwelcc": "Yes",
             "elcaqiRating": "",
             "estMonthlyFee": "",
-            "infantProgram": "Yes",
+            "channel": "Direct online form",
+            "appliedDate": "2026-07-06",
+            "contact": "416-392-5068",
+            "confirmationReceived": "",
             "lastReconfirm": "",
-            "name": "Rawlinson Early Learning & Child Care Centre",
-            "outreachDraft": "HOW TO START: City-run (Toronto ELCCS). Register via City's TELCCS online waitlist registration (see your TELCCS card). Backup: 416-392-5068.",
-            "philosophyScore": "",
+            "cadenceDays": "90",
             "proximityScore": "",
-            "reputationScore": ""
+            "costScore": "",
+            "reputationScore": "",
+            "complianceScore": "",
+            "capacityScore": "",
+            "philosophyScore": "",
+            "outreachDraft": "HOW TO START: City-run (Toronto ELCCS). Register via City's TELCCS online waitlist registration (see your TELCCS card). Backup: 416-392-5068."
           },
           "id": "cc30-30",
           "log": [
@@ -1673,7 +1673,7 @@
               "ts": "2026-07-12"
             }
           ],
-          "status": "Applied – Awaiting Confirmation"
+          "status": "On Waitlist"
         },
         {
           "createdAt": "2026-07-12",
