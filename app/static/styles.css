@@ -1,0 +1,218 @@
+:root {
+  --bg: #f7f7f5;
+  --panel: #ffffff;
+  --border: #e2e0db;
+  --text: #26241f;
+  --text-muted: #6b685f;
+  --accent: #2f6f4f;
+  --accent-contrast: #ffffff;
+  --danger: #b3432b;
+  --overdue: #c0392b;
+  --overdue-bg: #fbe9e7;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #17181a;
+    --panel: #232427;
+    --border: #34363a;
+    --text: #ece9e2;
+    --text-muted: #a3a099;
+    --accent: #5fb98a;
+    --accent-contrast: #0e1a14;
+    --danger: #e07856;
+    --overdue: #ff7a68;
+    --overdue-bg: #3a2320;
+  }
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  background: var(--bg);
+  color: var(--text);
+}
+
+#app-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 24px;
+  border-bottom: 1px solid var(--border);
+}
+
+#app-title { font-size: 1.3rem; margin: 0; }
+
+.save-status {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+}
+.save-status.dirty { color: var(--accent); }
+.save-status.error { color: var(--danger); }
+
+.board-tabs {
+  display: flex;
+  gap: 8px;
+  padding: 12px 24px 0;
+}
+
+.board-tab {
+  padding: 8px 16px;
+  border: 1px solid var(--border);
+  border-bottom: none;
+  border-radius: 8px 8px 0 0;
+  background: var(--panel);
+  cursor: pointer;
+  color: var(--text-muted);
+  font-size: 0.95rem;
+}
+.board-tab.active {
+  color: var(--text);
+  font-weight: 600;
+  border-color: var(--accent);
+}
+
+.board-description {
+  padding: 12px 24px;
+  color: var(--text-muted);
+  font-size: 0.85rem;
+  max-width: 900px;
+  border-bottom: 1px solid var(--border);
+}
+
+.board-columns {
+  display: flex;
+  gap: 16px;
+  padding: 20px 24px;
+  overflow-x: auto;
+  align-items: flex-start;
+}
+
+.column {
+  min-width: 260px;
+  max-width: 260px;
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.column-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--text-muted);
+  padding: 4px 6px 10px;
+}
+
+.card {
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 10px;
+  margin-bottom: 8px;
+  cursor: pointer;
+}
+.card:hover { border-color: var(--accent); }
+
+.card-title { font-size: 0.9rem; font-weight: 600; margin-bottom: 4px; }
+
+.card-badges { display: flex; gap: 6px; flex-wrap: wrap; }
+
+.badge {
+  font-size: 0.7rem;
+  padding: 2px 6px;
+  border-radius: 999px;
+  background: var(--border);
+  color: var(--text-muted);
+}
+.badge.overdue { background: var(--overdue-bg); color: var(--overdue); }
+.badge.score { background: var(--accent); color: var(--accent-contrast); }
+
+.add-card-btn {
+  width: 100%;
+  padding: 6px;
+  margin-top: 4px;
+  border: 1px dashed var(--border);
+  border-radius: 6px;
+  background: transparent;
+  color: var(--text-muted);
+  cursor: pointer;
+}
+.add-card-btn:hover { border-color: var(--accent); color: var(--accent); }
+
+.modal {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+}
+.modal.hidden { display: none; }
+
+.modal-content {
+  background: var(--panel);
+  border-radius: 10px;
+  padding: 20px;
+  width: min(560px, 92vw);
+  max-height: 86vh;
+  overflow-y: auto;
+  position: relative;
+}
+
+.modal-close {
+  position: absolute;
+  top: 10px;
+  right: 14px;
+  background: none;
+  border: none;
+  font-size: 1.4rem;
+  cursor: pointer;
+  color: var(--text-muted);
+}
+
+.field-row { margin-bottom: 12px; }
+.field-row label {
+  display: block;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  margin-bottom: 4px;
+}
+.field-row input, .field-row select, .field-row textarea {
+  width: 100%;
+  padding: 7px 8px;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: var(--bg);
+  color: var(--text);
+  font-family: inherit;
+  font-size: 0.9rem;
+}
+.field-row textarea { min-height: 80px; resize: vertical; }
+
+.status-row select { font-weight: 600; }
+
+.modal-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 8px;
+  margin-top: 16px;
+}
+
+.btn {
+  padding: 8px 16px;
+  border-radius: 6px;
+  border: 1px solid var(--border);
+  cursor: pointer;
+  font-size: 0.9rem;
+  background: var(--panel);
+  color: var(--text);
+}
+.btn-primary { background: var(--accent); color: var(--accent-contrast); border-color: var(--accent); }
+.btn-danger { color: var(--danger); border-color: var(--danger); background: transparent; }

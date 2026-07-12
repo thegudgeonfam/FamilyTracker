@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Family Tracker</title>
+<link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+<header id="app-header">
+  <h1 id="app-title">Family Tracker</h1>
+  <div id="save-status" class="save-status">Loading…</div>
+</header>
+
+<nav id="board-tabs" class="board-tabs"></nav>
+
+<div id="board-description" class="board-description"></div>
+
+<main id="board-columns" class="board-columns"></main>
+
+<div id="card-modal" class="modal hidden">
+  <div class="modal-content">
+    <button id="modal-close" class="modal-close" aria-label="Close">&times;</button>
+    <div id="modal-body"></div>
+    <div class="modal-actions">
+      <button id="modal-delete" class="btn btn-danger">Delete</button>
+      <button id="modal-save" class="btn btn-primary">Save</button>
+    </div>
+  </div>
+</div>
+
+<script src="/app.js"></script>
+</body>
+</html>

@@ -7,3 +7,7 @@
 
 # Manual timestamped tracker backups (git history replaces these going forward)
 family-ops-backup.pre-*.json
+
+# Local app virtualenv
+app/.venv/
+app/__pycache__/
