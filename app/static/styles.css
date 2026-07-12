@@ -45,6 +45,24 @@ body {
 
 #app-title { font-size: 1.3rem; margin: 0; }
 
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.review-btn {
+  background: var(--overdue-bg);
+  color: var(--overdue);
+  border: 1px solid var(--overdue);
+  border-radius: 999px;
+  padding: 5px 12px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+.review-btn.hidden { display: none; }
+
 .save-status {
   font-size: 0.85rem;
   color: var(--text-muted);
@@ -216,3 +234,62 @@ body {
 }
 .btn-primary { background: var(--accent); color: var(--accent-contrast); border-color: var(--accent); }
 .btn-danger { color: var(--danger); border-color: var(--danger); background: transparent; }
+
+/* Email review modal */
+.modal-heading { margin: 0 0 4px; font-size: 1.15rem; }
+.modal-sub { margin: 0 0 16px; color: var(--text-muted); font-size: 0.85rem; }
+
+.review-item {
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 14px;
+  margin-bottom: 14px;
+}
+.review-head { display: flex; justify-content: space-between; gap: 10px; flex-wrap: wrap; }
+.review-subject { font-weight: 600; font-size: 0.95rem; }
+.review-meta { color: var(--text-muted); font-size: 0.78rem; }
+.review-snippet {
+  font-size: 0.85rem;
+  color: var(--text);
+  margin: 8px 0;
+  font-style: italic;
+}
+.review-reason {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  background: var(--bg);
+  border-left: 3px solid var(--accent);
+  padding: 8px 10px;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+.review-candidates { display: flex; flex-direction: column; gap: 8px; }
+.review-cand {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.85rem;
+  flex-wrap: wrap;
+}
+.review-cand-name { font-weight: 600; }
+.review-cand-from { color: var(--text-muted); font-size: 0.78rem; }
+.review-cand select {
+  padding: 4px 6px;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: var(--bg);
+  color: var(--text);
+  font-size: 0.82rem;
+}
+.review-actions { display: flex; justify-content: flex-end; gap: 8px; margin-top: 12px; }
+
+.review-activity-h { font-size: 0.9rem; margin: 20px 0 8px; color: var(--text-muted); }
+.activity-row {
+  font-size: 0.8rem;
+  padding: 5px 0;
+  border-top: 1px solid var(--border);
+  display: flex;
+  gap: 6px;
+}
+.activity-card { font-weight: 600; }
+.activity-change { color: var(--text-muted); }

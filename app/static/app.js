@@ -11,13 +11,17 @@
   const statusEl = el("#save-status");
   const modalEl = el("#card-modal");
   const modalBodyEl = el("#modal-body");
+  const reviewBtn = el("#review-btn");
+  const reviewModalEl = el("#review-modal");
 
   async function load() {
     const res = await fetch("/api/data");
     data = await res.json();
+    if (!data.emailSync) data.emailSync = { pending: [], activity: [] };
     currentBoardId = data.boardOrder[0];
     renderTabs();
     renderBoard();
+    renderReviewButton();
     setStatus("Loaded", false);
   }
 
@@ -248,6 +252,189 @@
   el("#modal-delete").addEventListener("click", deleteCard);
   modalEl.addEventListener("click", (e) => {
     if (e.target === modalEl) closeModal();
+  });
+
+  // ---------- Email review inbox ----------
+
+  function findCard(boardId, cardId) {
+    const board = data.boards[boardId];
+    if (!board) return null;
+    return board.cards.find((c) => c.id === cardId) || null;
+  }
+
+  function renderReviewButton() {
+    const pending = data.emailSync.pending || [];
+    el("#review-count").textContent = pending.length;
+    reviewBtn.classList.toggle("hidden", pending.length === 0);
+  }
+
+  function openReview() {
+    const es = data.emailSync;
+    const pending = es.pending || [];
+    const sub = el("#review-sub");
+    sub.textContent = pending.length
+      ? `${pending.length} email${pending.length > 1 ? "s" : ""} need${pending.length > 1 ? "" : "s"} your call. Confirm the card(s) to update, or dismiss.`
+      : "Nothing waiting for review.";
+
+    const container = el("#review-pending");
+    container.innerHTML = "";
+
+    pending.forEach((item) => {
+      const box = document.createElement("div");
+      box.className = "review-item";
+
+      const head = document.createElement("div");
+      head.className = "review-head";
+      head.innerHTML =
+        `<div class="review-subject"></div>` +
+        `<div class="review-meta"></div>`;
+      head.querySelector(".review-subject").textContent = item.subject || "(no subject)";
+      head.querySelector(".review-meta").textContent =
+        `${item.from} · ${(item.receivedAt || "").slice(0, 10)}`;
+      box.appendChild(head);
+
+      const snippet = document.createElement("div");
+      snippet.className = "review-snippet";
+      snippet.textContent = item.snippet || "";
+      box.appendChild(snippet);
+
+      const reason = document.createElement("div");
+      reason.className = "review-reason";
+      reason.textContent = item.reason || "";
+      box.appendChild(reason);
+
+      const candWrap = document.createElement("div");
+      candWrap.className = "review-candidates";
+      item.candidates.forEach((cand, idx) => {
+        const row = document.createElement("label");
+        row.className = "review-cand";
+
+        const cb = document.createElement("input");
+        cb.type = "checkbox";
+        cb.checked = !!cand.selected;
+        cb.dataset.idx = idx;
+
+        const name = document.createElement("span");
+        name.className = "review-cand-name";
+        name.textContent = cand.cardName;
+
+        const sel = document.createElement("select");
+        const board = data.boards[cand.boardId];
+        (board ? board.statuses : []).forEach((s) => {
+          const opt = document.createElement("option");
+          opt.value = s;
+          opt.textContent = s;
+          if (s === (cand.suggestedStatus || cand.currentStatus)) opt.selected = true;
+          sel.appendChild(opt);
+        });
+        sel.dataset.idx = idx;
+
+        const from = document.createElement("span");
+        from.className = "review-cand-from";
+        from.textContent = `now: ${cand.currentStatus}`;
+
+        row.append(cb, name, from, document.createTextNode("→"), sel);
+        candWrap.appendChild(row);
+      });
+      box.appendChild(candWrap);
+
+      const actions = document.createElement("div");
+      actions.className = "review-actions";
+      const confirmBtn = document.createElement("button");
+      confirmBtn.className = "btn btn-primary";
+      confirmBtn.textContent = "Apply selected";
+      confirmBtn.addEventListener("click", () => applyReviewItem(item, box));
+      const dismissBtn = document.createElement("button");
+      dismissBtn.className = "btn";
+      dismissBtn.textContent = "Dismiss";
+      dismissBtn.addEventListener("click", () => dismissReviewItem(item));
+      actions.append(dismissBtn, confirmBtn);
+      box.appendChild(actions);
+
+      container.appendChild(box);
+    });
+
+    renderActivity();
+    reviewModalEl.classList.remove("hidden");
+  }
+
+  function renderActivity() {
+    const activity = (data.emailSync.activity || []).slice().reverse().slice(0, 20);
+    const wrap = el("#review-activity");
+    if (activity.length === 0) { wrap.innerHTML = ""; return; }
+    wrap.innerHTML = `<h3 class="review-activity-h">Recently applied automatically</h3>`;
+    activity.forEach((a) => {
+      const row = document.createElement("div");
+      row.className = "activity-row";
+      const change = a.change ? ` — ${a.change}` : "";
+      row.innerHTML = `<span class="activity-card"></span><span class="activity-change"></span>`;
+      row.querySelector(".activity-card").textContent = a.cardName || a.subject || "";
+      row.querySelector(".activity-change").textContent = change;
+      wrap.appendChild(row);
+    });
+  }
+
+  function applyReviewItem(item, box) {
+    const checkboxes = box.querySelectorAll('input[type="checkbox"]');
+    const selects = box.querySelectorAll("select");
+    const applied = [];
+    checkboxes.forEach((cb) => {
+      if (!cb.checked) return;
+      const idx = Number(cb.dataset.idx);
+      const cand = item.candidates[idx];
+      const newStatus = selects[idx].value;
+      const card = findCard(cand.boardId, cand.cardId);
+      if (!card) return;
+      const prev = card.status;
+      if (newStatus !== prev) {
+        card.status = newStatus;
+        if (card.fields && "confirmationReceived" in card.fields)
+          card.fields.confirmationReceived = "Yes";
+        if (card.fields && "lastReconfirm" in card.fields)
+          card.fields.lastReconfirm = (item.receivedAt || "").slice(0, 10);
+      }
+      applied.push({ cardName: cand.cardName, change: `${prev} → ${newStatus}` });
+    });
+
+    applied.forEach((a) =>
+      data.emailSync.activity.push({
+        at: new Date().toISOString(),
+        action: "confirmed",
+        from: item.from,
+        subject: item.subject,
+        threadId: item.threadId,
+        cardName: a.cardName,
+        change: a.change,
+      })
+    );
+    data.emailSync.pending = data.emailSync.pending.filter((p) => p.id !== item.id);
+
+    renderBoard();
+    renderReviewButton();
+    openReview();
+    scheduleSave();
+  }
+
+  function dismissReviewItem(item) {
+    data.emailSync.activity.push({
+      at: new Date().toISOString(),
+      action: "dismissed",
+      from: item.from,
+      subject: item.subject,
+      threadId: item.threadId,
+      cardName: "(dismissed — no change)",
+      change: "",
+    });
+    data.emailSync.pending = data.emailSync.pending.filter((p) => p.id !== item.id);
+    renderReviewButton();
+    openReview();
+    scheduleSave();
+  }
+
+  reviewBtn.addEventListener("click", openReview);
+  el("#review-close").addEventListener("click", () => reviewModalEl.classList.add("hidden"));
+  reviewModalEl.addEventListener("click", (e) => {
+    if (e.target === reviewModalEl) reviewModalEl.classList.add("hidden");
   });
 
   load();

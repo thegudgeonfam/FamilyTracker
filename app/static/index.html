@@ -9,7 +9,10 @@
 <body>
 <header id="app-header">
   <h1 id="app-title">Family Tracker</h1>
-  <div id="save-status" class="save-status">Loading…</div>
+  <div class="header-right">
+    <button id="review-btn" class="review-btn hidden">📬 <span id="review-count">0</span></button>
+    <div id="save-status" class="save-status">Loading…</div>
+  </div>
 </header>
 
 <nav id="board-tabs" class="board-tabs"></nav>
@@ -17,6 +20,16 @@
 <div id="board-description" class="board-description"></div>
 
 <main id="board-columns" class="board-columns"></main>
+
+<div id="review-modal" class="modal hidden">
+  <div class="modal-content">
+    <button id="review-close" class="modal-close" aria-label="Close">&times;</button>
+    <h2 class="modal-heading">📬 Email review</h2>
+    <p class="modal-sub" id="review-sub"></p>
+    <div id="review-pending"></div>
+    <div id="review-activity"></div>
+  </div>
+</div>
 
 <div id="card-modal" class="modal hidden">
   <div class="modal-content">
