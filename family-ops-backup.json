@@ -744,28 +744,28 @@
         {
           "createdAt": "2026-07-06",
           "fields": {
+            "name": "Davenport Perth Early Learning & Child Care Centre",
             "address": "1900 Davenport Rd, Toronto",
-            "ageRange": "Infant / Toddler / Preschool (0–4 yrs)",
-            "appliedDate": "2026-07-06",
-            "auspice": "Public/School-based",
-            "cadenceDays": 90,
-            "capacityScore": "",
-            "channel": "Direct online form",
-            "complianceScore": "",
-            "confirmationReceived": "",
-            "contact": "Kathleen Joung · 416-392-5066",
-            "costScore": "",
             "crossStreets": "Old Weston Rd / Davenport",
+            "ageRange": "Infant / Toddler / Preschool (0–4 yrs)",
+            "infantProgram": "Yes",
+            "auspice": "Public/School-based",
             "cwelcc": "Yes",
             "elcaqiRating": "",
             "estMonthlyFee": "",
-            "infantProgram": "Yes",
+            "channel": "Direct online form",
+            "appliedDate": "2026-07-06",
+            "contact": "Kathleen Joung · 416-392-5066",
+            "confirmationReceived": "",
             "lastReconfirm": "",
-            "name": "Davenport Perth Early Learning & Child Care Centre",
-            "outreachDraft": "HOW TO START: City-run (Toronto ELCCS). Register via the City's TELCCS online waitlist registration (same system as your existing TELCCS card). Backup: call 416-392-5066.",
-            "philosophyScore": "",
+            "cadenceDays": "90",
             "proximityScore": "",
-            "reputationScore": ""
+            "costScore": "",
+            "reputationScore": "",
+            "complianceScore": "",
+            "capacityScore": "",
+            "philosophyScore": "",
+            "outreachDraft": "HOW TO START: City-run (Toronto ELCCS). Register via the City's TELCCS online waitlist registration (same system as your existing TELCCS card). Backup: call 416-392-5066."
           },
           "id": "cc30-01",
           "log": [
@@ -778,7 +778,7 @@
               "ts": "2026-07-12"
             }
           ],
-          "status": "Applied – Awaiting Confirmation"
+          "status": "On Waitlist"
         },
         {
           "createdAt": "2026-07-06",
