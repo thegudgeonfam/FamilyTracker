@@ -2020,11 +2020,70 @@
         "threadId": "19f3308e17577e9b",
         "cardName": "Ascot Avenue Community Daycare (991 St Clair)",
         "change": "Applied – Awaiting Confirmation → On Waitlist"
+      },
+      {
+        "action": "confirmed",
+        "at": "2026-07-12T19:52:00.000Z",
+        "cardName": "Sunnyside – Keele",
+        "change": "On Waitlist → On Waitlist",
+        "from": "keele@sunnysidedaycare.com",
+        "reason": "Earlier confirmation email for the same single-card match already reflected in the card's own log/status (lastReconfirm 2026-07-09 from the follow-up 'Welcome to the waitlist' email); this is the original 'Waiting List Application Received' receipt for the same application, no new information — logged for bookkeeping so it isn't re-flagged.",
+        "subject": "Waiting List Application Received – Thank you!",
+        "threadId": "19f38f31c596a471"
       }
     ],
     "lastProcessedEpoch": 1752071210,
-    "lastRunAt": "2026-07-12T19:31:33.396339+00:00",
-    "pending": []
+    "lastRunAt": "2026-07-12T19:52:00.000Z",
+    "pending": [
+      {
+        "id": "es-p1",
+        "threadId": "19f32c9dac361465",
+        "receivedAt": "2026-07-05T14:58:34Z",
+        "from": "morgan@onehsn.ca",
+        "subject": "Thanks for reaching out",
+        "snippet": "OneHSN sales support asked qualifying questions then pointed the family to the City of Toronto's Early Learning & Child Care Services team rather than any specific centre or waitlist.",
+        "reason": "Navigational/general OneHSN reply — doesn't name a specific centre and isn't a waitlist confirmation or offer. Not actionable per the sync procedure's OneHSN example; flagging as informational only, no card match.",
+        "candidates": []
+      },
+      {
+        "id": "es-p2",
+        "threadId": "19f3d115b45b5caf",
+        "receivedAt": "2026-07-07T14:52:54Z",
+        "from": "michaela.cappadocia@childventures.ca",
+        "subject": "Your Learning Nest Journey Starts Here",
+        "snippet": "Marketing/nurture email inviting a private tour of The Learning Nest Academy — not a waitlist confirmation or application receipt.",
+        "reason": "Sales outreach, not a status signal — no waitlist/offer language. Card stays To Apply; flagging so a human can decide whether to book the tour, not because a status change is implied.",
+        "candidates": [
+          {
+            "cardId": "cc30-21",
+            "cardName": "The Learning Nest Academy",
+            "boardId": "childcare",
+            "currentStatus": "To Apply",
+            "suggestedStatus": "To Apply",
+            "selected": false
+          }
+        ]
+      },
+      {
+        "id": "es-p3",
+        "threadId": "19f46f005d60ce0b",
+        "receivedAt": "2026-07-09T12:52:42Z",
+        "from": "michaela.cappadocia@childventures.ca",
+        "subject": "Come see what makes The Learning Nest Academy so special!",
+        "snippet": "Follow-up marketing email from the same Learning Nest Academy administrator, again inviting a tour — no waitlist/application status content.",
+        "reason": "Second consecutive marketing/tour-invite email, not a status signal. Flagging alongside the other Learning Nest thread since a human may want to respond to the tour invite even though no tracker status change applies.",
+        "candidates": [
+          {
+            "cardId": "cc30-21",
+            "cardName": "The Learning Nest Academy",
+            "boardId": "childcare",
+            "currentStatus": "To Apply",
+            "suggestedStatus": "To Apply",
+            "selected": false
+          }
+        ]
+      }
+    ]
   },
   "homeLocation": {
     "label": "Lansdowne Ave & Dupont St, Toronto",
