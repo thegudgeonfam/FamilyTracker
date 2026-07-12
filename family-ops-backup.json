@@ -75,7 +75,7 @@
             "capacityScore": 8,
             "channel": "Direct online form",
             "complianceScore": 9,
-            "confirmationReceived": "No – need to follow up",
+            "confirmationReceived": "Yes",
             "contact": "Marlene Armas, 416-530-0722 ext 4028",
             "costScore": "",
             "crossStreets": "Ossington Ave / Bloor St W",
@@ -83,7 +83,7 @@
             "elcaqiRating": "Infant 4.54/5 (2025, at city avg 4.55)",
             "estMonthlyFee": "",
             "infantProgram": "Yes",
-            "lastReconfirm": "2026-07-12",
+            "lastReconfirm": "2026-07-09",
             "name": "Network Child Care Services — Ossington Avenue North",
             "outreachDraft": "Network Child Care Services has a real online waitlist form (not just email) — use it directly: https://networkchildcare.com/contact-us/#waitlist\n\nBackup email if needed:\n\nSubject: Waitlist Inquiry - Infant Care Starting ~March 2028\n\nHi Ossington Avenue North team,\n\nWe live near Lansdowne & Dupont and are expecting our first child in March 2027. We understand you run a true infant program and would love to add our name to your waitlist as early as your policy allows, targeting a start around March 2028.\n\nCould you let us know: are you CWELCC-enrolled, what is your current infant waitlist length, and what do you need from us to register interest now?\n\nThank you,\n{{PARENT_NAMES}}\n{{EMAIL}} · {{PHONE}}",
             "philosophyScore": "",
@@ -101,7 +101,7 @@
               "ts": "2026-07-11"
             }
           ],
-          "status": "Applied – Awaiting Confirmation"
+          "status": "On Waitlist"
         },
         {
           "createdAt": "2026-07-12",
@@ -114,7 +114,7 @@
             "capacityScore": "",
             "channel": "Direct online form",
             "complianceScore": "",
-            "confirmationReceived": "No – need to follow up",
+            "confirmationReceived": "Yes",
             "contact": "Barbara De Cicco (Supervisor), 416-530-0722 ext. 4030, justkids@networkchildcare.com",
             "costScore": "",
             "crossStreets": "Keele St / Eglinton Ave W",
@@ -122,7 +122,7 @@
             "elcaqiRating": "",
             "estMonthlyFee": "",
             "infantProgram": "Yes",
-            "lastReconfirm": "2026-07-12",
+            "lastReconfirm": "2026-07-09",
             "name": "Network Child Care Services – Just Kids Centre",
             "outreachDraft": "Same operator as your Ossington/Wade cards. Application forwarded here automatically by Network's central intake.",
             "philosophyScore": "",
@@ -140,7 +140,7 @@
               "ts": "2026-07-12"
             }
           ],
-          "status": "Applied – Awaiting Confirmation"
+          "status": "On Waitlist"
         },
         {
           "createdAt": "2026-07-05",
@@ -608,7 +608,7 @@
             "capacityScore": 6,
             "channel": "Unknown",
             "complianceScore": 7,
-            "confirmationReceived": "No – need to follow up",
+            "confirmationReceived": "Yes",
             "contact": "Jessica Calouro, 416-530-0722 ext 4032",
             "costScore": 8,
             "crossStreets": "Ossington Ave / Bloor St W",
@@ -616,7 +616,7 @@
             "elcaqiRating": "Toddler 4.33/5, Preschool 4.50/5",
             "estMonthlyFee": "",
             "infantProgram": "No - toddler starts 18mo+",
-            "lastReconfirm": "2026-07-12",
+            "lastReconfirm": "2026-07-09",
             "name": "Network Child Care Services — Ossington Avenue South",
             "outreachDraft": "Subject: Waitlist Inquiry - Toddler Care Starting ~2028\n\nHi Ossington Avenue South team,\n\nWe live near Lansdowne & Dupont and are expecting our first child in March 2027, hoping for our child to start at exactly 12 months, around March 2028. We understand your toddler program is typically listed as starting at 18 months — would you consider early admission at 12 months? We saw you're CWELCC-enrolled.\n\nCould you share your current waitlist and what's needed to register interest now?\n\nThank you,\n{{PARENT_NAMES}}\n{{EMAIL}} · {{PHONE}}",
             "philosophyScore": 5,
@@ -634,33 +634,33 @@
               "ts": "2026-07-11"
             }
           ],
-          "status": "Applied – Awaiting Confirmation"
+          "status": "On Waitlist"
         },
         {
           "createdAt": "2026-07-05",
           "fields": {
+            "name": "Bloorcourt Village Early Learning Centre",
             "address": "823 Dovercourt Rd, Toronto",
-            "ageRange": "Unconfirmed",
-            "appliedDate": "",
-            "auspice": "Unknown",
-            "cadenceDays": 90,
-            "capacityScore": "",
-            "channel": "Unknown",
-            "complianceScore": "",
-            "confirmationReceived": "",
-            "contact": "",
-            "costScore": "",
             "crossStreets": "Dovercourt Rd, near Bloorcourt",
+            "ageRange": "Unconfirmed",
+            "infantProgram": "Unconfirmed",
+            "auspice": "Unknown",
             "cwelcc": "Unconfirmed",
             "elcaqiRating": "Unconfirmed",
             "estMonthlyFee": "",
-            "infantProgram": "Unconfirmed",
+            "channel": "Unknown",
+            "appliedDate": "",
+            "contact": "",
+            "confirmationReceived": "",
             "lastReconfirm": "",
-            "name": "Bloorcourt Village Early Learning Centre",
-            "outreachDraft": "Subject: Waitlist Inquiry - Infant/Toddler Care Starting ~2028\n\nHi Bloorcourt Village Early Learning Centre team,\n\nWe live near Lansdowne & Dupont and are expecting our first child in March 2027. Could you tell us the age range you serve, whether you're CWELCC-enrolled, and your current waitlist situation for an infant or toddler spot around 2028?\n\nThank you,\n{{PARENT_NAMES}}\n{{EMAIL}} · {{PHONE}}",
-            "philosophyScore": "",
+            "cadenceDays": "90",
             "proximityScore": "",
-            "reputationScore": ""
+            "costScore": "",
+            "reputationScore": "",
+            "complianceScore": "",
+            "capacityScore": "",
+            "philosophyScore": "",
+            "outreachDraft": "Subject: Waitlist Inquiry - Infant/Toddler Care Starting ~2028\n\nHi Bloorcourt Village Early Learning Centre team,\n\nWe live near Lansdowne & Dupont and are expecting our first child in March 2027. Could you tell us the age range you serve, whether you're CWELCC-enrolled, and your current waitlist situation for an infant or toddler spot around 2028?\n\nThank you,\n{{PARENT_NAMES}}\n{{EMAIL}} · {{PHONE}}"
           },
           "id": "s55meq8z",
           "log": [
@@ -669,7 +669,7 @@
               "ts": "2026-07-05"
             }
           ],
-          "status": "To Apply"
+          "status": "Applied – Awaiting Confirmation"
         },
         {
           "createdAt": "2026-07-05",
@@ -1071,7 +1071,7 @@
             "capacityScore": "",
             "channel": "Direct online form",
             "complianceScore": "",
-            "confirmationReceived": "No – need to follow up",
+            "confirmationReceived": "Yes",
             "contact": "416-530-0722 ext 4052",
             "costScore": "",
             "crossStreets": "Lansdowne / Wade / Bloor",
@@ -1079,7 +1079,7 @@
             "elcaqiRating": "",
             "estMonthlyFee": "",
             "infantProgram": "No - toddler starts 18mo+",
-            "lastReconfirm": "2026-07-12",
+            "lastReconfirm": "2026-07-09",
             "name": "Network Child Care Services – Wade Avenue Centre",
             "outreachDraft": "HOW TO START: Same operator as your Ossington cards. 'Apply for Child Care Now' waitlist form at networkchildcare.com/contact-us. No infant room here (toddler up).",
             "philosophyScore": "",
@@ -1097,7 +1097,7 @@
               "ts": "2026-07-11"
             }
           ],
-          "status": "Applied – Awaiting Confirmation"
+          "status": "On Waitlist"
         },
         {
           "createdAt": "2026-07-06",
@@ -1956,111 +1956,75 @@
     }
   },
   "emailSync": {
-    "lastRunAt": "2026-07-12T19:35:13.970830+00:00",
-    "lastProcessedEpoch": 1752071210,
     "activity": [
       {
-        "at": "2026-07-12T19:35:13.970830+00:00",
         "action": "auto-applied",
-        "threadId": "19f3ce31b183a0fc",
-        "from": "keele@sunnysidedaycare.com",
-        "subject": "Welcome to the waitlist",
+        "at": "2026-07-12T19:31:33.396339+00:00",
         "cardName": "Sunnyside – Keele",
         "change": "Applied – Awaiting Confirmation → On Waitlist",
-        "reason": "Sender domain sunnysidedaycare.com + 'keele' maps to exactly one card; body states 'you are officially on the waitlist'."
-      }
-    ],
-    "pending": [
+        "from": "keele@sunnysidedaycare.com",
+        "reason": "Sender domain sunnysidedaycare.com + 'keele' maps to exactly one card; body states 'you are officially on the waitlist'.",
+        "subject": "Welcome to the waitlist",
+        "threadId": "19f3ce31b183a0fc"
+      },
       {
-        "id": "es-network-19f47465",
-        "threadId": "19f474650413fbb6",
-        "receivedAt": "2026-07-09T14:26:50Z",
+        "action": "confirmed",
+        "at": "2026-07-12T19:33:33.024Z",
+        "cardName": "Network — Ossington Avenue North",
+        "change": "Applied – Awaiting Confirmation → On Waitlist",
         "from": "reception@networkchildcare.com",
         "subject": "Network Child Care Services - Daycare",
-        "snippet": "Thank you for your application. Your application has been forwarded to Group and Just Kids Centres (infant waiting lists) and to Wade Avenue and Satellite Centres (toddler waiting lists).",
-        "reason": "One email confirms waitlisting across FOUR Network cards at once — Group Centre (756 Ossington = Ossington North), Satellite (720 Ossington = Ossington South), Just Kids, and Wade Ave. High-impact multi-card change → confirm before applying.",
-        "candidates": [
-          {
-            "cardId": "0i32bipe",
-            "cardName": "Network — Ossington Avenue North",
-            "boardId": "childcare",
-            "currentStatus": "Applied – Awaiting Confirmation",
-            "suggestedStatus": "On Waitlist",
-            "selected": true
-          },
-          {
-            "cardId": "bbcvs1ps",
-            "cardName": "Network — Ossington Avenue South",
-            "boardId": "childcare",
-            "currentStatus": "Applied – Awaiting Confirmation",
-            "suggestedStatus": "On Waitlist",
-            "selected": true
-          },
-          {
-            "cardId": "nccs-justkids",
-            "cardName": "Network — Just Kids Centre",
-            "boardId": "childcare",
-            "currentStatus": "Applied – Awaiting Confirmation",
-            "suggestedStatus": "On Waitlist",
-            "selected": true
-          },
-          {
-            "cardId": "cc30-11",
-            "cardName": "Network — Wade Avenue Centre",
-            "boardId": "childcare",
-            "currentStatus": "Applied – Awaiting Confirmation",
-            "suggestedStatus": "On Waitlist",
-            "selected": true
-          }
-        ]
+        "threadId": "19f474650413fbb6"
       },
       {
-        "id": "es-ascot-19f3308e",
-        "threadId": "19f3308e17577e9b",
-        "receivedAt": "2026-07-05T16:07:24Z",
-        "from": "admin@ascotdaycare.com",
-        "subject": "Ascot Avenue Community Daycare | Thank you!",
-        "snippet": "Dear Justine Wong, Your registration for Infant Gudgeon has been received and added to our waitlist.",
-        "reason": "Two Ascot cards share the domain ascotdaycare.com (991 St Clair vs 95 Regal Rd), and the CC'd contact (Meghan) is listed on the OTHER card — so which centre this confirms is ambiguous. Suggested match is the one already in 'Applied – Awaiting Confirmation'.",
-        "candidates": [
-          {
-            "cardId": "cc30-19",
-            "cardName": "Ascot Avenue Community Daycare (991 St Clair)",
-            "boardId": "childcare",
-            "currentStatus": "On Waitlist",
-            "suggestedStatus": "On Waitlist",
-            "selected": true
-          },
-          {
-            "cardId": "cc30-04",
-            "cardName": "Ascot Avenue Community Day Care (95 Regal Rd)",
-            "boardId": "childcare",
-            "currentStatus": "To Apply",
-            "suggestedStatus": "On Waitlist",
-            "selected": false
-          }
-        ]
+        "action": "confirmed",
+        "at": "2026-07-12T19:33:33.024Z",
+        "cardName": "Network — Ossington Avenue South",
+        "change": "Applied – Awaiting Confirmation → On Waitlist",
+        "from": "reception@networkchildcare.com",
+        "subject": "Network Child Care Services - Daycare",
+        "threadId": "19f474650413fbb6"
       },
       {
-        "id": "es-wallace-19f3310d",
-        "threadId": "19f3310df91e2008",
-        "receivedAt": "2026-07-06T22:24:40Z",
+        "action": "confirmed",
+        "at": "2026-07-12T19:33:33.024Z",
+        "cardName": "Network — Just Kids Centre",
+        "change": "Applied – Awaiting Confirmation → On Waitlist",
+        "from": "reception@networkchildcare.com",
+        "subject": "Network Child Care Services - Daycare",
+        "threadId": "19f474650413fbb6"
+      },
+      {
+        "action": "confirmed",
+        "at": "2026-07-12T19:33:33.024Z",
+        "cardName": "Network — Wade Avenue Centre",
+        "change": "Applied – Awaiting Confirmation → On Waitlist",
+        "from": "reception@networkchildcare.com",
+        "subject": "Network Child Care Services - Daycare",
+        "threadId": "19f474650413fbb6"
+      },
+      {
+        "at": "2026-07-12T19:34:26.579Z",
+        "action": "confirmed",
         "from": "Tanya.Bucchan@toronto.ca",
         "subject": "RE: Wallace Emerson Child Care Centre",
-        "snippet": "The list has been updated, thank you. Enjoy your summer. — Tanya Bucchan, District Consultant, City of Toronto Children's Services",
-        "reason": "City of Toronto confirms you're on the interest list for the Wallace Emerson centre — but it isn't open yet, so no waitlist status applies. Informational: keep 'Watching' (no status change suggested).",
-        "candidates": [
-          {
-            "cardId": "5v80metp",
-            "cardName": "Upcoming: Wallace Emerson Community Centre Child Care",
-            "boardId": "childcare",
-            "currentStatus": "Watching",
-            "suggestedStatus": "Watching",
-            "selected": false
-          }
-        ]
+        "threadId": "19f3310df91e2008",
+        "cardName": "Upcoming: Wallace Emerson Community Centre Child Care",
+        "change": "Watching → Watching"
+      },
+      {
+        "at": "2026-07-12T19:34:47.245Z",
+        "action": "confirmed",
+        "from": "admin@ascotdaycare.com",
+        "subject": "Ascot Avenue Community Daycare | Thank you!",
+        "threadId": "19f3308e17577e9b",
+        "cardName": "Ascot Avenue Community Daycare (991 St Clair)",
+        "change": "Applied – Awaiting Confirmation → On Waitlist"
       }
-    ]
+    ],
+    "lastProcessedEpoch": 1752071210,
+    "lastRunAt": "2026-07-12T19:31:33.396339+00:00",
+    "pending": []
   },
   "homeLocation": {
     "label": "Lansdowne Ave & Dupont St, Toronto",
