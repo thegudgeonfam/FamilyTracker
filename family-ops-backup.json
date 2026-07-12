@@ -2077,21 +2077,20 @@
         "reason": "Earlier confirmation email for the same single-card match already reflected in the card's own log/status (lastReconfirm 2026-07-09 from the follow-up 'Welcome to the waitlist' email); this is the original 'Waiting List Application Received' receipt for the same application, no new information — logged for bookkeeping so it isn't re-flagged.",
         "subject": "Waiting List Application Received – Thank you!",
         "threadId": "19f38f31c596a471"
+      },
+      {
+        "at": "2026-07-12T20:09:33.789Z",
+        "action": "dismissed",
+        "from": "morgan@onehsn.ca",
+        "subject": "Thanks for reaching out",
+        "threadId": "19f32c9dac361465",
+        "cardName": "(dismissed — no change)",
+        "change": ""
       }
     ],
     "lastProcessedEpoch": 1752071210,
     "lastRunAt": "2026-07-12T19:52:00.000Z",
     "pending": [
-      {
-        "candidates": [],
-        "from": "morgan@onehsn.ca",
-        "id": "es-p1",
-        "reason": "Navigational/general OneHSN reply — doesn't name a specific centre and isn't a waitlist confirmation or offer. Not actionable per the sync procedure's OneHSN example; flagging as informational only, no card match.",
-        "receivedAt": "2026-07-05T14:58:34Z",
-        "snippet": "OneHSN sales support asked qualifying questions then pointed the family to the City of Toronto's Early Learning & Child Care Services team rather than any specific centre or waitlist.",
-        "subject": "Thanks for reaching out",
-        "threadId": "19f32c9dac361465"
-      },
       {
         "candidates": [
           {
