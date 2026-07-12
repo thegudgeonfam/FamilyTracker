@@ -1678,28 +1678,28 @@
         {
           "createdAt": "2026-07-12",
           "fields": {
+            "name": "Jesse Ketchum Early Learning & Child Care Centre",
             "address": "7 Berryman St, Toronto (Davenport / Bay, within Jesse Ketchum Public School)",
-            "ageRange": "Toddler / Preschool (0–4 years per TELCCS listing; current programs are toddler & preschool, no distinct infant room found)",
-            "appliedDate": "2026-07-06",
-            "auspice": "Public/School-based",
-            "cadenceDays": 30,
-            "capacityScore": "",
-            "channel": "Direct online form",
-            "complianceScore": "",
-            "confirmationReceived": "",
-            "contact": "Vilma Liberata Leone · 416-392-5061; Children's Services Consultant Michelle Noel · 416-338-5953",
-            "costScore": "",
             "crossStreets": "Ward: University-Rosedale, Davenport/Bay area",
-            "cwelcc": "Yes (City-operated TELCCS programs)",
+            "ageRange": "Toddler / Preschool (0–4 years per TELCCS listing; current programs are toddler & preschool, no distinct infant room found)",
+            "infantProgram": "Yes",
+            "auspice": "Public/School-based",
+            "cwelcc": "Yes",
             "elcaqiRating": "Toddler 4.54/5, Preschool 4.73/5",
             "estMonthlyFee": "",
-            "infantProgram": "Unconfirmed — toddler (cap 10) and preschool (cap 16) programs listed; no infant room confirmed",
+            "channel": "Direct online form",
+            "appliedDate": "2026-07-06",
+            "contact": "Vilma Liberata Leone · 416-392-5061; Children's Services Consultant Michelle Noel · 416-338-5953",
+            "confirmationReceived": "",
             "lastReconfirm": "",
-            "name": "Jesse Ketchum Early Learning & Child Care Centre",
-            "outreachDraft": "HOW TO START: City-run (Toronto ELCCS), operates within Jesse Ketchum Public School. Register via the City's TELCCS online waitlist registration (same system as your general TELCCS card). Backup: call 416-392-5061 (Vilma Liberata Leone).",
-            "philosophyScore": "",
+            "cadenceDays": "30",
             "proximityScore": "",
-            "reputationScore": ""
+            "costScore": "",
+            "reputationScore": "",
+            "complianceScore": "",
+            "capacityScore": "",
+            "philosophyScore": "",
+            "outreachDraft": "HOW TO START: City-run (Toronto ELCCS), operates within Jesse Ketchum Public School. Register via the City's TELCCS online waitlist registration (same system as your general TELCCS card). Backup: call 416-392-5061 (Vilma Liberata Leone)."
           },
           "id": "telccs-jesseketchum",
           "log": [
@@ -1708,7 +1708,7 @@
               "ts": "2026-07-12"
             }
           ],
-          "status": "Applied – Awaiting Confirmation"
+          "status": "On Waitlist"
         }
       ],
       "description": "Licensed daycare shortlist & applications near Lansdowne & Dupont. Ranked with a weighted fit score — open any card to score it and see the breakdown. \"Applied – Awaiting Confirmation\" is its own stage because some centres never email to confirm you're on their waitlist — it auto-flags 30 days after you apply so you know to call and check.",
