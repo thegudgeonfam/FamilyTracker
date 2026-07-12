@@ -1968,40 +1968,49 @@
         "threadId": "19f3ce31b183a0fc"
       },
       {
-        "at": "2026-07-12T19:33:33.024Z",
         "action": "confirmed",
-        "from": "reception@networkchildcare.com",
-        "subject": "Network Child Care Services - Daycare",
-        "threadId": "19f474650413fbb6",
+        "at": "2026-07-12T19:33:33.024Z",
         "cardName": "Network — Ossington Avenue North",
-        "change": "Applied – Awaiting Confirmation → On Waitlist"
-      },
-      {
-        "at": "2026-07-12T19:33:33.024Z",
-        "action": "confirmed",
+        "change": "Applied – Awaiting Confirmation → On Waitlist",
         "from": "reception@networkchildcare.com",
         "subject": "Network Child Care Services - Daycare",
-        "threadId": "19f474650413fbb6",
+        "threadId": "19f474650413fbb6"
+      },
+      {
+        "action": "confirmed",
+        "at": "2026-07-12T19:33:33.024Z",
         "cardName": "Network — Ossington Avenue South",
-        "change": "Applied – Awaiting Confirmation → On Waitlist"
-      },
-      {
-        "at": "2026-07-12T19:33:33.024Z",
-        "action": "confirmed",
+        "change": "Applied – Awaiting Confirmation → On Waitlist",
         "from": "reception@networkchildcare.com",
         "subject": "Network Child Care Services - Daycare",
-        "threadId": "19f474650413fbb6",
+        "threadId": "19f474650413fbb6"
+      },
+      {
+        "action": "confirmed",
+        "at": "2026-07-12T19:33:33.024Z",
         "cardName": "Network — Just Kids Centre",
-        "change": "Applied – Awaiting Confirmation → On Waitlist"
-      },
-      {
-        "at": "2026-07-12T19:33:33.024Z",
-        "action": "confirmed",
+        "change": "Applied – Awaiting Confirmation → On Waitlist",
         "from": "reception@networkchildcare.com",
         "subject": "Network Child Care Services - Daycare",
-        "threadId": "19f474650413fbb6",
+        "threadId": "19f474650413fbb6"
+      },
+      {
+        "action": "confirmed",
+        "at": "2026-07-12T19:33:33.024Z",
         "cardName": "Network — Wade Avenue Centre",
-        "change": "Applied – Awaiting Confirmation → On Waitlist"
+        "change": "Applied – Awaiting Confirmation → On Waitlist",
+        "from": "reception@networkchildcare.com",
+        "subject": "Network Child Care Services - Daycare",
+        "threadId": "19f474650413fbb6"
+      },
+      {
+        "at": "2026-07-12T19:34:26.579Z",
+        "action": "confirmed",
+        "from": "Tanya.Bucchan@toronto.ca",
+        "subject": "RE: Wallace Emerson Child Care Centre",
+        "threadId": "19f3310df91e2008",
+        "cardName": "Upcoming: Wallace Emerson Community Centre Child Care",
+        "change": "Watching → Watching"
       }
     ],
     "lastProcessedEpoch": 1752071210,
@@ -2033,25 +2042,6 @@
         "snippet": "Dear Justine Wong, Your registration for Infant Gudgeon has been received and added to our waitlist.",
         "subject": "Ascot Avenue Community Daycare | Thank you!",
         "threadId": "19f3308e17577e9b"
-      },
-      {
-        "candidates": [
-          {
-            "boardId": "childcare",
-            "cardId": "5v80metp",
-            "cardName": "Upcoming: Wallace Emerson Community Centre Child Care",
-            "currentStatus": "Watching",
-            "selected": false,
-            "suggestedStatus": "Watching"
-          }
-        ],
-        "from": "Tanya.Bucchan@toronto.ca",
-        "id": "es-wallace-19f3310d",
-        "reason": "City of Toronto confirms you're on the interest list for the Wallace Emerson centre — but it isn't open yet, so no waitlist status applies. Informational: keep 'Watching' (no status change suggested).",
-        "receivedAt": "2026-07-06T22:24:40Z",
-        "snippet": "The list has been updated, thank you. Enjoy your summer. — Tanya Bucchan, District Consultant, City of Toronto Children's Services",
-        "subject": "RE: Wallace Emerson Child Care Centre",
-        "threadId": "19f3310df91e2008"
       }
     ]
   },
