@@ -392,7 +392,7 @@
           "fields": {
             "address": "City-run program — Toronto Home Child Care providers are located across the city (map shows coverage everywhere except the central core); also covers TELCCS-operated centres you select during registration",
             "ageRange": "Infancy – 12 years (home child care) / varies by TELCCS centre",
-            "appliedDate": "",
+            "appliedDate": "2026-07-06",
             "auspice": "Public/City-operated",
             "cadenceDays": 90,
             "capacityScore": 7,
@@ -418,9 +418,13 @@
             {
               "text": "Researched earlier in this process but not actually added to the tracker until now (2026-07-06) — this is arguably the single easiest one to act on today since it's a genuine online form (secure.toronto.ca), not an email/phone ask. One registration covers both Toronto Home Child Care (infants accepted, city-wide provider network) and any TELCCS centres you select. Also worth checking the TELCCS Centres list for one near Lansdowne & Dupont: https://www.toronto.ca/community-people/children-parenting/children-programs-activities/licensed-child-care/toronto-early-learning-and-child-care-services/telccs-centre-locations/",
               "ts": "2026-07-05"
+            },
+            {
+              "text": "CORRECTED 2026-07-12: family confirmed the TELCCS registration form was actually submitted, selecting Davenport Perth, Rawlinson, and Jesse Ketchum as preferred centres. This had never been reflected on the tracker — full git history and Gmail showed no record of it, so it was flagged as missing rather than assumed. Submission date (2026-07-06) is inferred from context, not from a confirmation email or user-provided date — no TELCCS confirmation email has arrived at thegudgeonfam@gmail.com, so this card and its three selected centres are set to Applied – Awaiting Confirmation, not On Waitlist.",
+              "ts": "2026-07-12"
             }
           ],
-          "status": "To Apply"
+          "status": "Applied – Awaiting Confirmation"
         },
         {
           "createdAt": "2026-07-05",
@@ -781,7 +785,7 @@
           "fields": {
             "address": "1900 Davenport Rd, Toronto",
             "ageRange": "Infant / Toddler / Preschool (0–4 yrs)",
-            "appliedDate": "",
+            "appliedDate": "2026-07-06",
             "auspice": "Public/School-based",
             "cadenceDays": 90,
             "capacityScore": "",
@@ -807,9 +811,13 @@
             {
               "text": "Added from 'closest 30 to 9 Foundry Ave' wave (0.56 km from home). Application method verified via City of Toronto Child Care Locator + centre website on 2026-07-06. Status Not Applied until a confirmation email arrives at thegudgeonfam@gmail.com.",
               "ts": "2026-07-06"
+            },
+            {
+              "text": "CORRECTED 2026-07-12: family confirmed this centre was included in the TELCCS combined registration submission — tracker had never reflected this (no confirmation email exists in Gmail, and this never showed as Applied in any prior version of the tracker). Submission date (2026-07-06) inferred from context, not a confirmed date. Set to Applied – Awaiting Confirmation rather than On Waitlist since the City hasn't sent a per-centre confirmation.",
+              "ts": "2026-07-12"
             }
           ],
-          "status": "To Apply"
+          "status": "Applied – Awaiting Confirmation"
         },
         {
           "createdAt": "2026-07-06",
@@ -1672,7 +1680,7 @@
           "fields": {
             "address": "40 Earnscliffe Rd, Toronto",
             "ageRange": "Infant / Toddler / Preschool",
-            "appliedDate": "",
+            "appliedDate": "2026-07-06",
             "auspice": "Public/School-based",
             "cadenceDays": 90,
             "capacityScore": "",
@@ -1698,9 +1706,48 @@
             {
               "text": "Added from 'closest 30 to 9 Foundry Ave' wave (1.76 km from home). Application method verified via City of Toronto Child Care Locator + centre website on 2026-07-06. Status Not Applied until a confirmation email arrives at thegudgeonfam@gmail.com.",
               "ts": "2026-07-06"
+            },
+            {
+              "text": "CORRECTED 2026-07-12: family confirmed this centre was included in the TELCCS combined registration submission — tracker had never reflected this (no confirmation email exists in Gmail, and this never showed as Applied in any prior version of the tracker). Submission date (2026-07-06) inferred from context, not a confirmed date. Set to Applied – Awaiting Confirmation rather than On Waitlist since the City hasn't sent a per-centre confirmation.",
+              "ts": "2026-07-12"
             }
           ],
-          "status": "To Apply"
+          "status": "Applied – Awaiting Confirmation"
+        },
+        {
+          "createdAt": "2026-07-12",
+          "fields": {
+            "address": "7 Berryman St, Toronto (Davenport / Bay, within Jesse Ketchum Public School)",
+            "ageRange": "Toddler / Preschool (0–4 years per TELCCS listing; current programs are toddler & preschool, no distinct infant room found)",
+            "appliedDate": "2026-07-06",
+            "auspice": "Public/School-based",
+            "cadenceDays": 30,
+            "capacityScore": "",
+            "channel": "Direct online form",
+            "complianceScore": "",
+            "confirmationReceived": "",
+            "contact": "Vilma Liberata Leone · 416-392-5061; Children's Services Consultant Michelle Noel · 416-338-5953",
+            "costScore": "",
+            "crossStreets": "Ward: University-Rosedale, Davenport/Bay area",
+            "cwelcc": "Yes (City-operated TELCCS programs)",
+            "elcaqiRating": "Toddler 4.54/5, Preschool 4.73/5",
+            "estMonthlyFee": "",
+            "infantProgram": "Unconfirmed — toddler (cap 10) and preschool (cap 16) programs listed; no infant room confirmed",
+            "lastReconfirm": "",
+            "name": "Jesse Ketchum Early Learning & Child Care Centre",
+            "outreachDraft": "HOW TO START: City-run (Toronto ELCCS), operates within Jesse Ketchum Public School. Register via the City's TELCCS online waitlist registration (same system as your general TELCCS card). Backup: call 416-392-5061 (Vilma Liberata Leone).",
+            "philosophyScore": "",
+            "proximityScore": "",
+            "reputationScore": ""
+          },
+          "id": "telccs-jesseketchum",
+          "log": [
+            {
+              "text": "Added 2026-07-12 after family confirmed it was included (alongside Davenport Perth and Rawlinson) in the TELCCS combined registration submission. Card didn't exist before — it wasn't part of the original 'closest 30' shortlist, since it's further from home (Davenport/Bay, University-Rosedale ward) than the 30 nearest centres screened at the time. Address/phone/quality ratings verified via the City's TELCCS registration page (toronto.ca/data/children/dmc/webreg/gcreg1889.html) on 2026-07-12. Submission date (2026-07-06) inferred from context, not a confirmed date — no confirmation email exists.",
+              "ts": "2026-07-12"
+            }
+          ],
+          "status": "Applied – Awaiting Confirmation"
         }
       ],
       "description": "Licensed daycare shortlist & applications near Lansdowne & Dupont. Ranked with a weighted fit score — open any card to score it and see the breakdown. \"Applied – Awaiting Confirmation\" is its own stage because some centres never email to confirm you're on their waitlist — it auto-flags 30 days after you apply so you know to call and check.",
