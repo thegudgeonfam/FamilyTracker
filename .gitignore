@@ -1,0 +1,9 @@
+# LibreOffice / Excel lock files
+.~lock.*#
+~$*
+
+# macOS
+.DS_Store
+
+# Manual timestamped tracker backups (git history replaces these going forward)
+family-ops-backup.pre-*.json

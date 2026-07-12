@@ -1,0 +1,1932 @@
+{
+  "version": 2,
+  "homeLocation": {
+    "label": "Lansdowne Ave & Dupont St, Toronto",
+    "lat": 43.6636,
+    "lon": -79.4478
+  },
+  "pregnancy": {
+    "lmp": "2026-05-31",
+    "dueDateOverride": ""
+  },
+  "profile": {
+    "parent1Name": "Corey Gudgeon",
+    "parent2Name": "Justine Gudgeon",
+    "email": "thegudgeonfam@gmail.com",
+    "phone": "Justine (cell): 647-971-8628",
+    "homeAddress": "Near Lansdowne Ave & Dupont St, Toronto, ON",
+    "parent1Employer": "OMERS",
+    "parent2Employer": "Moose Toys",
+    "preferredStartDate": "2028-03-01",
+    "daysHoursNeeded": "Full-time, weekdays (~8:00am-5:30pm)",
+    "emergencyContact": "Kevin Gudgeon (Corey's father) — 905-662-2292",
+    "familyDoctorOrMidwife": "Dr. Kayla Walderman, GSH Medical, 481 Bloor St W, 2nd Floor, Toronto, ON M5S 1X9 — (416) 928-0217",
+    "childExpectedDob": "2027-03-07",
+    "notes": ""
+  },
+  "boardOrder": [
+    "childcare",
+    "appointments",
+    "milestones"
+  ],
+  "boards": {
+    "childcare": {
+      "id": "childcare",
+      "icon": "🏫",
+      "name": "Childcare Applications",
+      "description": "Licensed daycare shortlist & applications near Lansdowne & Dupont. Ranked with a weighted fit score — open any card to score it and see the breakdown.",
+      "statuses": [
+        "Monitor - Not Yet Open",
+        "Not Started",
+        "Researching",
+        "Ready to Contact",
+        "Contacted",
+        "Not Applied",
+        "Applied",
+        "Waitlisted",
+        "Toured",
+        "Offer Received",
+        "Declined",
+        "Enrolled",
+        "Not a Fit"
+      ],
+      "titleField": "name",
+      "isChildcareBoard": true,
+      "fields": [
+        {
+          "key": "name",
+          "label": "Centre Name",
+          "type": "text"
+        },
+        {
+          "key": "address",
+          "label": "Address",
+          "type": "text"
+        },
+        {
+          "key": "crossStreets",
+          "label": "Cross streets / area",
+          "type": "text"
+        },
+        {
+          "key": "ageRange",
+          "label": "Age range served",
+          "type": "text"
+        },
+        {
+          "key": "infantProgram",
+          "label": "True infant (0-18mo) program?",
+          "type": "select",
+          "options": [
+            "Yes",
+            "No - toddler starts 18mo+",
+            "Unconfirmed"
+          ]
+        },
+        {
+          "key": "auspice",
+          "label": "Auspice",
+          "type": "select",
+          "options": [
+            "Non-profit",
+            "Commercial",
+            "Public/School-based",
+            "Home childcare (licensed)",
+            "Unknown"
+          ]
+        },
+        {
+          "key": "cwelcc",
+          "label": "CWELCC enrolled?",
+          "type": "select",
+          "options": [
+            "Yes",
+            "No",
+            "Unconfirmed"
+          ]
+        },
+        {
+          "key": "elcaqiRating",
+          "label": "Toronto ELCAQI quality rating (/5)",
+          "type": "text"
+        },
+        {
+          "key": "estMonthlyFee",
+          "label": "Est. monthly fee ($)",
+          "type": "text"
+        },
+        {
+          "key": "channel",
+          "label": "Application channel",
+          "type": "select",
+          "options": [
+            "OneHSN",
+            "Direct online form",
+            "Direct phone/email",
+            "In-person only",
+            "Unknown"
+          ]
+        },
+        {
+          "key": "appliedDate",
+          "label": "Date applied",
+          "type": "date"
+        },
+        {
+          "key": "contact",
+          "label": "Contact (name / phone / email)",
+          "type": "text"
+        },
+        {
+          "key": "lastReconfirm",
+          "label": "Last reconfirmation date",
+          "type": "date"
+        },
+        {
+          "key": "cadenceDays",
+          "label": "Reconfirm every (days)",
+          "type": "number",
+          "default": 90
+        },
+        {
+          "key": "proximityScore",
+          "label": "Score: Proximity (0-10)",
+          "type": "number"
+        },
+        {
+          "key": "costScore",
+          "label": "Score: Cost (0-10)",
+          "type": "number"
+        },
+        {
+          "key": "reputationScore",
+          "label": "Score: Reputation (0-10)",
+          "type": "number"
+        },
+        {
+          "key": "complianceScore",
+          "label": "Score: Licensing/quality (0-10)",
+          "type": "number"
+        },
+        {
+          "key": "capacityScore",
+          "label": "Score: Waitlist odds & fit (0-10)",
+          "type": "number"
+        },
+        {
+          "key": "philosophyScore",
+          "label": "Score: Program/continuity fit (0-10)",
+          "type": "number"
+        },
+        {
+          "key": "outreachDraft",
+          "label": "Outreach email draft",
+          "type": "textarea"
+        }
+      ],
+      "reminder": {
+        "mode": "cadence",
+        "dateField": "lastReconfirm",
+        "cadenceField": "cadenceDays",
+        "defaultCadence": 90
+      },
+      "importHelper": "toronto_childcare",
+      "playbook": [
+        [
+          "Why these 10",
+          "Pulled from City of Toronto's official centre directory and quality-ratings pages (not a generic list) — real addresses, real ELCAQI quality scores where published, and CWELCC status straight from each centre's city profile page."
+        ],
+        [
+          "Decision: 12 months, firm",
+          "Confirmed 2026-07-06 — the family wants care starting AT 12 months, not a flexible/later date. Search was expanded beyond the original ~5km/20min radius to find enough true-infant (0-18mo) options. 8 are now in \"Ready to Contact\": Ossington Ave North, Kids & Company Bloor Christie, Kids & Company Liberty Village, SimplySmart Bloor, Wee Watch Toronto West (home child care agency), Parkdale ELC (CDI), Annex ELC (CDI), and YMCA Child Development Centre. The 6 centres whose listed programs start at 18 months are kept in \"Researching\" with a direct question drafted: will they consider early admission at 12 months? Ranked further out = less confirmed on distance/fit, so re-check commute before prioritizing the YMCA and Annex options."
+        ],
+        [
+          "First contact script",
+          "\"Hi, we live near Lansdowne & Dupont and are expecting our first baby in March 2027, hoping for care starting around March 2028. Could you tell me: (1) are you CWELCC-enrolled and what are current fees, (2) what age do you accept infants/toddlers from and how long is the current waitlist, (3) do you use OneHSN or a direct process, (4) can we register now during pregnancy, (5) how often should we reconfirm interest?\""
+        ],
+        [
+          "Reconfirmation script",
+          "\"Following up to reconfirm our continued interest for our child (due March 2027), targeting a start around March 2028. Please let us know if anything is needed from us or if our position has changed.\""
+        ],
+        [
+          "Scoring rubric",
+          "Each card has 6 sub-scores (0-10) weighted into one Fit Score (0-100): Proximity 20%, Cost 20%, Reputation 15%, Licensing/quality record 15%, Waitlist odds & fit 15%, Program/continuity fit 15%. Score what you know now; refine after each call."
+        ],
+        [
+          "Bulk import",
+          "Use the CSV Import button to add more centres from a full Toronto Open Data pull once available (see geo_filter_script.py) or from Toronto_Childcare_Tracker.xlsx."
+        ]
+      ],
+      "cards": [
+        {
+          "id": "0i32bipe",
+          "status": "Applied",
+          "createdAt": "2026-07-05",
+          "fields": {
+            "name": "Network Child Care Services — Ossington Avenue North",
+            "address": "756 Ossington Ave, Toronto",
+            "crossStreets": "Ossington Ave / Bloor St W",
+            "ageRange": "Infant – Preschool (true infant room)",
+            "infantProgram": "Yes",
+            "auspice": "Non-profit",
+            "cwelcc": "Unconfirmed",
+            "elcaqiRating": "Infant 4.54/5 (2025, at city avg 4.55)",
+            "estMonthlyFee": "",
+            "channel": "Direct online form",
+            "contact": "Marlene Armas, 416-530-0722 ext 4028",
+            "lastReconfirm": "",
+            "cadenceDays": 90,
+            "proximityScore": 6,
+            "costScore": "",
+            "reputationScore": 7,
+            "complianceScore": 9,
+            "capacityScore": 8,
+            "philosophyScore": "",
+            "outreachDraft": "Network Child Care Services has a real online waitlist form (not just email) — use it directly: https://networkchildcare.com/contact-us/#waitlist\n\nBackup email if needed:\n\nSubject: Waitlist Inquiry - Infant Care Starting ~March 2028\n\nHi Ossington Avenue North team,\n\nWe live near Lansdowne & Dupont and are expecting our first child in March 2027. We understand you run a true infant program and would love to add our name to your waitlist as early as your policy allows, targeting a start around March 2028.\n\nCould you let us know: are you CWELCC-enrolled, what is your current infant waitlist length, and what do you need from us to register interest now?\n\nThank you,\n{{PARENT_NAMES}}\n{{EMAIL}} · {{PHONE}}",
+            "appliedDate": "2026-07-09"
+          },
+          "log": [
+            {
+              "ts": "2026-07-05",
+              "text": "Confirmed TRUE INFANT (0-18mo) program — top priority given the firm 12-month start decision. ELCAQI infant rating pulled directly from Toronto's public quality-ratings page."
+            },
+            {
+              "ts": "2026-07-11",
+              "text": "Auto-updated to Applied — confirmation email received on 2026-07-09, subject: 'Network Child Care Services - Daycare', from reception@networkchildcare.com. Network confirmed the family's application was forwarded to the Group Centre (756 Ossington Ave) infant program waiting list (this card)."
+            }
+          ]
+        },
+        {
+          "id": "nccs-justkids",
+          "status": "Applied",
+          "createdAt": "2026-07-12",
+          "fields": {
+            "name": "Network Child Care Services – Just Kids Centre",
+            "address": "1695 Keele St, Toronto ON M6M 3W7",
+            "crossStreets": "Keele St / Eglinton Ave W",
+            "ageRange": "Infant – Preschool (4 weeks – 4 years; true infant room)",
+            "infantProgram": "Yes",
+            "auspice": "Non-profit",
+            "cwelcc": "Yes",
+            "elcaqiRating": "",
+            "estMonthlyFee": "",
+            "channel": "Direct online form",
+            "appliedDate": "2026-07-09",
+            "contact": "Barbara De Cicco (Supervisor), 416-530-0722 ext. 4030, justkids@networkchildcare.com",
+            "lastReconfirm": "",
+            "cadenceDays": 90,
+            "proximityScore": "",
+            "costScore": "",
+            "reputationScore": "",
+            "complianceScore": "",
+            "capacityScore": "",
+            "philosophyScore": "",
+            "outreachDraft": "Same operator as your Ossington/Wade cards. Application forwarded here automatically by Network's central intake."
+          },
+          "log": [
+            {
+              "ts": "2026-07-12",
+              "text": "Added from the Network Child Care confirmation email (2026-07-09). Network forwarded the family's application to this Infant Program waiting list (start ~March 2028). This was the 4th centre in that email and had been missing from the tracker; the other three (756 Ossington/Group, 720 Ossington/Satellite, 544 Lansdowne/Wade) were already present."
+            },
+            {
+              "ts": "2026-07-12",
+              "text": "Set to Applied — confirmation email received 2026-07-09, subject: 'Network Child Care Services - Daycare', from reception@networkchildcare.com."
+            }
+          ]
+        },
+        {
+          "id": "8p7lh8sp",
+          "status": "Ready to Contact",
+          "createdAt": "2026-07-05",
+          "fields": {
+            "name": "Kids & Company — Bloor Christie",
+            "address": "703 Bloor St W, Toronto",
+            "crossStreets": "Bloor St W / Christie St",
+            "ageRange": "0 – 5 years (true infant program)",
+            "infantProgram": "Yes",
+            "auspice": "Commercial",
+            "cwelcc": "Yes",
+            "elcaqiRating": "Not assessed (no City service agreement — commercial, no fee subsidy at this location)",
+            "estMonthlyFee": "Likely premium vs. non-profit centres — confirm",
+            "channel": "Direct online form",
+            "contact": "Samantha Del Rio-Cuevas, 647-345-5702 ext 0",
+            "lastReconfirm": "",
+            "cadenceDays": 90,
+            "proximityScore": 6,
+            "costScore": 4,
+            "reputationScore": 6,
+            "complianceScore": 4,
+            "capacityScore": 8,
+            "philosophyScore": 5,
+            "outreachDraft": "Kids & Company has a real registration form: https://kidsandcompany.com/register/ — select the Bloor Christie location. They also host monthly open houses (first Saturday, 10am-12pm) if you want to tour before registering.\n\nBackup email if needed:\n\nSubject: Infant Enrollment Inquiry - Starting ~March 2028\n\nHi Kids & Company Bloor Christie team,\n\nWe live near Lansdowne & Dupont and are expecting our first child in March 2027. We understand you run a true infant program (0-5 years) and are CWELCC-enrolled. We'd like our child to start at exactly 12 months, around March 2028.\n\nCould you tell us your current infant waitlist length, what CWELCC-adjusted fees look like at this location, and what's needed to register interest now?\n\nThank you,\n{{PARENT_NAMES}}\n{{EMAIL}} · {{PHONE}}",
+            "appliedDate": ""
+          },
+          "log": [
+            {
+              "ts": "2026-07-05",
+              "text": "Confirmed TRUE INFANT (0-5y) program via City of Toronto profile — commercial chain, so likely pricier and not city-quality-assessed (no service agreement with the City), but a real infant-from-birth option to weigh against the non-profits."
+            }
+          ]
+        },
+        {
+          "id": "p5v8n4pt",
+          "status": "Ready to Contact",
+          "createdAt": "2026-07-05",
+          "fields": {
+            "name": "SimplySmart Childcare Centre & Montessori",
+            "address": "2271 Bloor St W, Toronto",
+            "crossStreets": "Bloor St W, Bloor West Village",
+            "ageRange": "0 – 4 years (true infant program)",
+            "infantProgram": "Yes",
+            "auspice": "Commercial",
+            "cwelcc": "Yes",
+            "elcaqiRating": "Unconfirmed — check centre page",
+            "estMonthlyFee": "Likely premium vs. non-profit centres — confirm",
+            "channel": "Direct online form",
+            "contact": "",
+            "lastReconfirm": "",
+            "cadenceDays": 90,
+            "proximityScore": 4,
+            "costScore": 4,
+            "reputationScore": 6,
+            "complianceScore": 5,
+            "capacityScore": 7,
+            "philosophyScore": 6,
+            "outreachDraft": "SimplySmart has a \"Book a Tour\" form: https://simplysmartchildcare.com/book-a-tour — select the Bloor location.\n\nBackup email if needed:\n\nSubject: Infant Enrollment Inquiry - Starting ~March 2028\n\nHi SimplySmart team,\n\nWe live near Lansdowne & Dupont and are expecting our first child in March 2027. We understand you run a true infant program (0-4 years) with a Montessori-influenced approach and are CWELCC-enrolled. We'd like our child to start at exactly 12 months, around March 2028.\n\nCould you tell us your current infant waitlist length, CWELCC-adjusted fees, and what's needed to register interest now?\n\nThank you,\n{{PARENT_NAMES}}\n{{EMAIL}} · {{PHONE}}",
+            "appliedDate": ""
+          },
+          "log": [
+            {
+              "ts": "2026-07-05",
+              "text": "Confirmed TRUE INFANT (0-4y) program, Montessori-influenced, 144 total licensed spaces (larger operator) — a bit further out (Bloor West Village) but worth it given the firm 12-month requirement."
+            }
+          ]
+        },
+        {
+          "id": "dzda68or",
+          "status": "Ready to Contact",
+          "createdAt": "2026-07-05",
+          "fields": {
+            "name": "Kids & Company — Liberty Village",
+            "address": "1100 King St W, Toronto",
+            "crossStreets": "King St W, east of Dufferin St",
+            "ageRange": "0 – 6 years (true infant program, up to ~15mo in the infant room)",
+            "infantProgram": "Yes",
+            "auspice": "Commercial",
+            "cwelcc": "Yes",
+            "elcaqiRating": "Not assessed (no City service agreement — commercial, no fee subsidy at this location)",
+            "estMonthlyFee": "Likely premium vs. non-profit centres — confirm",
+            "channel": "Direct online form",
+            "contact": "(416) 531-6222",
+            "lastReconfirm": "",
+            "cadenceDays": 90,
+            "proximityScore": 4,
+            "costScore": 4,
+            "reputationScore": 6,
+            "complianceScore": 4,
+            "capacityScore": 8,
+            "philosophyScore": 5,
+            "outreachDraft": "Kids & Company has a real registration form: https://kidsandcompany.com/register/ — select the Liberty Village location.\n\nBackup email if needed:\n\nSubject: Infant Enrollment Inquiry - Starting ~March 2028\n\nHi Kids & Company Liberty Village team,\n\nWe live near Lansdowne & Dupont and are expecting our first child in March 2027. We understand you run a true infant program and are CWELCC-enrolled. We'd like our child to start at exactly 12 months, around March 2028.\n\nCould you tell us your current infant waitlist length, CWELCC-adjusted fees, and what's needed to register interest now?\n\nThank you,\n{{PARENT_NAMES}}\n{{EMAIL}} · {{PHONE}}",
+            "appliedDate": ""
+          },
+          "log": [
+            {
+              "ts": "2026-07-05",
+              "text": "Confirmed TRUE INFANT program (0-6y, infant room up to ~15mo) — a bit further than Bloor Christie but a real commercial infant option. Sister location to Kids & Company Bloor Christie."
+            }
+          ]
+        },
+        {
+          "id": "u0lrydc4",
+          "status": "Ready to Contact",
+          "createdAt": "2026-07-05",
+          "fields": {
+            "name": "Wee Watch — Toronto West (home child care agency)",
+            "address": "Home child care agency — matches families to a licensed home provider in your area",
+            "crossStreets": "Serves Toronto West generally",
+            "ageRange": "Infant – 12 years (via individual home providers)",
+            "infantProgram": "Yes",
+            "auspice": "Home childcare (licensed)",
+            "cwelcc": "Yes",
+            "elcaqiRating": "Not applicable (home childcare, assessed via agency visits, not ELCAQI)",
+            "estMonthlyFee": "$22/day per CWELCC cap (as of Jan 2025) — confirm current rate",
+            "channel": "Direct online application",
+            "contact": "",
+            "lastReconfirm": "",
+            "cadenceDays": 90,
+            "proximityScore": 7,
+            "costScore": 8,
+            "reputationScore": 6,
+            "complianceScore": 6,
+            "capacityScore": 7,
+            "philosophyScore": 6,
+            "outreachDraft": "Subject: Infant Care Application - Starting ~March 2028\n\nHi Wee Watch Toronto West team,\n\nWe live near Lansdowne & Dupont and are expecting our first child in March 2027. We understand your agency matches families with licensed home providers who accept infants, and that you're CWELCC-enrolled. We'd like to start the application process now for care beginning at exactly 12 months, around March 2028.\n\nCould you let us know your process for matching us with a provider, current availability in our area, and what's needed to apply today?\n\nThank you,\n{{PARENT_NAMES}}\n{{EMAIL}} · {{PHONE}}",
+            "appliedDate": ""
+          },
+          "log": [
+            {
+              "ts": "2026-07-05",
+              "text": "Home child care agency, not a single centre — they match you to one of their licensed home providers. Ratios are more flexible than centre-based infant rooms, so this is often a faster path to a true 12-month start. Apply directly on their site today."
+            }
+          ]
+        },
+        {
+          "id": "tf53ghfa",
+          "status": "Ready to Contact",
+          "createdAt": "2026-07-05",
+          "fields": {
+            "name": "Parkdale Early Learning Centre (CDI)",
+            "address": "119 Close Ave, Toronto",
+            "crossStreets": "Parkdale, near King St W / Dufferin St",
+            "ageRange": "0 – 4 years (true infant program)",
+            "infantProgram": "Yes",
+            "auspice": "Non-profit",
+            "cwelcc": "Yes",
+            "elcaqiRating": "Unconfirmed — check centre ELCAQI page",
+            "estMonthlyFee": "",
+            "channel": "Direct online form",
+            "contact": "Judith Malcolm Barnes, 416-535-6116",
+            "lastReconfirm": "",
+            "cadenceDays": 90,
+            "proximityScore": 5,
+            "costScore": 7,
+            "reputationScore": 6,
+            "complianceScore": 6,
+            "capacityScore": 7,
+            "philosophyScore": 6,
+            "outreachDraft": "Subject: Infant Waitlist Application - Starting ~March 2028\n\nHi Parkdale Early Learning Centre team,\n\nWe live near Lansdowne & Dupont and are expecting our first child in March 2027. We understand you're a non-profit, CWELCC-enrolled centre with a true infant program (0-4 years), and that you have an online waitlist application form. We'd like to apply now for care starting at exactly 12 months, around March 2028.\n\nCould you confirm current infant waitlist length and anything else needed beyond the online form?\n\nThank you,\n{{PARENT_NAMES}}\n{{EMAIL}} · {{PHONE}}",
+            "appliedDate": ""
+          },
+          "log": [
+            {
+              "ts": "2026-07-05",
+              "text": "Run by the Child Development Institute (CDI), 49 licensed spaces, confirmed CWELCC. CDI publishes an actual online \"Parkdale Wait List Application Form\" — the closest thing to a real direct-application link found so far. Use that form directly in addition to (or instead of) the email."
+            }
+          ]
+        },
+        {
+          "id": "bknmi744",
+          "status": "Ready to Contact",
+          "createdAt": "2026-07-05",
+          "fields": {
+            "name": "Windermere Early Learning Centre (CDI)",
+            "address": "103 The Queensway, Toronto, ON M6S 5B3",
+            "crossStreets": "Swansea, Queensway/Windermere",
+            "ageRange": "0 – 4 years (true infant program), 57 spaces",
+            "infantProgram": "Yes",
+            "auspice": "Non-profit",
+            "cwelcc": "Yes",
+            "elcaqiRating": "Unconfirmed — check centre ELCAQI page",
+            "estMonthlyFee": "",
+            "channel": "Direct online form",
+            "contact": "windermere@childdevelop.ca",
+            "lastReconfirm": "",
+            "cadenceDays": 90,
+            "proximityScore": 4,
+            "costScore": 7,
+            "reputationScore": 6,
+            "complianceScore": 6,
+            "capacityScore": 6,
+            "philosophyScore": 6,
+            "outreachDraft": "CDI has a real \"Join the waitlist\" form for this location: https://childdevelop.ca/early-years-child-care-services/licensed-child-care-centres/early-learning-centres-locations/windermere-wait-list-application-form/\n\nBackup email if needed:\n\nSubject: Infant Waitlist Application - Starting ~March 2028\n\nHi Windermere Early Learning Centre team,\n\nWe live near Lansdowne & Dupont and are expecting our first child in March 2027. We understand you're a non-profit, CWELCC-enrolled centre (run by the Child Development Institute) with a true infant program (57 spaces). We'd like to apply now for care starting at exactly 12 months, around March 2028.\n\nCould you confirm current infant waitlist length?\n\nThank you,\n{{PARENT_NAMES}}\n{{EMAIL}} · {{PHONE}}",
+            "appliedDate": ""
+          },
+          "log": [
+            {
+              "ts": "2026-07-05",
+              "text": "CORRECTED 2026-07-06: replaces a previous \"Annex Early Learning Centre\" entry that turned out to be based on stale directory data — CDI's own current site lists only 4 active Early Learning Centres (Fraser Mustard, Parkdale, Wellesley, Windermere), not Annex. Windermere is real, current, and has a working online waitlist form."
+            }
+          ]
+        },
+        {
+          "id": "r7ro7hkm",
+          "status": "Ready to Contact",
+          "createdAt": "2026-07-05",
+          "fields": {
+            "name": "YMCA Child Development Centre",
+            "address": "Toronto Central YMCA (exact address to confirm — downtown core)",
+            "crossStreets": "Downtown core, further than other candidates",
+            "ageRange": "0 – 12 years (true infant program)",
+            "infantProgram": "Yes",
+            "auspice": "Non-profit",
+            "cwelcc": "Unconfirmed",
+            "elcaqiRating": "Unconfirmed",
+            "estMonthlyFee": "",
+            "channel": "Direct online form (initial inquiry); email if waitlisting for a full program",
+            "contact": "",
+            "lastReconfirm": "",
+            "cadenceDays": 90,
+            "proximityScore": 2,
+            "costScore": 6,
+            "reputationScore": 7,
+            "complianceScore": 5,
+            "capacityScore": 6,
+            "philosophyScore": 6,
+            "outreachDraft": "YMCA GTA has an online Child Care Inquiry Form for initial registration (find it via ymcagta.org/child-care) — start there. Their own FAQ says that if the specific program is already full, joining that waitlist requires emailing the centre directly, so the form may bounce you to email as a second step.\n\nBackup email:\n\nSubject: Infant Waitlist Application - Starting ~March 2028\n\nHi YMCA Child Development Centre team,\n\nWe live near Lansdowne & Dupont and are expecting our first child in March 2027. We understand the YMCA runs a true infant program at this location. We'd like to apply now for care starting at exactly 12 months, around March 2028.\n\nCould you confirm CWELCC status, current infant waitlist length, and how to register interest?\n\nThank you,\n{{PARENT_NAMES}}\n{{EMAIL}} · {{PHONE}}",
+            "appliedDate": ""
+          },
+          "log": [
+            {
+              "ts": "2026-07-05",
+              "text": "Furthest option on the list (downtown core, distance/commute needs real confirmation before prioritizing) — included because YMCA of Greater Toronto is a large, well-established non-profit operator with true infant programs; worth a call to check if commute is workable before investing more time here."
+            }
+          ]
+        },
+        {
+          "id": "2m2it0gs",
+          "status": "Ready to Contact",
+          "createdAt": "2026-07-05",
+          "fields": {
+            "name": "TELCCS — Toronto Home Child Care & City Centres (direct online registration)",
+            "address": "City-run program — Toronto Home Child Care providers are located across the city (map shows coverage everywhere except the central core); also covers TELCCS-operated centres you select during registration",
+            "crossStreets": "City-wide program, not a single site",
+            "ageRange": "Infancy – 12 years (home child care) / varies by TELCCS centre",
+            "infantProgram": "Yes",
+            "auspice": "Public/City-operated",
+            "cwelcc": "Yes (City-operated TELCCS programs)",
+            "elcaqiRating": "Not applicable to home child care; TELCCS centres individually rated — check per centre",
+            "estMonthlyFee": "Full-fee or subsidized, based on which registration path you use",
+            "channel": "Direct online form",
+            "contact": "311 (City of Toronto) for TELCCS general inquiries",
+            "lastReconfirm": "",
+            "cadenceDays": 90,
+            "proximityScore": 6,
+            "costScore": 8,
+            "reputationScore": 6,
+            "complianceScore": 7,
+            "capacityScore": 7,
+            "philosophyScore": 6,
+            "outreachDraft": "TELCCS has a real online registration form rather than an email process — this is the fastest one to actually submit today:\n\n1. If you want to be considered for the Child Care Fee Subsidy as well as TELCCS waitlists, apply here: http://secure.toronto.ca/children/subsidy/\n2. If you'll pay full fee, register directly here: http://secure.toronto.ca/children/fullfee/\n\nEither form lets you select specific TELCCS centres and/or Toronto Home Child Care as your preference, for a start at 12 months (~March 2028). Fill in {{PARENT_NAMES}}, {{ADDRESS}}, {{PHONE}}, {{EMAIL}}, {{CHILD_DOB}} as prompted by the form.",
+            "appliedDate": ""
+          },
+          "log": [
+            {
+              "ts": "2026-07-05",
+              "text": "Researched earlier in this process but not actually added to the tracker until now (2026-07-06) — this is arguably the single easiest one to act on today since it's a genuine online form (secure.toronto.ca), not an email/phone ask. One registration covers both Toronto Home Child Care (infants accepted, city-wide provider network) and any TELCCS centres you select. Also worth checking the TELCCS Centres list for one near Lansdowne & Dupont: https://www.toronto.ca/community-people/children-parenting/children-programs-activities/licensed-child-care/toronto-early-learning-and-child-care-services/telccs-centre-locations/"
+            }
+          ]
+        },
+        {
+          "id": "el3ypjib",
+          "status": "Monitor - Not Yet Open",
+          "createdAt": "2026-07-05",
+          "fields": {
+            "name": "Upcoming: Brandon Ave & Foundry Ave centre",
+            "address": "Brandon Ave & Foundry Ave, Toronto (on your street)",
+            "crossStreets": "Brandon Ave / Foundry Ave",
+            "ageRange": "Unknown — not yet open",
+            "infantProgram": "Unconfirmed",
+            "auspice": "Unknown",
+            "cwelcc": "Unconfirmed",
+            "elcaqiRating": "Not applicable yet",
+            "estMonthlyFee": "",
+            "channel": "Unknown",
+            "contact": "",
+            "lastReconfirm": "",
+            "cadenceDays": 30,
+            "proximityScore": 10,
+            "costScore": "",
+            "reputationScore": "",
+            "complianceScore": "",
+            "capacityScore": "",
+            "philosophyScore": "",
+            "outreachDraft": "",
+            "appliedDate": ""
+          },
+          "log": [
+            {
+              "ts": "2026-07-05",
+              "text": "Flagged by the family as a centre opening on their own street — not yet found in the City's public \"upcoming centres\" listings or licensed directory as of 2026-07-06, likely too early-stage to be indexed. Checked twice weekly via scheduled task; also worth a direct call to 311 or the City's Children's Services division to ask if this address is on file as a planned centre."
+            }
+          ]
+        },
+        {
+          "id": "5v80metp",
+          "status": "Monitor - Not Yet Open",
+          "createdAt": "2026-07-05",
+          "fields": {
+            "name": "Upcoming: Wallace Emerson Community Centre Child Care",
+            "address": "Wallace Emerson Community Recreation Centre & Park site, Dufferin St / Dupont St area, Toronto (Reimagine Galleria Master Plan redevelopment)",
+            "crossStreets": "Dufferin St / Dupont St — walking distance from Lansdowne & Dupont",
+            "ageRange": "Confirmed: 10 infant, 20 toddler, 32 preschool spaces",
+            "infantProgram": "Yes",
+            "auspice": "Public/City-operated",
+            "cwelcc": "Unconfirmed (City-run centres are typically CWELCC by default — verify)",
+            "elcaqiRating": "Not applicable yet — not yet open",
+            "estMonthlyFee": "",
+            "channel": "Unknown — registration expected to open alongside facility opening",
+            "contact": "311 (City of Toronto) for project updates",
+            "lastReconfirm": "",
+            "cadenceDays": 3,
+            "proximityScore": 10,
+            "costScore": "",
+            "reputationScore": "",
+            "complianceScore": "",
+            "capacityScore": "",
+            "philosophyScore": "",
+            "outreachDraft": "",
+            "appliedDate": ""
+          },
+          "log": [
+            {
+              "ts": "2026-07-05",
+              "text": "CONFIRMED via City of Toronto project page (2026-07-06): new child care centre as part of the Wallace Emerson Park & Community Recreation Centre revitalization, with a genuine true-infant room (10 spaces). Construction complete Fall 2026; facility + park open to the public Winter 2027, with \"program registration available\" around the same time. Timing lines up almost exactly with the family's due date (March 2027) and 12-month target start (March 2028) — this could end up being the single best option: closest, purpose-built, and public/non-profit. Checked twice weekly via scheduled task to catch the exact moment registration/waitlist opens."
+            }
+          ]
+        },
+        {
+          "id": "m7rt0k8n",
+          "status": "Researching",
+          "createdAt": "2026-07-05",
+          "fields": {
+            "name": "Macaulay — Dovercourt Child Care Centre",
+            "address": "228 Bartlett Ave, Toronto",
+            "crossStreets": "Dupont St / Dufferin St",
+            "ageRange": "Toddler (1.5y) – School age",
+            "infantProgram": "No - toddler starts 18mo+",
+            "auspice": "Non-profit",
+            "cwelcc": "Yes",
+            "elcaqiRating": "Toddler 5.00/5, Preschool 4.80/5",
+            "estMonthlyFee": "",
+            "channel": "Unknown",
+            "contact": "Jessica Mui, 416-516-8367",
+            "lastReconfirm": "",
+            "cadenceDays": 90,
+            "proximityScore": 9,
+            "costScore": 8,
+            "reputationScore": 8,
+            "complianceScore": 9,
+            "capacityScore": 6,
+            "philosophyScore": 8,
+            "outreachDraft": "Subject: Waitlist Inquiry - Toddler Care Starting ~2028\n\nHi Macaulay-Dovercourt team,\n\nWe live right near Lansdowne & Dupont and are expecting our first child in March 2027. We saw you're CWELCC-enrolled and located right on Dupont — very convenient for us. We'd like our child to start at exactly 12 months, around March 2028. We understand your toddler program is typically listed as starting at 18 months — would you be able to consider early admission at 12 months, or is that a hard cutoff?\n\nCould you also share your current waitlist length and what you need from us to register now?\n\nThank you,\n{{PARENT_NAMES}}\n{{EMAIL}} · {{PHONE}}",
+            "appliedDate": ""
+          },
+          "log": [
+            {
+              "ts": "2026-07-05",
+              "text": "On Dupont St itself — one of the closest options. Toddler program (5.00/5 quality rating) starts at 18 months, not from birth. CWELCC confirmed directly on the City's centre page."
+            }
+          ]
+        },
+        {
+          "id": "da8o8oqr",
+          "status": "Researching",
+          "createdAt": "2026-07-05",
+          "fields": {
+            "name": "Perth Avenue Early Learning Centre (LEF)",
+            "address": "14 Ruskin Ave, Toronto",
+            "crossStreets": "Symington Ave / Bloor St W",
+            "ageRange": "Toddler (1.5y) – School age",
+            "infantProgram": "No - toddler starts 18mo+",
+            "auspice": "Non-profit",
+            "cwelcc": "Yes",
+            "elcaqiRating": "Unconfirmed — check centre page",
+            "estMonthlyFee": "",
+            "channel": "Unknown",
+            "contact": "",
+            "lastReconfirm": "",
+            "cadenceDays": 90,
+            "proximityScore": 7,
+            "costScore": 7,
+            "reputationScore": 6,
+            "complianceScore": 6,
+            "capacityScore": 6,
+            "philosophyScore": 7,
+            "outreachDraft": "Subject: Waitlist Inquiry - Toddler Care Starting ~2028\n\nHi Perth Avenue Early Learning Centre team,\n\nWe live near Lansdowne & Dupont and are expecting our first child in March 2027, hoping for our child to start at exactly 12 months, around March 2028. We understand your toddler program is typically listed as starting at 18 months, and part of the Learning Enrichment Foundation and CWELCC-enrolled — would you consider early admission at 12 months?\n\nCould you tell us about your current waitlist length and what's needed to register interest now?\n\nThank you,\n{{PARENT_NAMES}}\n{{EMAIL}} · {{PHONE}}",
+            "appliedDate": ""
+          },
+          "log": [
+            {
+              "ts": "2026-07-05",
+              "text": "Run by the Learning Enrichment Foundation (LEF), a well-established Toronto non-profit operator."
+            }
+          ]
+        },
+        {
+          "id": "nkvlpged",
+          "status": "Researching",
+          "createdAt": "2026-07-05",
+          "fields": {
+            "name": "Brock Early Learning Centre",
+            "address": "93 Margueretta St, Toronto",
+            "crossStreets": "Little Portugal / near Bloor & Dufferin",
+            "ageRange": "Toddler (1.5y) – School age",
+            "infantProgram": "No - toddler starts 18mo+",
+            "auspice": "Non-profit",
+            "cwelcc": "Unconfirmed",
+            "elcaqiRating": "Unconfirmed — check centre page",
+            "estMonthlyFee": "",
+            "channel": "Unknown",
+            "contact": "",
+            "lastReconfirm": "",
+            "cadenceDays": 90,
+            "proximityScore": 6,
+            "costScore": "",
+            "reputationScore": 8,
+            "complianceScore": "",
+            "capacityScore": 6,
+            "philosophyScore": 7,
+            "outreachDraft": "Subject: Waitlist Inquiry - Toddler Care Starting ~2028\n\nHi Brock Early Learning Centre team,\n\nWe live near Lansdowne & Dupont and are expecting our first child in March 2027. We understand Brock has served the neighbourhood for over 40 years, which really stood out to us. We'd like our child to start at exactly 12 months, around March 2028 — we understand your toddler program is typically listed as starting at 18 months, so we wanted to ask directly whether you'd consider early admission at 12 months.\n\nAre you currently CWELCC-enrolled, and what does your waitlist look like right now?\n\nThank you,\n{{PARENT_NAMES}}\n{{EMAIL}} · {{PHONE}}",
+            "appliedDate": ""
+          },
+          "log": [
+            {
+              "ts": "2026-07-05",
+              "text": "40+ years operating in the neighbourhood — a genuine reputation signal worth weighing, though CWELCC status and quality rating still need confirming."
+            }
+          ]
+        },
+        {
+          "id": "bbcvs1ps",
+          "status": "Applied",
+          "createdAt": "2026-07-05",
+          "fields": {
+            "name": "Network Child Care Services — Ossington Avenue South",
+            "address": "720 Ossington Ave, Toronto (in Ossington Ave Baptist Church)",
+            "crossStreets": "Ossington Ave / Bloor St W",
+            "ageRange": "Toddler (1.5y) – Preschool (4y)",
+            "infantProgram": "No - toddler starts 18mo+",
+            "auspice": "Non-profit",
+            "cwelcc": "Yes",
+            "elcaqiRating": "Toddler 4.33/5, Preschool 4.50/5",
+            "estMonthlyFee": "",
+            "channel": "Unknown",
+            "contact": "Jessica Calouro, 416-530-0722 ext 4032",
+            "lastReconfirm": "",
+            "cadenceDays": 90,
+            "proximityScore": 6,
+            "costScore": 8,
+            "reputationScore": 6,
+            "complianceScore": 7,
+            "capacityScore": 6,
+            "philosophyScore": 5,
+            "outreachDraft": "Subject: Waitlist Inquiry - Toddler Care Starting ~2028\n\nHi Ossington Avenue South team,\n\nWe live near Lansdowne & Dupont and are expecting our first child in March 2027, hoping for our child to start at exactly 12 months, around March 2028. We understand your toddler program is typically listed as starting at 18 months — would you consider early admission at 12 months? We saw you're CWELCC-enrolled.\n\nCould you share your current waitlist and what's needed to register interest now?\n\nThank you,\n{{PARENT_NAMES}}\n{{EMAIL}} · {{PHONE}}",
+            "appliedDate": "2026-07-09"
+          },
+          "log": [
+            {
+              "ts": "2026-07-05",
+              "text": "Sister site to Ossington Ave North (the confirmed infant program) — worth applying to both under the same operator."
+            },
+            {
+              "ts": "2026-07-11",
+              "text": "Auto-updated to Applied — confirmation email received on 2026-07-09, subject: 'Network Child Care Services - Daycare', from reception@networkchildcare.com. Network confirmed the application was forwarded to the Satellite Centre (720 Ossington Ave) toddler program waiting list with an adjusted start of Oct 2028 (18mo)."
+            }
+          ]
+        },
+        {
+          "id": "s55meq8z",
+          "status": "Researching",
+          "createdAt": "2026-07-05",
+          "fields": {
+            "name": "Bloorcourt Village Early Learning Centre",
+            "address": "823 Dovercourt Rd, Toronto",
+            "crossStreets": "Dovercourt Rd, near Bloorcourt",
+            "ageRange": "Unconfirmed",
+            "infantProgram": "Unconfirmed",
+            "auspice": "Unknown",
+            "cwelcc": "Unconfirmed",
+            "elcaqiRating": "Unconfirmed",
+            "estMonthlyFee": "",
+            "channel": "Unknown",
+            "contact": "",
+            "lastReconfirm": "",
+            "cadenceDays": 90,
+            "proximityScore": "",
+            "costScore": "",
+            "reputationScore": "",
+            "complianceScore": "",
+            "capacityScore": "",
+            "philosophyScore": "",
+            "outreachDraft": "Subject: Waitlist Inquiry - Infant/Toddler Care Starting ~2028\n\nHi Bloorcourt Village Early Learning Centre team,\n\nWe live near Lansdowne & Dupont and are expecting our first child in March 2027. Could you tell us the age range you serve, whether you're CWELCC-enrolled, and your current waitlist situation for an infant or toddler spot around 2028?\n\nThank you,\n{{PARENT_NAMES}}\n{{EMAIL}} · {{PHONE}}",
+            "appliedDate": ""
+          },
+          "log": [
+            {
+              "ts": "2026-07-05",
+              "text": "Address confirmed via directory listing; age range and CWELCC status still need a direct check of the centre's City profile page or a call."
+            }
+          ]
+        },
+        {
+          "id": "4ebxccc0",
+          "status": "Researching",
+          "createdAt": "2026-07-05",
+          "fields": {
+            "name": "West End Parents' Daycare",
+            "address": "375 Dovercourt Rd, Toronto",
+            "crossStreets": "Dovercourt Rd, south of Bloor",
+            "ageRange": "18 months – Grade 6",
+            "infantProgram": "No - toddler starts 18mo+",
+            "auspice": "Non-profit (parent co-op)",
+            "cwelcc": "Unconfirmed",
+            "elcaqiRating": "Unconfirmed",
+            "estMonthlyFee": "",
+            "channel": "Unknown",
+            "contact": "",
+            "lastReconfirm": "",
+            "cadenceDays": 90,
+            "proximityScore": 5,
+            "costScore": "",
+            "reputationScore": 6,
+            "complianceScore": "",
+            "capacityScore": 5,
+            "philosophyScore": 6,
+            "outreachDraft": "Subject: Waitlist Inquiry - Toddler Care Starting ~2028\n\nHi West End Parents' Daycare team,\n\nWe live near Lansdowne & Dupont and are expecting our first child in March 2027. We love that you're a long-running parent co-op and would like to learn more about registering interest for a toddler spot — ideally starting at exactly 12 months (around March 2028), though we understand your program is typically listed as starting at 18 months, so we wanted to ask directly whether early admission is ever possible. Also keen to hear about CWELCC status and any co-op participation expectations.\n\nThank you,\n{{PARENT_NAMES}}\n{{EMAIL}} · {{PHONE}}",
+            "appliedDate": ""
+          },
+          "log": [
+            {
+              "ts": "2026-07-05",
+              "text": "Parent co-op model since 1971 — different commitment style (co-op duties) worth asking about early."
+            }
+          ]
+        },
+        {
+          "id": "n9pje51o",
+          "status": "Researching",
+          "createdAt": "2026-07-05",
+          "fields": {
+            "name": "Fruitful Pursuits (licensed home child care)",
+            "address": "Dufferin Grove / Brockton / Bloordale / Dundas West area (exact address on inquiry)",
+            "crossStreets": "Home childcare — general area only",
+            "ageRange": "15 months – 5 years",
+            "infantProgram": "No - toddler starts 15mo+",
+            "auspice": "Home childcare (licensed)",
+            "cwelcc": "Unconfirmed",
+            "elcaqiRating": "Not applicable to home childcare",
+            "estMonthlyFee": "",
+            "channel": "Direct phone/email",
+            "contact": "",
+            "lastReconfirm": "",
+            "cadenceDays": 90,
+            "proximityScore": "",
+            "costScore": "",
+            "reputationScore": "",
+            "complianceScore": "",
+            "capacityScore": "",
+            "philosophyScore": 7,
+            "outreachDraft": "Subject: Waitlist Inquiry - Home Child Care Starting ~2028\n\nHi there,\n\nWe live near Lansdowne & Dupont and are expecting our first child in March 2027. Your play-based, outdoor-focused approach caught our eye. We'd love to learn more about availability for a start around 15-18 months (roughly mid-late 2028), your licensing agency, and whether you're CWELCC-enrolled.\n\nThank you,\n{{PARENT_NAMES}}\n{{EMAIL}} · {{PHONE}}",
+            "appliedDate": ""
+          },
+          "log": [
+            {
+              "ts": "2026-07-05",
+              "text": "Home child care providers operate through a licensed agency (not the City directly) — confirm the licensing agency name on first contact so it can be verified."
+            }
+          ]
+        },
+        {
+          "id": "2142eu69",
+          "status": "Not a Fit",
+          "createdAt": "2026-07-05",
+          "fields": {
+            "name": "Kids Korner Day Care (BGC Dovercourt)",
+            "address": "180 Westmoreland Ave, Toronto",
+            "crossStreets": "Bloor St / Dufferin St",
+            "ageRange": "2.5 years – 4 years",
+            "infantProgram": "No - toddler starts 18mo+",
+            "auspice": "Non-profit",
+            "cwelcc": "Yes",
+            "elcaqiRating": "Preschool 3.67/5",
+            "estMonthlyFee": "",
+            "channel": "Unknown",
+            "contact": "Maryam Nasiri, 416-536-4102",
+            "lastReconfirm": "",
+            "cadenceDays": 90,
+            "proximityScore": 5,
+            "costScore": 7,
+            "reputationScore": 5,
+            "complianceScore": 5,
+            "capacityScore": 2,
+            "philosophyScore": 4,
+            "outreachDraft": "",
+            "appliedDate": ""
+          },
+          "log": [
+            {
+              "ts": "2026-07-05",
+              "text": "Youngest intake is 2.5 years — too old to line up with a March 2028 (~12mo) start. Kept on file as a future preschool option, not part of today's 10."
+            }
+          ]
+        },
+        {
+          "id": "cc30-01",
+          "status": "Not Applied",
+          "createdAt": "2026-07-06",
+          "fields": {
+            "name": "Davenport Perth Early Learning & Child Care Centre",
+            "address": "1900 Davenport Rd, Toronto",
+            "crossStreets": "Old Weston Rd / Davenport",
+            "ageRange": "Infant / Toddler / Preschool (0–4 yrs)",
+            "infantProgram": "Yes",
+            "auspice": "Public/School-based",
+            "cwelcc": "Yes",
+            "elcaqiRating": "",
+            "estMonthlyFee": "",
+            "channel": "Direct online form",
+            "contact": "Kathleen Joung · 416-392-5066",
+            "lastReconfirm": "",
+            "cadenceDays": 90,
+            "proximityScore": "",
+            "costScore": "",
+            "reputationScore": "",
+            "complianceScore": "",
+            "capacityScore": "",
+            "philosophyScore": "",
+            "outreachDraft": "HOW TO START: City-run (Toronto ELCCS). Register via the City's TELCCS online waitlist registration (same system as your existing TELCCS card). Backup: call 416-392-5066.",
+            "appliedDate": ""
+          },
+          "log": [
+            {
+              "ts": "2026-07-06",
+              "text": "Added from 'closest 30 to 9 Foundry Ave' wave (0.56 km from home). Application method verified via City of Toronto Child Care Locator + centre website on 2026-07-06. Status Not Applied until a confirmation email arrives at thegudgeonfam@gmail.com."
+            }
+          ]
+        },
+        {
+          "id": "cc30-02",
+          "status": "Not Applied",
+          "createdAt": "2026-07-06",
+          "fields": {
+            "name": "Centre de la Petite Enfance – Les Amis du Monde (French)",
+            "address": "55 Pelham Ave, Toronto",
+            "crossStreets": "Dundas / Dupont",
+            "ageRange": "Infant / Toddler / Preschool / Kindergarten / School-age",
+            "infantProgram": "Yes",
+            "auspice": "Non-profit",
+            "cwelcc": "Yes",
+            "elcaqiRating": "",
+            "estMonthlyFee": "",
+            "channel": "Direct phone/email",
+            "contact": "Regine Epolo-Mayela · 416-410-2232",
+            "lastReconfirm": "",
+            "cadenceDays": 90,
+            "proximityScore": "",
+            "costScore": "",
+            "reputationScore": "",
+            "complianceScore": "",
+            "capacityScore": "",
+            "philosophyScore": "",
+            "outreachDraft": "HOW TO START: French-language, non-profit in École Élémentaire Charles-Sauriol. Call to join waitlist.",
+            "appliedDate": ""
+          },
+          "log": [
+            {
+              "ts": "2026-07-06",
+              "text": "Added from 'closest 30 to 9 Foundry Ave' wave (0.57 km from home). Application method verified via City of Toronto Child Care Locator + centre website on 2026-07-06. Status Not Applied until a confirmation email arrives at thegudgeonfam@gmail.com."
+            }
+          ]
+        },
+        {
+          "id": "cc30-04",
+          "status": "Not Applied",
+          "createdAt": "2026-07-06",
+          "fields": {
+            "name": "Ascot Avenue Community Day Care",
+            "address": "95 Regal Rd, Toronto",
+            "crossStreets": "Davenport / Dufferin",
+            "ageRange": "Kindergarten / School-age (4–10 yrs)",
+            "infantProgram": "No - toddler starts 18mo+",
+            "auspice": "Non-profit",
+            "cwelcc": "Yes",
+            "elcaqiRating": "",
+            "estMonthlyFee": "",
+            "channel": "Direct phone/email",
+            "contact": "Meghan Kearns · 416-653-7760",
+            "lastReconfirm": "",
+            "cadenceDays": 90,
+            "proximityScore": "",
+            "costScore": "",
+            "reputationScore": "",
+            "complianceScore": "",
+            "capacityScore": "",
+            "philosophyScore": "",
+            "outreachDraft": "HOW TO START: Before/after-school only — no infant program. Call to join waitlist.",
+            "appliedDate": ""
+          },
+          "log": [
+            {
+              "ts": "2026-07-06",
+              "text": "Added from 'closest 30 to 9 Foundry Ave' wave (0.86 km from home). Application method verified via City of Toronto Child Care Locator + centre website on 2026-07-06. Status Not Applied until a confirmation email arrives at thegudgeonfam@gmail.com."
+            }
+          ]
+        },
+        {
+          "id": "cc30-05",
+          "status": "Not a Fit",
+          "createdAt": "2026-07-06",
+          "fields": {
+            "name": "Macaulay – St. Paul VI",
+            "address": "270 Laughton Ave, Toronto",
+            "crossStreets": "St Clair Ave W / Weston Rd",
+            "ageRange": "Toddler / Preschool / Kindergarten / School-age",
+            "infantProgram": "No - toddler starts 18mo+",
+            "auspice": "Non-profit",
+            "cwelcc": "Yes",
+            "elcaqiRating": "",
+            "estMonthlyFee": "",
+            "channel": "Direct online form",
+            "contact": "Elise Sullivan · 416-572-1031",
+            "lastReconfirm": "",
+            "cadenceDays": 90,
+            "proximityScore": "",
+            "costScore": "",
+            "reputationScore": "",
+            "complianceScore": "",
+            "capacityScore": "",
+            "philosophyScore": "",
+            "outreachDraft": "HOW TO START: Macaulay online waitlist (parent.cloud portal via macaulaycentre.org). No infant room. Backup: 416-572-1031.",
+            "appliedDate": ""
+          },
+          "log": [
+            {
+              "ts": "2026-07-06",
+              "text": "Added from 'closest 30 to 9 Foundry Ave' wave (0.94 km from home). Application method verified via City of Toronto Child Care Locator + centre website on 2026-07-06. Status Not Applied until a confirmation email arrives at thegudgeonfam@gmail.com."
+            },
+            {
+              "ts": "2026-07-06",
+              "text": "Status changed from 'Not Applied' to 'Not a Fit' per family decision."
+            }
+          ]
+        },
+        {
+          "id": "cc30-06",
+          "status": "Not Applied",
+          "createdAt": "2026-07-06",
+          "fields": {
+            "name": "Carleton Village Early Learning Centre",
+            "address": "315 Osler St, Toronto",
+            "crossStreets": "Davenport / Symington",
+            "ageRange": "Infant / Toddler / Preschool / Kindergarten / School-age",
+            "infantProgram": "Yes",
+            "auspice": "Non-profit",
+            "cwelcc": "Yes",
+            "elcaqiRating": "",
+            "estMonthlyFee": "",
+            "channel": "Direct phone/email",
+            "contact": "Kelly Bovair · 416-651-2550",
+            "lastReconfirm": "",
+            "cadenceDays": 90,
+            "proximityScore": "",
+            "costScore": "",
+            "reputationScore": "",
+            "complianceScore": "",
+            "capacityScore": "",
+            "philosophyScore": "",
+            "outreachDraft": "HOW TO START: Non-profit in Carleton Village PS North. Has infant room. Call to join waitlist.",
+            "appliedDate": ""
+          },
+          "log": [
+            {
+              "ts": "2026-07-06",
+              "text": "Added from 'closest 30 to 9 Foundry Ave' wave (1.01 km from home). Application method verified via City of Toronto Child Care Locator + centre website on 2026-07-06. Status Not Applied until a confirmation email arrives at thegudgeonfam@gmail.com."
+            }
+          ]
+        },
+        {
+          "id": "cc30-07",
+          "status": "Not Applied",
+          "createdAt": "2026-07-06",
+          "fields": {
+            "name": "High Park Jr YMCA",
+            "address": "2665 Dundas St W, Toronto",
+            "crossStreets": "Dundas St W / Bloor GO",
+            "ageRange": "Infant / Toddler / Preschool",
+            "infantProgram": "Yes",
+            "auspice": "Non-profit",
+            "cwelcc": "Yes",
+            "elcaqiRating": "",
+            "estMonthlyFee": "",
+            "channel": "Direct online form",
+            "contact": "YMCA GTA · 416-763-1195",
+            "lastReconfirm": "",
+            "cadenceDays": 90,
+            "proximityScore": "",
+            "costScore": "",
+            "reputationScore": "",
+            "complianceScore": "",
+            "capacityScore": "",
+            "philosophyScore": "",
+            "outreachDraft": "HOW TO START: YMCA online registration/waitlist at ymcagta.org ('Register Now'). Has infant room.",
+            "appliedDate": ""
+          },
+          "log": [
+            {
+              "ts": "2026-07-06",
+              "text": "Added from 'closest 30 to 9 Foundry Ave' wave (1.01 km from home). Application method verified via City of Toronto Child Care Locator + centre website on 2026-07-06. Status Not Applied until a confirmation email arrives at thegudgeonfam@gmail.com."
+            }
+          ]
+        },
+        {
+          "id": "cc30-08",
+          "status": "Not Applied",
+          "createdAt": "2026-07-06",
+          "fields": {
+            "name": "PLASP – Pauline Junior Public School",
+            "address": "100 Pauline Ave, Toronto",
+            "crossStreets": "Dufferin / Bloor",
+            "ageRange": "Kindergarten / School-age",
+            "infantProgram": "No - toddler starts 18mo+",
+            "auspice": "Non-profit",
+            "cwelcc": "Yes",
+            "elcaqiRating": "",
+            "estMonthlyFee": "",
+            "channel": "Direct online form",
+            "contact": "PLASP · 1-888-739-4102",
+            "lastReconfirm": "",
+            "cadenceDays": 90,
+            "proximityScore": "",
+            "costScore": "",
+            "reputationScore": "",
+            "complianceScore": "",
+            "capacityScore": "",
+            "philosophyScore": "",
+            "outreachDraft": "HOW TO START: Before/after-school only. Online registration at plasp.ca.",
+            "appliedDate": ""
+          },
+          "log": [
+            {
+              "ts": "2026-07-06",
+              "text": "Added from 'closest 30 to 9 Foundry Ave' wave (1.03 km from home). Application method verified via City of Toronto Child Care Locator + centre website on 2026-07-06. Status Not Applied until a confirmation email arrives at thegudgeonfam@gmail.com."
+            }
+          ]
+        },
+        {
+          "id": "cc30-09",
+          "status": "Not Applied",
+          "createdAt": "2026-07-06",
+          "fields": {
+            "name": "Dover Gardens Nursery School",
+            "address": "228 Bartlett Ave, Toronto",
+            "crossStreets": "Bartlett / Hallam",
+            "ageRange": "Preschool",
+            "infantProgram": "No - toddler starts 18mo+",
+            "auspice": "Non-profit",
+            "cwelcc": "Yes",
+            "elcaqiRating": "",
+            "estMonthlyFee": "",
+            "channel": "Direct phone/email",
+            "contact": "416-533-7337",
+            "lastReconfirm": "",
+            "cadenceDays": 90,
+            "proximityScore": "",
+            "costScore": "",
+            "reputationScore": "",
+            "complianceScore": "",
+            "capacityScore": "",
+            "philosophyScore": "",
+            "outreachDraft": "HOW TO START: Small non-profit nursery school (same building as Macaulay–Dovercourt). Preschool only. Call/email to join waitlist.",
+            "appliedDate": ""
+          },
+          "log": [
+            {
+              "ts": "2026-07-06",
+              "text": "Added from 'closest 30 to 9 Foundry Ave' wave (1.05 km from home). Application method verified via City of Toronto Child Care Locator + centre website on 2026-07-06. Status Not Applied until a confirmation email arrives at thegudgeonfam@gmail.com."
+            }
+          ]
+        },
+        {
+          "id": "cc30-11",
+          "status": "Applied",
+          "createdAt": "2026-07-06",
+          "fields": {
+            "name": "Network Child Care Services – Wade Avenue Centre",
+            "address": "544 Lansdowne Ave, Toronto",
+            "crossStreets": "Lansdowne / Wade / Bloor",
+            "ageRange": "Toddler / Preschool",
+            "infantProgram": "No - toddler starts 18mo+",
+            "auspice": "Non-profit",
+            "cwelcc": "Yes",
+            "elcaqiRating": "",
+            "estMonthlyFee": "",
+            "channel": "Direct online form",
+            "contact": "416-530-0722 ext 4052",
+            "lastReconfirm": "",
+            "cadenceDays": 90,
+            "proximityScore": "",
+            "costScore": "",
+            "reputationScore": "",
+            "complianceScore": "",
+            "capacityScore": "",
+            "philosophyScore": "",
+            "outreachDraft": "HOW TO START: Same operator as your Ossington cards. 'Apply for Child Care Now' waitlist form at networkchildcare.com/contact-us. No infant room here (toddler up).",
+            "appliedDate": "2026-07-09"
+          },
+          "log": [
+            {
+              "ts": "2026-07-06",
+              "text": "Added from 'closest 30 to 9 Foundry Ave' wave (1.14 km from home). Application method verified via City of Toronto Child Care Locator + centre website on 2026-07-06. Status Not Applied until a confirmation email arrives at thegudgeonfam@gmail.com."
+            },
+            {
+              "ts": "2026-07-11",
+              "text": "Auto-updated to Applied — confirmation email received on 2026-07-09, subject: 'Network Child Care Services - Daycare', from reception@networkchildcare.com. Network confirmed the application was forwarded to Wade Avenue Centre (544 Lansdowne Ave) toddler program waiting list with an adjusted start of Oct 2028 (18mo)."
+            }
+          ]
+        },
+        {
+          "id": "cc30-12",
+          "status": "Not Applied",
+          "createdAt": "2026-07-06",
+          "fields": {
+            "name": "Little Angels Childcare Learning Centre",
+            "address": "1695 Dufferin St, Toronto",
+            "crossStreets": "Dufferin / St Clair W",
+            "ageRange": "Infant / Toddler / Preschool",
+            "infantProgram": "Yes",
+            "auspice": "Commercial",
+            "cwelcc": "Yes",
+            "elcaqiRating": "",
+            "estMonthlyFee": "",
+            "channel": "Direct phone/email",
+            "contact": "Chantel (supervisor) · 416-652-1868 · info@littleangelsccc.ca",
+            "lastReconfirm": "",
+            "cadenceDays": 90,
+            "proximityScore": "",
+            "costScore": "",
+            "reputationScore": "",
+            "complianceScore": "",
+            "capacityScore": "",
+            "philosophyScore": "",
+            "outreachDraft": "HOW TO START: Has infant room. No online form — call or email info@littleangelsccc.ca to join waitlist.",
+            "appliedDate": ""
+          },
+          "log": [
+            {
+              "ts": "2026-07-06",
+              "text": "Added from 'closest 30 to 9 Foundry Ave' wave (1.17 km from home). Application method verified via City of Toronto Child Care Locator + centre website on 2026-07-06. Status Not Applied until a confirmation email arrives at thegudgeonfam@gmail.com."
+            }
+          ]
+        },
+        {
+          "id": "cc30-13",
+          "status": "Not Applied",
+          "createdAt": "2026-07-06",
+          "fields": {
+            "name": "Indian Road Crescent School Age YMCA",
+            "address": "285 Indian Road Cres, Toronto",
+            "crossStreets": "Indian Rd Cres / Bloor",
+            "ageRange": "Kindergarten / School-age",
+            "infantProgram": "No - toddler starts 18mo+",
+            "auspice": "Non-profit",
+            "cwelcc": "Yes",
+            "elcaqiRating": "",
+            "estMonthlyFee": "",
+            "channel": "Direct online form",
+            "contact": "YMCA GTA · 416-763-1195",
+            "lastReconfirm": "",
+            "cadenceDays": 90,
+            "proximityScore": "",
+            "costScore": "",
+            "reputationScore": "",
+            "complianceScore": "",
+            "capacityScore": "",
+            "philosophyScore": "",
+            "outreachDraft": "HOW TO START: School-age only. YMCA online registration at ymcagta.org.",
+            "appliedDate": ""
+          },
+          "log": [
+            {
+              "ts": "2026-07-06",
+              "text": "Added from 'closest 30 to 9 Foundry Ave' wave (1.18 km from home). Application method verified via City of Toronto Child Care Locator + centre website on 2026-07-06. Status Not Applied until a confirmation email arrives at thegudgeonfam@gmail.com."
+            }
+          ]
+        },
+        {
+          "id": "cc30-14",
+          "status": "Not Applied",
+          "createdAt": "2026-07-06",
+          "fields": {
+            "name": "Harmony Childcare Centre",
+            "address": "124 Northcliffe Blvd, Toronto",
+            "crossStreets": "Northcliffe / St Clair W",
+            "ageRange": "Preschool / Kindergarten / School-age",
+            "infantProgram": "No - toddler starts 18mo+",
+            "auspice": "Non-profit",
+            "cwelcc": "Yes",
+            "elcaqiRating": "",
+            "estMonthlyFee": "",
+            "channel": "Direct phone/email",
+            "contact": "416-656-8902",
+            "lastReconfirm": "",
+            "cadenceDays": 90,
+            "proximityScore": "",
+            "costScore": "",
+            "reputationScore": "",
+            "complianceScore": "",
+            "capacityScore": "",
+            "philosophyScore": "",
+            "outreachDraft": "HOW TO START: Preschool and up (no infant room). Call to join waitlist.",
+            "appliedDate": ""
+          },
+          "log": [
+            {
+              "ts": "2026-07-06",
+              "text": "Added from 'closest 30 to 9 Foundry Ave' wave (1.29 km from home). Application method verified via City of Toronto Child Care Locator + centre website on 2026-07-06. Status Not Applied until a confirmation email arrives at thegudgeonfam@gmail.com."
+            }
+          ]
+        },
+        {
+          "id": "cc30-16",
+          "status": "Not Applied",
+          "createdAt": "2026-07-06",
+          "fields": {
+            "name": "Candy Factory Swallows Day Care (The)",
+            "address": "1411 Bloor St W, Toronto",
+            "crossStreets": "Bloor St W / Sterling",
+            "ageRange": "Infant / Toddler / Preschool",
+            "infantProgram": "Yes",
+            "auspice": "Commercial",
+            "cwelcc": "Yes",
+            "elcaqiRating": "",
+            "estMonthlyFee": "",
+            "channel": "Direct online form",
+            "contact": "416-537-3682 · info@candyfactorydaycare.com",
+            "lastReconfirm": "",
+            "cadenceDays": 90,
+            "proximityScore": "",
+            "costScore": "",
+            "reputationScore": "",
+            "complianceScore": "",
+            "capacityScore": "",
+            "philosophyScore": "",
+            "outreachDraft": "HOW TO START: Has infant room. Waitlist application form on candyfactorydaycare.com; or email/phone. (Note: their site currently carries injected spam links — use the form/contact info only.)",
+            "appliedDate": ""
+          },
+          "log": [
+            {
+              "ts": "2026-07-06",
+              "text": "Added from 'closest 30 to 9 Foundry Ave' wave (1.31 km from home). Application method verified via City of Toronto Child Care Locator + centre website on 2026-07-06. Status Not Applied until a confirmation email arrives at thegudgeonfam@gmail.com."
+            }
+          ]
+        },
+        {
+          "id": "cc30-17",
+          "status": "Not Applied",
+          "createdAt": "2026-07-06",
+          "fields": {
+            "name": "Chabad of Midtown (Preschool & Daycare)",
+            "address": "1034 St Clair Ave W, Toronto",
+            "crossStreets": "St Clair W / Oakwood",
+            "ageRange": "Infant / Toddler / Preschool",
+            "infantProgram": "Yes",
+            "auspice": "Non-profit",
+            "cwelcc": "Yes",
+            "elcaqiRating": "",
+            "estMonthlyFee": "",
+            "channel": "Direct phone/email",
+            "contact": "416-516-2005 · chabadmidtownschool.com",
+            "lastReconfirm": "",
+            "cadenceDays": 90,
+            "proximityScore": "",
+            "costScore": "",
+            "reputationScore": "",
+            "complianceScore": "",
+            "capacityScore": "",
+            "philosophyScore": "",
+            "outreachDraft": "HOW TO START: Jewish community daycare (chabadmidtownschool.com). Has infant room. Contact centre to apply.",
+            "appliedDate": ""
+          },
+          "log": [
+            {
+              "ts": "2026-07-06",
+              "text": "Added from 'closest 30 to 9 Foundry Ave' wave (1.40 km from home). Application method verified via City of Toronto Child Care Locator + centre website on 2026-07-06. Status Not Applied until a confirmation email arrives at thegudgeonfam@gmail.com."
+            }
+          ]
+        },
+        {
+          "id": "cc30-18",
+          "status": "Not Applied",
+          "createdAt": "2026-07-06",
+          "fields": {
+            "name": "Aspiring Academics Preschool – Somerset",
+            "address": "56 Somerset Ave, Toronto",
+            "crossStreets": "Dufferin / Bloor (Bloordale)",
+            "ageRange": "Infant / Toddler / Preschool",
+            "infantProgram": "Yes",
+            "auspice": "Commercial",
+            "cwelcc": "Yes",
+            "elcaqiRating": "",
+            "estMonthlyFee": "",
+            "channel": "Direct phone/email",
+            "contact": "416-889-9389 · aspiringacademicspreschool.com",
+            "lastReconfirm": "",
+            "cadenceDays": 90,
+            "proximityScore": "",
+            "costScore": "",
+            "reputationScore": "",
+            "complianceScore": "",
+            "capacityScore": "",
+            "philosophyScore": "",
+            "outreachDraft": "HOW TO START: Has infant room. Call or use contact form on aspiringacademicspreschool.com.",
+            "appliedDate": ""
+          },
+          "log": [
+            {
+              "ts": "2026-07-06",
+              "text": "Added from 'closest 30 to 9 Foundry Ave' wave (1.41 km from home). Application method verified via City of Toronto Child Care Locator + centre website on 2026-07-06. Status Not Applied until a confirmation email arrives at thegudgeonfam@gmail.com."
+            }
+          ]
+        },
+        {
+          "id": "cc30-19",
+          "status": "Applied",
+          "createdAt": "2026-07-06",
+          "fields": {
+            "name": "Ascot Avenue Community Daycare",
+            "address": "991 St Clair Ave W, Toronto",
+            "crossStreets": "St Clair W / Dufferin",
+            "ageRange": "Infant / Toddler / Preschool",
+            "infantProgram": "Yes",
+            "auspice": "Non-profit",
+            "cwelcc": "Yes",
+            "elcaqiRating": "",
+            "estMonthlyFee": "",
+            "channel": "Direct phone/email",
+            "contact": "416-651-2275",
+            "lastReconfirm": "",
+            "cadenceDays": 90,
+            "proximityScore": "",
+            "costScore": "",
+            "reputationScore": "",
+            "complianceScore": "",
+            "capacityScore": "",
+            "philosophyScore": "",
+            "outreachDraft": "HOW TO START: Different operator than the Regal Rd 'Ascot Avenue Community Day Care'. Has infant room. Call to join waitlist.",
+            "appliedDate": "2026-07-05"
+          },
+          "log": [
+            {
+              "ts": "2026-07-06",
+              "text": "Added from 'closest 30 to 9 Foundry Ave' wave (1.45 km from home). Application method verified via City of Toronto Child Care Locator + centre website on 2026-07-06. Status Not Applied until a confirmation email arrives at thegudgeonfam@gmail.com."
+            },
+            {
+              "ts": "2026-07-06",
+              "text": "Auto-updated to Applied — confirmation email received 2026-07-05 from admin@ascotdaycare.com, subject 'Ascot Avenue Community Daycare | Thank you!': registration for Infant Gudgeon received and added to waitlist."
+            }
+          ]
+        },
+        {
+          "id": "cc30-20",
+          "status": "Applied",
+          "createdAt": "2026-07-06",
+          "fields": {
+            "name": "Sunnyside – Keele",
+            "address": "236 Keele St, Toronto",
+            "crossStreets": "Keele / Bloor",
+            "ageRange": "Infant / Toddler / Preschool (6mo–6yr)",
+            "infantProgram": "Yes",
+            "auspice": "Commercial",
+            "cwelcc": "Yes",
+            "elcaqiRating": "",
+            "estMonthlyFee": "",
+            "channel": "Direct online form",
+            "contact": "416-766-0312",
+            "lastReconfirm": "",
+            "cadenceDays": 90,
+            "proximityScore": "",
+            "costScore": "",
+            "reputationScore": "",
+            "complianceScore": "",
+            "capacityScore": "",
+            "philosophyScore": "",
+            "outreachDraft": "HOW TO START: Has infant room. Online application (Zoho form) via 'Apply' on sunnysidedaycare.com. Backup: 416-766-0312.",
+            "appliedDate": "2026-07-06"
+          },
+          "log": [
+            {
+              "ts": "2026-07-06",
+              "text": "Added from 'closest 30 to 9 Foundry Ave' wave (1.48 km from home). Application method verified via City of Toronto Child Care Locator + centre website on 2026-07-06. Status Not Applied until a confirmation email arrives at thegudgeonfam@gmail.com."
+            },
+            {
+              "ts": "2026-07-06",
+              "text": "Auto-updated to Applied — confirmation email received 2026-07-06 from keele@sunnysidedaycare.com, subject 'Waiting List Application Received – Thank you!': now on the Official Waiting List."
+            }
+          ]
+        },
+        {
+          "id": "cc30-21",
+          "status": "Not Applied",
+          "createdAt": "2026-07-06",
+          "fields": {
+            "name": "The Learning Nest Academy",
+            "address": "51 Vine Ave, Toronto",
+            "crossStreets": "Vine / Dundas W (Junction)",
+            "ageRange": "Infant / Toddler / Preschool",
+            "infantProgram": "Yes",
+            "auspice": "Non-profit",
+            "cwelcc": "No",
+            "elcaqiRating": "",
+            "estMonthlyFee": "",
+            "channel": "Direct online form",
+            "contact": "905-332-7539 · childventures.ca",
+            "lastReconfirm": "",
+            "cadenceDays": 90,
+            "proximityScore": "",
+            "costScore": "",
+            "reputationScore": "",
+            "complianceScore": "",
+            "capacityScore": "",
+            "philosophyScore": "",
+            "outreachDraft": "HOW TO START: FLAG: locator shows NOT CWELCC-enrolled — confirm fees before applying. Online inquiry/tour via childventures.ca. Phone is head office.",
+            "appliedDate": ""
+          },
+          "log": [
+            {
+              "ts": "2026-07-06",
+              "text": "Added from 'closest 30 to 9 Foundry Ave' wave (1.51 km from home). Application method verified via City of Toronto Child Care Locator + centre website on 2026-07-06. Status Not Applied until a confirmation email arrives at thegudgeonfam@gmail.com."
+            }
+          ]
+        },
+        {
+          "id": "cc30-23",
+          "status": "Not Applied",
+          "createdAt": "2026-07-06",
+          "fields": {
+            "name": "Keelmount Daycare Centre",
+            "address": "99 Mountview Ave, Toronto",
+            "crossStreets": "Keele / Annette (High Park N)",
+            "ageRange": "Toddler / Preschool / Kindergarten / School-age",
+            "infantProgram": "No - toddler starts 18mo+",
+            "auspice": "Non-profit",
+            "cwelcc": "Yes",
+            "elcaqiRating": "",
+            "estMonthlyFee": "",
+            "channel": "Direct phone/email",
+            "contact": "416-763-6824",
+            "lastReconfirm": "",
+            "cadenceDays": 90,
+            "proximityScore": "",
+            "costScore": "",
+            "reputationScore": "",
+            "complianceScore": "",
+            "capacityScore": "",
+            "philosophyScore": "",
+            "outreachDraft": "HOW TO START: Toddler up (no infant room). Call to join waitlist.",
+            "appliedDate": ""
+          },
+          "log": [
+            {
+              "ts": "2026-07-06",
+              "text": "Added from 'closest 30 to 9 Foundry Ave' wave (1.66 km from home). Application method verified via City of Toronto Child Care Locator + centre website on 2026-07-06. Status Not Applied until a confirmation email arrives at thegudgeonfam@gmail.com."
+            }
+          ]
+        },
+        {
+          "id": "cc30-24",
+          "status": "Not Applied",
+          "createdAt": "2026-07-06",
+          "fields": {
+            "name": "The Village Nursery School",
+            "address": "2241 Dundas St W, Toronto",
+            "crossStreets": "Dundas W / Bloor",
+            "ageRange": "Preschool",
+            "infantProgram": "No - toddler starts 18mo+",
+            "auspice": "Commercial",
+            "cwelcc": "Yes",
+            "elcaqiRating": "",
+            "estMonthlyFee": "",
+            "channel": "Direct phone/email",
+            "contact": "647-984-4525",
+            "lastReconfirm": "",
+            "cadenceDays": 90,
+            "proximityScore": "",
+            "costScore": "",
+            "reputationScore": "",
+            "complianceScore": "",
+            "capacityScore": "",
+            "philosophyScore": "",
+            "outreachDraft": "HOW TO START: Preschool only. Call to join waitlist.",
+            "appliedDate": ""
+          },
+          "log": [
+            {
+              "ts": "2026-07-06",
+              "text": "Added from 'closest 30 to 9 Foundry Ave' wave (1.66 km from home). Application method verified via City of Toronto Child Care Locator + centre website on 2026-07-06. Status Not Applied until a confirmation email arrives at thegudgeonfam@gmail.com."
+            }
+          ]
+        },
+        {
+          "id": "cc30-25",
+          "status": "Not Applied",
+          "createdAt": "2026-07-06",
+          "fields": {
+            "name": "General Mercer Early Learning Centre",
+            "address": "30 Turnberry Ave, Toronto",
+            "crossStreets": "Turnberry / Weston Rd / St Clair",
+            "ageRange": "Infant / Toddler / Preschool / Kindergarten / School-age",
+            "infantProgram": "Yes",
+            "auspice": "Non-profit",
+            "cwelcc": "Yes",
+            "elcaqiRating": "",
+            "estMonthlyFee": "",
+            "channel": "Direct phone/email",
+            "contact": "416-658-1699",
+            "lastReconfirm": "",
+            "cadenceDays": 90,
+            "proximityScore": "",
+            "costScore": "",
+            "reputationScore": "",
+            "complianceScore": "",
+            "capacityScore": "",
+            "philosophyScore": "",
+            "outreachDraft": "HOW TO START: Has infant room. Call to join waitlist.",
+            "appliedDate": ""
+          },
+          "log": [
+            {
+              "ts": "2026-07-06",
+              "text": "Added from 'closest 30 to 9 Foundry Ave' wave (1.68 km from home). Application method verified via City of Toronto Child Care Locator + centre website on 2026-07-06. Status Not Applied until a confirmation email arrives at thegudgeonfam@gmail.com."
+            }
+          ]
+        },
+        {
+          "id": "cc30-26",
+          "status": "Not Applied",
+          "createdAt": "2026-07-06",
+          "fields": {
+            "name": "Ola Day Care Inc.",
+            "address": "2211 Dundas St W, Toronto",
+            "crossStreets": "Dundas W / Bloor",
+            "ageRange": "Toddler / Preschool",
+            "infantProgram": "No - toddler starts 18mo+",
+            "auspice": "Commercial",
+            "cwelcc": "Yes",
+            "elcaqiRating": "",
+            "estMonthlyFee": "",
+            "channel": "Direct phone/email",
+            "contact": "647-351-6521 · oladaycare@gmail.com",
+            "lastReconfirm": "",
+            "cadenceDays": 90,
+            "proximityScore": "",
+            "costScore": "",
+            "reputationScore": "",
+            "complianceScore": "",
+            "capacityScore": "",
+            "philosophyScore": "",
+            "outreachDraft": "HOW TO START: Toddler up. Email oladaycare@gmail.com (listed primary contact) or call.",
+            "appliedDate": ""
+          },
+          "log": [
+            {
+              "ts": "2026-07-06",
+              "text": "Added from 'closest 30 to 9 Foundry Ave' wave (1.72 km from home). Application method verified via City of Toronto Child Care Locator + centre website on 2026-07-06. Status Not Applied until a confirmation email arrives at thegudgeonfam@gmail.com."
+            }
+          ]
+        },
+        {
+          "id": "cc30-27",
+          "status": "Not Applied",
+          "createdAt": "2026-07-06",
+          "fields": {
+            "name": "Oakwood Children's House (Montessori)",
+            "address": "115 Winona Dr, Toronto",
+            "crossStreets": "Winona / St Clair W",
+            "ageRange": "Preschool (2.5–4 yrs)",
+            "infantProgram": "No - toddler starts 18mo+",
+            "auspice": "Non-profit",
+            "cwelcc": "Yes",
+            "elcaqiRating": "",
+            "estMonthlyFee": "",
+            "channel": "Direct online form",
+            "contact": "416-656-3831 · oakwoodchildrenshouse.com",
+            "lastReconfirm": "",
+            "cadenceDays": 90,
+            "proximityScore": "",
+            "costScore": "",
+            "reputationScore": "",
+            "complianceScore": "",
+            "capacityScore": "",
+            "philosophyScore": "",
+            "outreachDraft": "HOW TO START: Montessori preschool in McMurrich PS. Google Form waitlist on site. NOTE: waitlist shown CLOSED for 2026 — call 416-656-3831 to confirm.",
+            "appliedDate": ""
+          },
+          "log": [
+            {
+              "ts": "2026-07-06",
+              "text": "Added from 'closest 30 to 9 Foundry Ave' wave (1.72 km from home). Application method verified via City of Toronto Child Care Locator + centre website on 2026-07-06. Status Not Applied until a confirmation email arrives at thegudgeonfam@gmail.com."
+            }
+          ]
+        },
+        {
+          "id": "cc30-28",
+          "status": "Not Applied",
+          "createdAt": "2026-07-06",
+          "fields": {
+            "name": "McMurrich Sprouts",
+            "address": "115 Winona Dr, Toronto",
+            "crossStreets": "Winona / St Clair W",
+            "ageRange": "Infant / Toddler / Preschool / Kindergarten / School-age",
+            "infantProgram": "Yes",
+            "auspice": "Non-profit",
+            "cwelcc": "Yes",
+            "elcaqiRating": "",
+            "estMonthlyFee": "",
+            "channel": "Direct phone/email",
+            "contact": "416-656-7957",
+            "lastReconfirm": "",
+            "cadenceDays": 90,
+            "proximityScore": "",
+            "costScore": "",
+            "reputationScore": "",
+            "complianceScore": "",
+            "capacityScore": "",
+            "philosophyScore": "",
+            "outreachDraft": "HOW TO START: Has infant room. Same building as Oakwood & McMurrich Co-op. Call to join waitlist.",
+            "appliedDate": ""
+          },
+          "log": [
+            {
+              "ts": "2026-07-06",
+              "text": "Added from 'closest 30 to 9 Foundry Ave' wave (1.73 km from home). Application method verified via City of Toronto Child Care Locator + centre website on 2026-07-06. Status Not Applied until a confirmation email arrives at thegudgeonfam@gmail.com."
+            }
+          ]
+        },
+        {
+          "id": "cc30-29",
+          "status": "Not Applied",
+          "createdAt": "2026-07-06",
+          "fields": {
+            "name": "McMurrich Co-Operative Playschool",
+            "address": "115 Winona Dr, Toronto",
+            "crossStreets": "Winona / St Clair W",
+            "ageRange": "Preschool",
+            "infantProgram": "No - toddler starts 18mo+",
+            "auspice": "Non-profit",
+            "cwelcc": "Yes",
+            "elcaqiRating": "",
+            "estMonthlyFee": "",
+            "channel": "Direct phone/email",
+            "contact": "416-738-9456",
+            "lastReconfirm": "",
+            "cadenceDays": 90,
+            "proximityScore": "",
+            "costScore": "",
+            "reputationScore": "",
+            "complianceScore": "",
+            "capacityScore": "",
+            "philosophyScore": "",
+            "outreachDraft": "HOW TO START: Parent co-operative, preschool only. Call to join waitlist.",
+            "appliedDate": ""
+          },
+          "log": [
+            {
+              "ts": "2026-07-06",
+              "text": "Added from 'closest 30 to 9 Foundry Ave' wave (1.73 km from home). Application method verified via City of Toronto Child Care Locator + centre website on 2026-07-06. Status Not Applied until a confirmation email arrives at thegudgeonfam@gmail.com."
+            }
+          ]
+        },
+        {
+          "id": "cc30-30",
+          "status": "Not Applied",
+          "createdAt": "2026-07-06",
+          "fields": {
+            "name": "Rawlinson Early Learning & Child Care Centre",
+            "address": "40 Earnscliffe Rd, Toronto",
+            "crossStreets": "Eglinton / Dufferin",
+            "ageRange": "Infant / Toddler / Preschool",
+            "infantProgram": "Yes",
+            "auspice": "Public/School-based",
+            "cwelcc": "Yes",
+            "elcaqiRating": "",
+            "estMonthlyFee": "",
+            "channel": "Direct online form",
+            "contact": "416-392-5068",
+            "lastReconfirm": "",
+            "cadenceDays": 90,
+            "proximityScore": "",
+            "costScore": "",
+            "reputationScore": "",
+            "complianceScore": "",
+            "capacityScore": "",
+            "philosophyScore": "",
+            "outreachDraft": "HOW TO START: City-run (Toronto ELCCS). Register via City's TELCCS online waitlist registration (see your TELCCS card). Backup: 416-392-5068.",
+            "appliedDate": ""
+          },
+          "log": [
+            {
+              "ts": "2026-07-06",
+              "text": "Added from 'closest 30 to 9 Foundry Ave' wave (1.76 km from home). Application method verified via City of Toronto Child Care Locator + centre website on 2026-07-06. Status Not Applied until a confirmation email arrives at thegudgeonfam@gmail.com."
+            }
+          ]
+        }
+      ]
+    },
+    "appointments": {
+      "id": "appointments",
+      "icon": "🩺",
+      "name": "Prenatal & Baby Appointments",
+      "description": "Prenatal visits, tests, and (later) pediatric checkups — feeds the shared Timeline & Calendar view automatically.",
+      "statuses": [
+        "Upcoming",
+        "Scheduled",
+        "Completed",
+        "Needs Follow-up"
+      ],
+      "titleField": "title",
+      "fields": [
+        {
+          "key": "title",
+          "label": "Appointment",
+          "type": "text"
+        },
+        {
+          "key": "provider",
+          "label": "Provider / Clinic",
+          "type": "text"
+        },
+        {
+          "key": "date",
+          "label": "Date",
+          "type": "date"
+        },
+        {
+          "key": "location",
+          "label": "Location",
+          "type": "text"
+        },
+        {
+          "key": "purpose",
+          "label": "Purpose",
+          "type": "textarea"
+        },
+        {
+          "key": "prep",
+          "label": "Prep needed",
+          "type": "textarea"
+        }
+      ],
+      "reminder": {
+        "mode": "direct",
+        "dateField": "date"
+      },
+      "importHelper": null,
+      "playbook": [
+        [
+          "Getting started",
+          "Click \"Load standard prenatal schedule\" below to auto-populate typical visit windows based on your due date, then adjust dates once your provider confirms them."
+        ]
+      ],
+      "cards": []
+    },
+    "milestones": {
+      "id": "milestones",
+      "icon": "📚",
+      "name": "Milestones & Prep",
+      "description": "Things to research or get ready for — from EI/parental leave paperwork to nursery setup and baby-proofing.",
+      "statuses": [
+        "To Research",
+        "In Progress",
+        "Done"
+      ],
+      "titleField": "topic",
+      "fields": [
+        {
+          "key": "topic",
+          "label": "Topic",
+          "type": "text"
+        },
+        {
+          "key": "category",
+          "label": "Category",
+          "type": "select",
+          "options": [
+            "Leave & Benefits",
+            "Health",
+            "Gear & Home Setup",
+            "Legal/Admin",
+            "Education",
+            "Other"
+          ]
+        },
+        {
+          "key": "dueBy",
+          "label": "Do this by",
+          "type": "date"
+        },
+        {
+          "key": "link",
+          "label": "Reference link",
+          "type": "text"
+        },
+        {
+          "key": "notes",
+          "label": "Notes",
+          "type": "textarea"
+        }
+      ],
+      "reminder": {
+        "mode": "direct",
+        "dateField": "dueBy"
+      },
+      "importHelper": null,
+      "playbook": [
+        [
+          "Getting started",
+          "Use this board for everything that isn't a specific appointment or the childcare search — EI maternity/parental leave timing, hospital bag, nursery setup, baby-proofing, choosing a pediatrician, etc."
+        ]
+      ],
+      "cards": []
+    }
+  }
+}
