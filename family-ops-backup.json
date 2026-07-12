@@ -1320,7 +1320,7 @@
             "capacityScore": "",
             "channel": "Direct phone/email",
             "complianceScore": "",
-            "confirmationReceived": "No – need to follow up",
+            "confirmationReceived": "Yes",
             "contact": "416-651-2275",
             "costScore": "",
             "crossStreets": "St Clair W / Dufferin",
@@ -1328,7 +1328,7 @@
             "elcaqiRating": "",
             "estMonthlyFee": "",
             "infantProgram": "Yes",
-            "lastReconfirm": "2026-07-12",
+            "lastReconfirm": "2026-07-05",
             "name": "Ascot Avenue Community Daycare",
             "outreachDraft": "HOW TO START: Different operator than the Regal Rd 'Ascot Avenue Community Day Care'. Has infant room. Call to join waitlist.",
             "philosophyScore": "",
@@ -1346,7 +1346,7 @@
               "ts": "2026-07-06"
             }
           ],
-          "status": "Applied – Awaiting Confirmation"
+          "status": "On Waitlist"
         },
         {
           "createdAt": "2026-07-06",
@@ -2011,39 +2011,20 @@
         "threadId": "19f3310df91e2008",
         "cardName": "Upcoming: Wallace Emerson Community Centre Child Care",
         "change": "Watching → Watching"
+      },
+      {
+        "at": "2026-07-12T19:34:47.245Z",
+        "action": "confirmed",
+        "from": "admin@ascotdaycare.com",
+        "subject": "Ascot Avenue Community Daycare | Thank you!",
+        "threadId": "19f3308e17577e9b",
+        "cardName": "Ascot Avenue Community Daycare (991 St Clair)",
+        "change": "Applied – Awaiting Confirmation → On Waitlist"
       }
     ],
     "lastProcessedEpoch": 1752071210,
     "lastRunAt": "2026-07-12T19:31:33.396339+00:00",
-    "pending": [
-      {
-        "candidates": [
-          {
-            "boardId": "childcare",
-            "cardId": "cc30-19",
-            "cardName": "Ascot Avenue Community Daycare (991 St Clair)",
-            "currentStatus": "Applied – Awaiting Confirmation",
-            "selected": true,
-            "suggestedStatus": "On Waitlist"
-          },
-          {
-            "boardId": "childcare",
-            "cardId": "cc30-04",
-            "cardName": "Ascot Avenue Community Day Care (95 Regal Rd)",
-            "currentStatus": "To Apply",
-            "selected": false,
-            "suggestedStatus": "On Waitlist"
-          }
-        ],
-        "from": "admin@ascotdaycare.com",
-        "id": "es-ascot-19f3308e",
-        "reason": "Two Ascot cards share the domain ascotdaycare.com (991 St Clair vs 95 Regal Rd), and the CC'd contact (Meghan) is listed on the OTHER card — so which centre this confirms is ambiguous. Suggested match is the one already in 'Applied – Awaiting Confirmation'.",
-        "receivedAt": "2026-07-05T16:07:24Z",
-        "snippet": "Dear Justine Wong, Your registration for Infant Gudgeon has been received and added to our waitlist.",
-        "subject": "Ascot Avenue Community Daycare | Thank you!",
-        "threadId": "19f3308e17577e9b"
-      }
-    ]
+    "pending": []
   },
   "homeLocation": {
     "label": "Lansdowne Ave & Dupont St, Toronto",
