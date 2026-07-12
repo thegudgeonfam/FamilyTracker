@@ -390,6 +390,45 @@
         {
           "createdAt": "2026-07-05",
           "fields": {
+            "address": "City-run program — Toronto Home Child Care providers are located across the city (map shows coverage everywhere except the central core); also covers TELCCS-operated centres you select during registration",
+            "ageRange": "Infancy – 12 years (home child care) / varies by TELCCS centre",
+            "appliedDate": "2026-07-06",
+            "auspice": "Public/City-operated",
+            "cadenceDays": 90,
+            "capacityScore": 7,
+            "channel": "Direct online form",
+            "complianceScore": 7,
+            "confirmationReceived": "",
+            "contact": "311 (City of Toronto) for TELCCS general inquiries",
+            "costScore": 8,
+            "crossStreets": "City-wide program, not a single site",
+            "cwelcc": "Yes (City-operated TELCCS programs)",
+            "elcaqiRating": "Not applicable to home child care; TELCCS centres individually rated — check per centre",
+            "estMonthlyFee": "Full-fee or subsidized, based on which registration path you use",
+            "infantProgram": "Yes",
+            "lastReconfirm": "",
+            "name": "TELCCS — Toronto Home Child Care & City Centres (direct online registration)",
+            "outreachDraft": "TELCCS has a real online registration form rather than an email process — this is the fastest one to actually submit today:\n\n1. If you want to be considered for the Child Care Fee Subsidy as well as TELCCS waitlists, apply here: http://secure.toronto.ca/children/subsidy/\n2. If you'll pay full fee, register directly here: http://secure.toronto.ca/children/fullfee/\n\nEither form lets you select specific TELCCS centres and/or Toronto Home Child Care as your preference, for a start at 12 months (~March 2028). Fill in {{PARENT_NAMES}}, {{ADDRESS}}, {{PHONE}}, {{EMAIL}}, {{CHILD_DOB}} as prompted by the form.",
+            "philosophyScore": 6,
+            "proximityScore": 6,
+            "reputationScore": 6
+          },
+          "id": "2m2it0gs",
+          "log": [
+            {
+              "text": "Researched earlier in this process but not actually added to the tracker until now (2026-07-06) — this is arguably the single easiest one to act on today since it's a genuine online form (secure.toronto.ca), not an email/phone ask. One registration covers both Toronto Home Child Care (infants accepted, city-wide provider network) and any TELCCS centres you select. Also worth checking the TELCCS Centres list for one near Lansdowne & Dupont: https://www.toronto.ca/community-people/children-parenting/children-programs-activities/licensed-child-care/toronto-early-learning-and-child-care-services/telccs-centre-locations/",
+              "ts": "2026-07-05"
+            },
+            {
+              "text": "CORRECTED 2026-07-12: family confirmed the TELCCS registration form was actually submitted, selecting Davenport Perth, Rawlinson, and Jesse Ketchum as preferred centres. This had never been reflected on the tracker — full git history and Gmail showed no record of it, so it was flagged as missing rather than assumed. Submission date (2026-07-06) is inferred from context, not from a confirmation email or user-provided date — no TELCCS confirmation email has arrived at thegudgeonfam@gmail.com, so this card and its three selected centres are set to Applied – Awaiting Confirmation, not On Waitlist.",
+              "ts": "2026-07-12"
+            }
+          ],
+          "status": "Applied – Awaiting Confirmation"
+        },
+        {
+          "createdAt": "2026-07-05",
+          "fields": {
             "address": "Brandon Ave & Foundry Ave, Toronto (on your street)",
             "ageRange": "Unknown — not yet open",
             "appliedDate": "",
@@ -744,28 +783,28 @@
         {
           "createdAt": "2026-07-06",
           "fields": {
-            "name": "Davenport Perth Early Learning & Child Care Centre",
             "address": "1900 Davenport Rd, Toronto",
-            "crossStreets": "Old Weston Rd / Davenport",
             "ageRange": "Infant / Toddler / Preschool (0–4 yrs)",
-            "infantProgram": "Yes",
+            "appliedDate": "2026-07-06",
             "auspice": "Public/School-based",
+            "cadenceDays": 90,
+            "capacityScore": "",
+            "channel": "Direct online form",
+            "complianceScore": "",
+            "confirmationReceived": "",
+            "contact": "Kathleen Joung · 416-392-5066",
+            "costScore": "",
+            "crossStreets": "Old Weston Rd / Davenport",
             "cwelcc": "Yes",
             "elcaqiRating": "",
             "estMonthlyFee": "",
-            "channel": "Direct online form",
-            "appliedDate": "2026-07-06",
-            "contact": "Kathleen Joung · 416-392-5066",
-            "confirmationReceived": "",
+            "infantProgram": "Yes",
             "lastReconfirm": "",
-            "cadenceDays": "90",
-            "proximityScore": "",
-            "costScore": "",
-            "reputationScore": "",
-            "complianceScore": "",
-            "capacityScore": "",
+            "name": "Davenport Perth Early Learning & Child Care Centre",
+            "outreachDraft": "HOW TO START: City-run (Toronto ELCCS). Register via the City's TELCCS online waitlist registration (same system as your existing TELCCS card). Backup: call 416-392-5066.",
             "philosophyScore": "",
-            "outreachDraft": "HOW TO START: City-run (Toronto ELCCS). Register via the City's TELCCS online waitlist registration (same system as your existing TELCCS card). Backup: call 416-392-5066."
+            "proximityScore": "",
+            "reputationScore": ""
           },
           "id": "cc30-01",
           "log": [
@@ -778,7 +817,7 @@
               "ts": "2026-07-12"
             }
           ],
-          "status": "On Waitlist"
+          "status": "Applied – Awaiting Confirmation"
         },
         {
           "createdAt": "2026-07-06",
@@ -1639,28 +1678,28 @@
         {
           "createdAt": "2026-07-06",
           "fields": {
-            "name": "Rawlinson Early Learning & Child Care Centre",
             "address": "40 Earnscliffe Rd, Toronto",
-            "crossStreets": "Eglinton / Dufferin",
             "ageRange": "Infant / Toddler / Preschool",
-            "infantProgram": "Yes",
+            "appliedDate": "2026-07-06",
             "auspice": "Public/School-based",
+            "cadenceDays": 90,
+            "capacityScore": "",
+            "channel": "Direct online form",
+            "complianceScore": "",
+            "confirmationReceived": "",
+            "contact": "416-392-5068",
+            "costScore": "",
+            "crossStreets": "Eglinton / Dufferin",
             "cwelcc": "Yes",
             "elcaqiRating": "",
             "estMonthlyFee": "",
-            "channel": "Direct online form",
-            "appliedDate": "2026-07-06",
-            "contact": "416-392-5068",
-            "confirmationReceived": "",
+            "infantProgram": "Yes",
             "lastReconfirm": "",
-            "cadenceDays": "90",
-            "proximityScore": "",
-            "costScore": "",
-            "reputationScore": "",
-            "complianceScore": "",
-            "capacityScore": "",
+            "name": "Rawlinson Early Learning & Child Care Centre",
+            "outreachDraft": "HOW TO START: City-run (Toronto ELCCS). Register via City's TELCCS online waitlist registration (see your TELCCS card). Backup: 416-392-5068.",
             "philosophyScore": "",
-            "outreachDraft": "HOW TO START: City-run (Toronto ELCCS). Register via City's TELCCS online waitlist registration (see your TELCCS card). Backup: 416-392-5068."
+            "proximityScore": "",
+            "reputationScore": ""
           },
           "id": "cc30-30",
           "log": [
@@ -1673,33 +1712,33 @@
               "ts": "2026-07-12"
             }
           ],
-          "status": "On Waitlist"
+          "status": "Applied – Awaiting Confirmation"
         },
         {
           "createdAt": "2026-07-12",
           "fields": {
-            "name": "Jesse Ketchum Early Learning & Child Care Centre",
             "address": "7 Berryman St, Toronto (Davenport / Bay, within Jesse Ketchum Public School)",
-            "crossStreets": "Ward: University-Rosedale, Davenport/Bay area",
             "ageRange": "Toddler / Preschool (0–4 years per TELCCS listing; current programs are toddler & preschool, no distinct infant room found)",
-            "infantProgram": "Yes",
+            "appliedDate": "2026-07-06",
             "auspice": "Public/School-based",
-            "cwelcc": "Yes",
+            "cadenceDays": 30,
+            "capacityScore": "",
+            "channel": "Direct online form",
+            "complianceScore": "",
+            "confirmationReceived": "",
+            "contact": "Vilma Liberata Leone · 416-392-5061; Children's Services Consultant Michelle Noel · 416-338-5953",
+            "costScore": "",
+            "crossStreets": "Ward: University-Rosedale, Davenport/Bay area",
+            "cwelcc": "Yes (City-operated TELCCS programs)",
             "elcaqiRating": "Toddler 4.54/5, Preschool 4.73/5",
             "estMonthlyFee": "",
-            "channel": "Direct online form",
-            "appliedDate": "2026-07-06",
-            "contact": "Vilma Liberata Leone · 416-392-5061; Children's Services Consultant Michelle Noel · 416-338-5953",
-            "confirmationReceived": "",
+            "infantProgram": "Unconfirmed — toddler (cap 10) and preschool (cap 16) programs listed; no infant room confirmed",
             "lastReconfirm": "",
-            "cadenceDays": "30",
-            "proximityScore": "",
-            "costScore": "",
-            "reputationScore": "",
-            "complianceScore": "",
-            "capacityScore": "",
+            "name": "Jesse Ketchum Early Learning & Child Care Centre",
+            "outreachDraft": "HOW TO START: City-run (Toronto ELCCS), operates within Jesse Ketchum Public School. Register via the City's TELCCS online waitlist registration (same system as your general TELCCS card). Backup: call 416-392-5061 (Vilma Liberata Leone).",
             "philosophyScore": "",
-            "outreachDraft": "HOW TO START: City-run (Toronto ELCCS), operates within Jesse Ketchum Public School. Register via the City's TELCCS online waitlist registration (same system as your general TELCCS card). Backup: call 416-392-5061 (Vilma Liberata Leone)."
+            "proximityScore": "",
+            "reputationScore": ""
           },
           "id": "telccs-jesseketchum",
           "log": [
@@ -1708,7 +1747,7 @@
               "ts": "2026-07-12"
             }
           ],
-          "status": "On Waitlist"
+          "status": "Applied – Awaiting Confirmation"
         }
       ],
       "description": "Licensed daycare shortlist & applications near Lansdowne & Dupont. Ranked with a weighted fit score — open any card to score it and see the breakdown. \"Applied – Awaiting Confirmation\" is its own stage because some centres never email to confirm you're on their waitlist — it auto-flags 30 days after you apply so you know to call and check.",
@@ -2052,25 +2091,6 @@
         "snippet": "OneHSN sales support asked qualifying questions then pointed the family to the City of Toronto's Early Learning & Child Care Services team rather than any specific centre or waitlist.",
         "subject": "Thanks for reaching out",
         "threadId": "19f32c9dac361465"
-      },
-      {
-        "candidates": [
-          {
-            "boardId": "childcare",
-            "cardId": "cc30-21",
-            "cardName": "The Learning Nest Academy",
-            "currentStatus": "To Apply",
-            "selected": false,
-            "suggestedStatus": "To Apply"
-          }
-        ],
-        "from": "michaela.cappadocia@childventures.ca",
-        "id": "es-p2",
-        "reason": "Sales outreach, not a status signal — no waitlist/offer language. Card stays To Apply; flagging so a human can decide whether to book the tour, not because a status change is implied.",
-        "receivedAt": "2026-07-07T14:52:54Z",
-        "snippet": "Marketing/nurture email inviting a private tour of The Learning Nest Academy — not a waitlist confirmation or application receipt.",
-        "subject": "Your Learning Nest Journey Starts Here",
-        "threadId": "19f3d115b45b5caf"
       },
       {
         "candidates": [
