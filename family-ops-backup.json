@@ -857,41 +857,6 @@
         {
           "createdAt": "2026-07-06",
           "fields": {
-            "address": "95 Regal Rd, Toronto",
-            "ageRange": "Kindergarten / School-age (4–10 yrs)",
-            "appliedDate": "",
-            "auspice": "Non-profit",
-            "cadenceDays": 90,
-            "capacityScore": "",
-            "channel": "Direct phone/email",
-            "complianceScore": "",
-            "confirmationReceived": "",
-            "contact": "Meghan Kearns · 416-653-7760",
-            "costScore": "",
-            "crossStreets": "Davenport / Dufferin",
-            "cwelcc": "Yes",
-            "elcaqiRating": "",
-            "estMonthlyFee": "",
-            "infantProgram": "No - toddler starts 18mo+",
-            "lastReconfirm": "",
-            "name": "Ascot Avenue Community Day Care",
-            "outreachDraft": "HOW TO START: Before/after-school only — no infant program. Call to join waitlist.",
-            "philosophyScore": "",
-            "proximityScore": "",
-            "reputationScore": ""
-          },
-          "id": "cc30-04",
-          "log": [
-            {
-              "text": "Added from 'closest 30 to 9 Foundry Ave' wave (0.86 km from home). Application method verified via City of Toronto Child Care Locator + centre website on 2026-07-06. Status Not Applied until a confirmation email arrives at thegudgeonfam@gmail.com.",
-              "ts": "2026-07-06"
-            }
-          ],
-          "status": "To Apply"
-        },
-        {
-          "createdAt": "2026-07-06",
-          "fields": {
             "name": "Macaulay – St. Paul VI",
             "address": "270 Laughton Ave, Toronto",
             "crossStreets": "St Clair Ave W / Weston Rd",
