@@ -1777,6 +1777,35 @@
             "philosophyScore": "",
             "outreachDraft": ""
           }
+        },
+        {
+          "id": "pjexn2ws",
+          "status": "On Waitlist",
+          "createdAt": "2026-07-14",
+          "fields": {
+            "name": "The Learning Nest - Junction",
+            "address": "51 Vine Ave.",
+            "crossStreets": "",
+            "ageRange": "",
+            "infantProgram": "Yes",
+            "auspice": "Non-profit",
+            "cwelcc": "No",
+            "elcaqiRating": "",
+            "estMonthlyFee": "2500",
+            "channel": "OneHSN",
+            "appliedDate": "",
+            "contact": "Michaela Cappadocia",
+            "confirmationReceived": "Yes",
+            "lastReconfirm": "2026-07-13",
+            "cadenceDays": "90",
+            "proximityScore": "",
+            "costScore": "",
+            "reputationScore": "",
+            "complianceScore": "",
+            "capacityScore": "",
+            "philosophyScore": "",
+            "outreachDraft": "416.207.8974"
+          }
         }
       ],
       "description": "Licensed daycare shortlist & applications near Lansdowne & Dupont. Ranked with a weighted fit score — open any card to score it and see the breakdown. \"Applied – Awaiting Confirmation\" is its own stage because some centres never email to confirm you're on their waitlist — it auto-flags 30 days after you apply so you know to call and check.",
