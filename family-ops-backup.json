@@ -390,28 +390,28 @@
         {
           "createdAt": "2026-07-05",
           "fields": {
+            "name": "TELCCS — Toronto Home Child Care & City Centres (direct online registration)",
             "address": "City-run program — Toronto Home Child Care providers are located across the city (map shows coverage everywhere except the central core); also covers TELCCS-operated centres you select during registration",
-            "ageRange": "Infancy – 12 years (home child care) / varies by TELCCS centre",
-            "appliedDate": "2026-07-06",
-            "auspice": "Public/City-operated",
-            "cadenceDays": 90,
-            "capacityScore": 7,
-            "channel": "Direct online form",
-            "complianceScore": 7,
-            "confirmationReceived": "",
-            "contact": "311 (City of Toronto) for TELCCS general inquiries",
-            "costScore": 8,
             "crossStreets": "City-wide program, not a single site",
-            "cwelcc": "Yes (City-operated TELCCS programs)",
+            "ageRange": "Infancy – 12 years (home child care) / varies by TELCCS centre",
+            "infantProgram": "Yes",
+            "auspice": "Non-profit",
+            "cwelcc": "Yes",
             "elcaqiRating": "Not applicable to home child care; TELCCS centres individually rated — check per centre",
             "estMonthlyFee": "Full-fee or subsidized, based on which registration path you use",
-            "infantProgram": "Yes",
+            "channel": "Direct online form",
+            "appliedDate": "2026-07-06",
+            "contact": "311 (City of Toronto) for TELCCS general inquiries",
+            "confirmationReceived": "",
             "lastReconfirm": "",
-            "name": "TELCCS — Toronto Home Child Care & City Centres (direct online registration)",
-            "outreachDraft": "TELCCS has a real online registration form rather than an email process — this is the fastest one to actually submit today:\n\n1. If you want to be considered for the Child Care Fee Subsidy as well as TELCCS waitlists, apply here: http://secure.toronto.ca/children/subsidy/\n2. If you'll pay full fee, register directly here: http://secure.toronto.ca/children/fullfee/\n\nEither form lets you select specific TELCCS centres and/or Toronto Home Child Care as your preference, for a start at 12 months (~March 2028). Fill in {{PARENT_NAMES}}, {{ADDRESS}}, {{PHONE}}, {{EMAIL}}, {{CHILD_DOB}} as prompted by the form.",
-            "philosophyScore": 6,
-            "proximityScore": 6,
-            "reputationScore": 6
+            "cadenceDays": "90",
+            "proximityScore": "6",
+            "costScore": "8",
+            "reputationScore": "6",
+            "complianceScore": "7",
+            "capacityScore": "7",
+            "philosophyScore": "6",
+            "outreachDraft": "TELCCS has a real online registration form rather than an email process — this is the fastest one to actually submit today:\n\n1. If you want to be considered for the Child Care Fee Subsidy as well as TELCCS waitlists, apply here: http://secure.toronto.ca/children/subsidy/\n2. If you'll pay full fee, register directly here: http://secure.toronto.ca/children/fullfee/\n\nEither form lets you select specific TELCCS centres and/or Toronto Home Child Care as your preference, for a start at 12 months (~March 2028). Fill in {{PARENT_NAMES}}, {{ADDRESS}}, {{PHONE}}, {{EMAIL}}, {{CHILD_DOB}} as prompted by the form."
           },
           "id": "2m2it0gs",
           "log": [
@@ -424,7 +424,7 @@
               "ts": "2026-07-12"
             }
           ],
-          "status": "Applied – Awaiting Confirmation"
+          "status": "On Waitlist"
         },
         {
           "createdAt": "2026-07-05",
