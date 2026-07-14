@@ -569,28 +569,28 @@
         {
           "createdAt": "2026-07-05",
           "fields": {
+            "name": "Brock Early Learning Centre",
             "address": "93 Margueretta St, Toronto",
-            "ageRange": "Toddler (1.5y) – School age",
-            "appliedDate": "",
-            "auspice": "Non-profit",
-            "cadenceDays": 90,
-            "capacityScore": 6,
-            "channel": "Unknown",
-            "complianceScore": "",
-            "confirmationReceived": "",
-            "contact": "",
-            "costScore": "",
             "crossStreets": "Little Portugal / near Bloor & Dufferin",
+            "ageRange": "Toddler (1.5y) – School age",
+            "infantProgram": "No - toddler starts 18mo+",
+            "auspice": "Non-profit",
             "cwelcc": "Unconfirmed",
             "elcaqiRating": "Unconfirmed — check centre page",
             "estMonthlyFee": "",
-            "infantProgram": "No - toddler starts 18mo+",
+            "channel": "Unknown",
+            "appliedDate": "",
+            "contact": "",
+            "confirmationReceived": "",
             "lastReconfirm": "",
-            "name": "Brock Early Learning Centre",
-            "outreachDraft": "Subject: Waitlist Inquiry - Toddler Care Starting ~2028\n\nHi Brock Early Learning Centre team,\n\nWe live near Lansdowne & Dupont and are expecting our first child in March 2027. We understand Brock has served the neighbourhood for over 40 years, which really stood out to us. We'd like our child to start at exactly 12 months, around March 2028 — we understand your toddler program is typically listed as starting at 18 months, so we wanted to ask directly whether you'd consider early admission at 12 months.\n\nAre you currently CWELCC-enrolled, and what does your waitlist look like right now?\n\nThank you,\n{{PARENT_NAMES}}\n{{EMAIL}} · {{PHONE}}",
-            "philosophyScore": 7,
-            "proximityScore": 6,
-            "reputationScore": 8
+            "cadenceDays": "90",
+            "proximityScore": "6",
+            "costScore": "",
+            "reputationScore": "8",
+            "complianceScore": "",
+            "capacityScore": "6",
+            "philosophyScore": "7",
+            "outreachDraft": "Subject: Waitlist Inquiry - Toddler Care Starting ~2028\n\nHi Brock Early Learning Centre team,\n\nWe live near Lansdowne & Dupont and are expecting our first child in March 2027. We understand Brock has served the neighbourhood for over 40 years, which really stood out to us. We'd like our child to start at exactly 12 months, around March 2028 — we understand your toddler program is typically listed as starting at 18 months, so we wanted to ask directly whether you'd consider early admission at 12 months.\n\nAre you currently CWELCC-enrolled, and what does your waitlist look like right now?\n\nThank you,\n{{PARENT_NAMES}}\n{{EMAIL}} · {{PHONE}}"
           },
           "id": "nkvlpged",
           "log": [
@@ -599,7 +599,7 @@
               "ts": "2026-07-05"
             }
           ],
-          "status": "To Apply"
+          "status": "Not Pursuing"
         },
         {
           "createdAt": "2026-07-05",
