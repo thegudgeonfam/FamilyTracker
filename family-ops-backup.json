@@ -1180,28 +1180,28 @@
         {
           "createdAt": "2026-07-06",
           "fields": {
+            "name": "Candy Factory Swallows Day Care (The)",
             "address": "1411 Bloor St W, Toronto",
-            "ageRange": "Infant / Toddler / Preschool",
-            "appliedDate": "",
-            "auspice": "Commercial",
-            "cadenceDays": 90,
-            "capacityScore": "",
-            "channel": "Direct online form",
-            "complianceScore": "",
-            "confirmationReceived": "",
-            "contact": "416-537-3682 · info@candyfactorydaycare.com",
-            "costScore": "",
             "crossStreets": "Bloor St W / Sterling",
+            "ageRange": "Infant / Toddler / Preschool",
+            "infantProgram": "Yes",
+            "auspice": "Commercial",
             "cwelcc": "Yes",
             "elcaqiRating": "",
             "estMonthlyFee": "",
-            "infantProgram": "Yes",
-            "lastReconfirm": "",
-            "name": "Candy Factory Swallows Day Care (The)",
-            "outreachDraft": "HOW TO START: Has infant room. Waitlist application form on candyfactorydaycare.com; or email/phone. (Note: their site currently carries injected spam links — use the form/contact info only.)",
-            "philosophyScore": "",
+            "channel": "Direct online form",
+            "appliedDate": "",
+            "contact": "416-537-3682 · info@candyfactorydaycare.com",
+            "confirmationReceived": "",
+            "lastReconfirm": "2026-07-06",
+            "cadenceDays": "90",
             "proximityScore": "",
-            "reputationScore": ""
+            "costScore": "",
+            "reputationScore": "",
+            "complianceScore": "",
+            "capacityScore": "",
+            "philosophyScore": "",
+            "outreachDraft": "HOW TO START: Has infant room. Waitlist application form on candyfactorydaycare.com; or email/phone. (Note: their site currently carries injected spam links — use the form/contact info only.)"
           },
           "id": "cc30-16",
           "log": [
@@ -1210,7 +1210,7 @@
               "ts": "2026-07-06"
             }
           ],
-          "status": "To Apply"
+          "status": "Applied – Awaiting Confirmation"
         },
         {
           "createdAt": "2026-07-06",
