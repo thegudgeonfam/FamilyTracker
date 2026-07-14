@@ -355,28 +355,28 @@
         {
           "createdAt": "2026-07-05",
           "fields": {
+            "name": "YMCA Child Development Centre",
             "address": "Toronto Central YMCA (exact address to confirm — downtown core)",
-            "ageRange": "0 – 12 years (true infant program)",
-            "appliedDate": "",
-            "auspice": "Non-profit",
-            "cadenceDays": 90,
-            "capacityScore": 6,
-            "channel": "Direct online form (initial inquiry); email if waitlisting for a full program",
-            "complianceScore": 5,
-            "confirmationReceived": "",
-            "contact": "",
-            "costScore": 6,
             "crossStreets": "Downtown core, further than other candidates",
+            "ageRange": "0 – 12 years (true infant program)",
+            "infantProgram": "Yes",
+            "auspice": "Non-profit",
             "cwelcc": "Unconfirmed",
             "elcaqiRating": "Unconfirmed",
             "estMonthlyFee": "",
-            "infantProgram": "Yes",
+            "channel": "OneHSN",
+            "appliedDate": "",
+            "contact": "",
+            "confirmationReceived": "",
             "lastReconfirm": "",
-            "name": "YMCA Child Development Centre",
-            "outreachDraft": "YMCA GTA has an online Child Care Inquiry Form for initial registration (find it via ymcagta.org/child-care) — start there. Their own FAQ says that if the specific program is already full, joining that waitlist requires emailing the centre directly, so the form may bounce you to email as a second step.\n\nBackup email:\n\nSubject: Infant Waitlist Application - Starting ~March 2028\n\nHi YMCA Child Development Centre team,\n\nWe live near Lansdowne & Dupont and are expecting our first child in March 2027. We understand the YMCA runs a true infant program at this location. We'd like to apply now for care starting at exactly 12 months, around March 2028.\n\nCould you confirm CWELCC status, current infant waitlist length, and how to register interest?\n\nThank you,\n{{PARENT_NAMES}}\n{{EMAIL}} · {{PHONE}}",
-            "philosophyScore": 6,
-            "proximityScore": 2,
-            "reputationScore": 7
+            "cadenceDays": "90",
+            "proximityScore": "2",
+            "costScore": "6",
+            "reputationScore": "7",
+            "complianceScore": "5",
+            "capacityScore": "6",
+            "philosophyScore": "6",
+            "outreachDraft": "YMCA GTA has an online Child Care Inquiry Form for initial registration (find it via ymcagta.org/child-care) — start there. Their own FAQ says that if the specific program is already full, joining that waitlist requires emailing the centre directly, so the form may bounce you to email as a second step.\n\nBackup email:\n\nSubject: Infant Waitlist Application - Starting ~March 2028\n\nHi YMCA Child Development Centre team,\n\nWe live near Lansdowne & Dupont and are expecting our first child in March 2027. We understand the YMCA runs a true infant program at this location. We'd like to apply now for care starting at exactly 12 months, around March 2028.\n\nCould you confirm CWELCC status, current infant waitlist length, and how to register interest?\n\nThank you,\n{{PARENT_NAMES}}\n{{EMAIL}} · {{PHONE}}"
           },
           "id": "r7ro7hkm",
           "log": [
@@ -385,7 +385,7 @@
               "ts": "2026-07-05"
             }
           ],
-          "status": "To Apply"
+          "status": "Applied – Awaiting Confirmation"
         },
         {
           "createdAt": "2026-07-05",
