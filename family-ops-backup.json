@@ -145,28 +145,28 @@
         {
           "createdAt": "2026-07-05",
           "fields": {
+            "name": "Kids & Company — Bloor Christie",
             "address": "703 Bloor St W, Toronto",
-            "ageRange": "0 – 5 years (true infant program)",
-            "appliedDate": "",
-            "auspice": "Commercial",
-            "cadenceDays": 90,
-            "capacityScore": 8,
-            "channel": "Direct online form",
-            "complianceScore": 4,
-            "confirmationReceived": "",
-            "contact": "Samantha Del Rio-Cuevas, 647-345-5702 ext 0",
-            "costScore": 4,
             "crossStreets": "Bloor St W / Christie St",
+            "ageRange": "0 – 5 years (true infant program)",
+            "infantProgram": "Yes",
+            "auspice": "Commercial",
             "cwelcc": "Yes",
             "elcaqiRating": "Not assessed (no City service agreement — commercial, no fee subsidy at this location)",
             "estMonthlyFee": "Likely premium vs. non-profit centres — confirm",
-            "infantProgram": "Yes",
+            "channel": "Direct online form",
+            "appliedDate": "",
+            "contact": "Samantha Del Rio-Cuevas, 647-345-5702 ext 0",
+            "confirmationReceived": "",
             "lastReconfirm": "",
-            "name": "Kids & Company — Bloor Christie",
-            "outreachDraft": "Kids & Company has a real registration form: https://kidsandcompany.com/register/ — select the Bloor Christie location. They also host monthly open houses (first Saturday, 10am-12pm) if you want to tour before registering.\n\nBackup email if needed:\n\nSubject: Infant Enrollment Inquiry - Starting ~March 2028\n\nHi Kids & Company Bloor Christie team,\n\nWe live near Lansdowne & Dupont and are expecting our first child in March 2027. We understand you run a true infant program (0-5 years) and are CWELCC-enrolled. We'd like our child to start at exactly 12 months, around March 2028.\n\nCould you tell us your current infant waitlist length, what CWELCC-adjusted fees look like at this location, and what's needed to register interest now?\n\nThank you,\n{{PARENT_NAMES}}\n{{EMAIL}} · {{PHONE}}",
-            "philosophyScore": 5,
-            "proximityScore": 6,
-            "reputationScore": 6
+            "cadenceDays": "90",
+            "proximityScore": "6",
+            "costScore": "4",
+            "reputationScore": "6",
+            "complianceScore": "4",
+            "capacityScore": "8",
+            "philosophyScore": "5",
+            "outreachDraft": "Kids & Company has a real registration form: https://kidsandcompany.com/register/ — select the Bloor Christie location. They also host monthly open houses (first Saturday, 10am-12pm) if you want to tour before registering.\n\nBackup email if needed:\n\nSubject: Infant Enrollment Inquiry - Starting ~March 2028\n\nHi Kids & Company Bloor Christie team,\n\nWe live near Lansdowne & Dupont and are expecting our first child in March 2027. We understand you run a true infant program (0-5 years) and are CWELCC-enrolled. We'd like our child to start at exactly 12 months, around March 2028.\n\nCould you tell us your current infant waitlist length, what CWELCC-adjusted fees look like at this location, and what's needed to register interest now?\n\nThank you,\n{{PARENT_NAMES}}\n{{EMAIL}} · {{PHONE}}"
           },
           "id": "8p7lh8sp",
           "log": [
@@ -175,7 +175,7 @@
               "ts": "2026-07-05"
             }
           ],
-          "status": "To Apply"
+          "status": "Applied – Awaiting Confirmation"
         },
         {
           "createdAt": "2026-07-05",
@@ -2079,13 +2079,13 @@
         "threadId": "19f38f31c596a471"
       },
       {
-        "at": "2026-07-12T20:09:33.789Z",
         "action": "dismissed",
+        "at": "2026-07-12T20:09:33.789Z",
+        "cardName": "(dismissed — no change)",
+        "change": "",
         "from": "morgan@onehsn.ca",
         "subject": "Thanks for reaching out",
-        "threadId": "19f32c9dac361465",
-        "cardName": "(dismissed — no change)",
-        "change": ""
+        "threadId": "19f32c9dac361465"
       }
     ],
     "lastProcessedEpoch": 1752071210,
