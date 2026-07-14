@@ -1736,6 +1736,35 @@
             "philosophyScore": "",
             "outreachDraft": "416.207.8974"
           }
+        },
+        {
+          "id": "qftuiw08",
+          "status": "Applied – Awaiting Confirmation",
+          "createdAt": "2026-07-14",
+          "fields": {
+            "name": "Bloorcourt Village Early Learning Centre",
+            "address": "823 Dovercourt Road Toronto, Ontario M6H 2X4 ",
+            "crossStreets": "",
+            "ageRange": "",
+            "infantProgram": "Yes",
+            "auspice": "Non-profit",
+            "cwelcc": "Yes",
+            "elcaqiRating": "",
+            "estMonthlyFee": "",
+            "channel": "OneHSN",
+            "appliedDate": "",
+            "contact": "",
+            "confirmationReceived": "",
+            "lastReconfirm": "2026-07-06",
+            "cadenceDays": "90",
+            "proximityScore": "",
+            "costScore": "",
+            "reputationScore": "",
+            "complianceScore": "",
+            "capacityScore": "",
+            "philosophyScore": "",
+            "outreachDraft": "Tel.416-536-0574"
+          }
         }
       ],
       "description": "Licensed daycare shortlist & applications near Lansdowne & Dupont. Ranked with a weighted fit score — open any card to score it and see the breakdown. \"Applied – Awaiting Confirmation\" is its own stage because some centres never email to confirm you're on their waitlist — it auto-flags 30 days after you apply so you know to call and check.",
