@@ -1748,6 +1748,35 @@
             }
           ],
           "status": "Applied – Awaiting Confirmation"
+        },
+        {
+          "id": "8kkr3vlc",
+          "status": "Applied – Awaiting Confirmation",
+          "createdAt": "2026-07-14",
+          "fields": {
+            "name": "Macaulay Centres for Children - Jane Street Child Care Centre",
+            "address": "610 Jane Street",
+            "crossStreets": "Jane St. & Dundas St. W.",
+            "ageRange": "",
+            "infantProgram": "Yes",
+            "auspice": "Non-profit",
+            "cwelcc": "Yes",
+            "elcaqiRating": "",
+            "estMonthlyFee": "",
+            "channel": "OneHSN",
+            "appliedDate": "2026-07-14",
+            "contact": "",
+            "confirmationReceived": "",
+            "lastReconfirm": "",
+            "cadenceDays": "90",
+            "proximityScore": "",
+            "costScore": "",
+            "reputationScore": "",
+            "complianceScore": "",
+            "capacityScore": "",
+            "philosophyScore": "",
+            "outreachDraft": ""
+          }
         }
       ],
       "description": "Licensed daycare shortlist & applications near Lansdowne & Dupont. Ranked with a weighted fit score — open any card to score it and see the breakdown. \"Applied – Awaiting Confirmation\" is its own stage because some centres never email to confirm you're on their waitlist — it auto-flags 30 days after you apply so you know to call and check.",
