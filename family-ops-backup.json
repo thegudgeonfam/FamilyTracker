@@ -1363,41 +1363,6 @@
         {
           "createdAt": "2026-07-06",
           "fields": {
-            "address": "51 Vine Ave, Toronto",
-            "ageRange": "Infant / Toddler / Preschool",
-            "appliedDate": "",
-            "auspice": "Non-profit",
-            "cadenceDays": 90,
-            "capacityScore": "",
-            "channel": "Direct online form",
-            "complianceScore": "",
-            "confirmationReceived": "",
-            "contact": "905-332-7539 · childventures.ca",
-            "costScore": "",
-            "crossStreets": "Vine / Dundas W (Junction)",
-            "cwelcc": "No",
-            "elcaqiRating": "",
-            "estMonthlyFee": "",
-            "infantProgram": "Yes",
-            "lastReconfirm": "",
-            "name": "The Learning Nest Academy",
-            "outreachDraft": "HOW TO START: FLAG: locator shows NOT CWELCC-enrolled — confirm fees before applying. Online inquiry/tour via childventures.ca. Phone is head office.",
-            "philosophyScore": "",
-            "proximityScore": "",
-            "reputationScore": ""
-          },
-          "id": "cc30-21",
-          "log": [
-            {
-              "text": "Added from 'closest 30 to 9 Foundry Ave' wave (1.51 km from home). Application method verified via City of Toronto Child Care Locator + centre website on 2026-07-06. Status Not Applied until a confirmation email arrives at thegudgeonfam@gmail.com.",
-              "ts": "2026-07-06"
-            }
-          ],
-          "status": "To Apply"
-        },
-        {
-          "createdAt": "2026-07-06",
-          "fields": {
             "address": "99 Mountview Ave, Toronto",
             "ageRange": "Toddler / Preschool / Kindergarten / School-age",
             "appliedDate": "",
