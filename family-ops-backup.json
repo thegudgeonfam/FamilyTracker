@@ -499,28 +499,28 @@
         {
           "createdAt": "2026-07-05",
           "fields": {
+            "name": "Macaulay — Dovercourt Child Care Centre",
             "address": "228 Bartlett Ave, Toronto",
-            "ageRange": "Toddler (1.5y) – School age",
-            "appliedDate": "",
-            "auspice": "Non-profit",
-            "cadenceDays": 90,
-            "capacityScore": 6,
-            "channel": "Unknown",
-            "complianceScore": 9,
-            "confirmationReceived": "",
-            "contact": "Jessica Mui, 416-516-8367",
-            "costScore": 8,
             "crossStreets": "Dupont St / Dufferin St",
+            "ageRange": "Toddler (1.5y) – School age",
+            "infantProgram": "No - toddler starts 18mo+",
+            "auspice": "Non-profit",
             "cwelcc": "Yes",
             "elcaqiRating": "Toddler 5.00/5, Preschool 4.80/5",
             "estMonthlyFee": "",
-            "infantProgram": "No - toddler starts 18mo+",
+            "channel": "Unknown",
+            "appliedDate": "",
+            "contact": "Jessica Mui, 416-516-8367",
+            "confirmationReceived": "",
             "lastReconfirm": "",
-            "name": "Macaulay — Dovercourt Child Care Centre",
-            "outreachDraft": "Subject: Waitlist Inquiry - Toddler Care Starting ~2028\n\nHi Macaulay-Dovercourt team,\n\nWe live right near Lansdowne & Dupont and are expecting our first child in March 2027. We saw you're CWELCC-enrolled and located right on Dupont — very convenient for us. We'd like our child to start at exactly 12 months, around March 2028. We understand your toddler program is typically listed as starting at 18 months — would you be able to consider early admission at 12 months, or is that a hard cutoff?\n\nCould you also share your current waitlist length and what you need from us to register now?\n\nThank you,\n{{PARENT_NAMES}}\n{{EMAIL}} · {{PHONE}}",
-            "philosophyScore": 8,
-            "proximityScore": 9,
-            "reputationScore": 8
+            "cadenceDays": "90",
+            "proximityScore": "9",
+            "costScore": "8",
+            "reputationScore": "8",
+            "complianceScore": "9",
+            "capacityScore": "6",
+            "philosophyScore": "8",
+            "outreachDraft": "Subject: Waitlist Inquiry - Toddler Care Starting ~2028\n\nHi Macaulay-Dovercourt team,\n\nWe live right near Lansdowne & Dupont and are expecting our first child in March 2027. We saw you're CWELCC-enrolled and located right on Dupont — very convenient for us. We'd like our child to start at exactly 12 months, around March 2028. We understand your toddler program is typically listed as starting at 18 months — would you be able to consider early admission at 12 months, or is that a hard cutoff?\n\nCould you also share your current waitlist length and what you need from us to register now?\n\nThank you,\n{{PARENT_NAMES}}\n{{EMAIL}} · {{PHONE}}"
           },
           "id": "m7rt0k8n",
           "log": [
@@ -529,7 +529,7 @@
               "ts": "2026-07-05"
             }
           ],
-          "status": "To Apply"
+          "status": "Not Pursuing"
         },
         {
           "createdAt": "2026-07-05",
