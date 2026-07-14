@@ -1001,28 +1001,28 @@
         {
           "createdAt": "2026-07-06",
           "fields": {
+            "name": "Dover Gardens Nursery School",
             "address": "228 Bartlett Ave, Toronto",
-            "ageRange": "Preschool",
-            "appliedDate": "",
-            "auspice": "Non-profit",
-            "cadenceDays": 90,
-            "capacityScore": "",
-            "channel": "Direct phone/email",
-            "complianceScore": "",
-            "confirmationReceived": "",
-            "contact": "416-533-7337",
-            "costScore": "",
             "crossStreets": "Bartlett / Hallam",
+            "ageRange": "Preschool",
+            "infantProgram": "No - toddler starts 18mo+",
+            "auspice": "Non-profit",
             "cwelcc": "Yes",
             "elcaqiRating": "",
             "estMonthlyFee": "",
-            "infantProgram": "No - toddler starts 18mo+",
+            "channel": "Direct phone/email",
+            "appliedDate": "",
+            "contact": "416-533-7337",
+            "confirmationReceived": "",
             "lastReconfirm": "",
-            "name": "Dover Gardens Nursery School",
-            "outreachDraft": "HOW TO START: Small non-profit nursery school (same building as Macaulay–Dovercourt). Preschool only. Call/email to join waitlist.",
-            "philosophyScore": "",
+            "cadenceDays": "90",
             "proximityScore": "",
-            "reputationScore": ""
+            "costScore": "",
+            "reputationScore": "",
+            "complianceScore": "",
+            "capacityScore": "",
+            "philosophyScore": "",
+            "outreachDraft": "HOW TO START: Small non-profit nursery school (same building as Macaulay–Dovercourt). Preschool only. Call/email to join waitlist."
           },
           "id": "cc30-09",
           "log": [
@@ -1031,7 +1031,7 @@
               "ts": "2026-07-06"
             }
           ],
-          "status": "To Apply"
+          "status": "Not Pursuing"
         },
         {
           "createdAt": "2026-07-06",
