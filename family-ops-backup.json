@@ -285,28 +285,28 @@
         {
           "createdAt": "2026-07-05",
           "fields": {
+            "name": "Parkdale Early Learning Centre (CDI)",
             "address": "119 Close Ave, Toronto",
-            "ageRange": "0 – 4 years (true infant program)",
-            "appliedDate": "",
-            "auspice": "Non-profit",
-            "cadenceDays": 90,
-            "capacityScore": 7,
-            "channel": "Direct online form",
-            "complianceScore": 6,
-            "confirmationReceived": "",
-            "contact": "Judith Malcolm Barnes, 416-535-6116",
-            "costScore": 7,
             "crossStreets": "Parkdale, near King St W / Dufferin St",
+            "ageRange": "0 – 4 years (true infant program)",
+            "infantProgram": "Yes",
+            "auspice": "Non-profit",
             "cwelcc": "Yes",
             "elcaqiRating": "Unconfirmed — check centre ELCAQI page",
             "estMonthlyFee": "",
-            "infantProgram": "Yes",
+            "channel": "Direct online form",
+            "appliedDate": "",
+            "contact": "Judith Malcolm Barnes, 416-535-6116",
+            "confirmationReceived": "",
             "lastReconfirm": "",
-            "name": "Parkdale Early Learning Centre (CDI)",
-            "outreachDraft": "Subject: Infant Waitlist Application - Starting ~March 2028\n\nHi Parkdale Early Learning Centre team,\n\nWe live near Lansdowne & Dupont and are expecting our first child in March 2027. We understand you're a non-profit, CWELCC-enrolled centre with a true infant program (0-4 years), and that you have an online waitlist application form. We'd like to apply now for care starting at exactly 12 months, around March 2028.\n\nCould you confirm current infant waitlist length and anything else needed beyond the online form?\n\nThank you,\n{{PARENT_NAMES}}\n{{EMAIL}} · {{PHONE}}",
-            "philosophyScore": 6,
-            "proximityScore": 5,
-            "reputationScore": 6
+            "cadenceDays": "90",
+            "proximityScore": "5",
+            "costScore": "7",
+            "reputationScore": "6",
+            "complianceScore": "6",
+            "capacityScore": "7",
+            "philosophyScore": "6",
+            "outreachDraft": "https://childdevelop.ca/early-years-child-care-services/licensed-child-care-centres/early-learning-centres-locations/\n\n\nSubject: Infant Waitlist Application - Starting ~March 2028\n\nHi Parkdale Early Learning Centre team,\n\nWe live near Lansdowne & Dupont and are expecting our first child in March 2027. We understand you're a non-profit, CWELCC-enrolled centre with a true infant program (0-4 years), and that you have an online waitlist application form. We'd like to apply now for care starting at exactly 12 months, around March 2028.\n\nCould you confirm current infant waitlist length and anything else needed beyond the online form?\n\nThank you,\n{{PARENT_NAMES}}\n{{EMAIL}} · {{PHONE}}"
           },
           "id": "tf53ghfa",
           "log": [
@@ -315,7 +315,7 @@
               "ts": "2026-07-05"
             }
           ],
-          "status": "To Apply"
+          "status": "Applied – Awaiting Confirmation"
         },
         {
           "createdAt": "2026-07-05",
