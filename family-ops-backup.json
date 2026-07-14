@@ -643,41 +643,6 @@
         {
           "createdAt": "2026-07-05",
           "fields": {
-            "address": "823 Dovercourt Rd, Toronto",
-            "ageRange": "Unconfirmed",
-            "appliedDate": "",
-            "auspice": "Unknown",
-            "cadenceDays": "90",
-            "capacityScore": "",
-            "channel": "Unknown",
-            "complianceScore": "",
-            "confirmationReceived": "",
-            "contact": "",
-            "costScore": "",
-            "crossStreets": "Dovercourt Rd, near Bloorcourt",
-            "cwelcc": "Unconfirmed",
-            "elcaqiRating": "Unconfirmed",
-            "estMonthlyFee": "",
-            "infantProgram": "Unconfirmed",
-            "lastReconfirm": "",
-            "name": "Bloorcourt Village Early Learning Centre",
-            "outreachDraft": "Subject: Waitlist Inquiry - Infant/Toddler Care Starting ~2028\n\nHi Bloorcourt Village Early Learning Centre team,\n\nWe live near Lansdowne & Dupont and are expecting our first child in March 2027. Could you tell us the age range you serve, whether you're CWELCC-enrolled, and your current waitlist situation for an infant or toddler spot around 2028?\n\nThank you,\n{{PARENT_NAMES}}\n{{EMAIL}} · {{PHONE}}",
-            "philosophyScore": "",
-            "proximityScore": "",
-            "reputationScore": ""
-          },
-          "id": "s55meq8z",
-          "log": [
-            {
-              "text": "Address confirmed via directory listing; age range and CWELCC status still need a direct check of the centre's City profile page or a call.",
-              "ts": "2026-07-05"
-            }
-          ],
-          "status": "Applied – Awaiting Confirmation"
-        },
-        {
-          "createdAt": "2026-07-05",
-          "fields": {
             "address": "375 Dovercourt Rd, Toronto",
             "ageRange": "18 months – Grade 6",
             "appliedDate": "",
