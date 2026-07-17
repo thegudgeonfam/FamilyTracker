@@ -1464,28 +1464,28 @@
         {
           "createdAt": "2026-07-06",
           "fields": {
+            "name": "McMurrich Co-Operative Playschool",
             "address": "115 Winona Dr, Toronto",
-            "ageRange": "Preschool",
-            "appliedDate": "",
-            "auspice": "Non-profit",
-            "cadenceDays": 90,
-            "capacityScore": "",
-            "channel": "Direct phone/email",
-            "complianceScore": "",
-            "confirmationReceived": "",
-            "contact": "416-738-9456",
-            "costScore": "",
             "crossStreets": "Winona / St Clair W",
+            "ageRange": "Preschool",
+            "infantProgram": "No - toddler starts 18mo+",
+            "auspice": "Non-profit",
             "cwelcc": "Yes",
             "elcaqiRating": "",
             "estMonthlyFee": "",
-            "infantProgram": "No - toddler starts 18mo+",
+            "channel": "Direct phone/email",
+            "appliedDate": "",
+            "contact": "416-738-9456",
+            "confirmationReceived": "",
             "lastReconfirm": "",
-            "name": "McMurrich Co-Operative Playschool",
-            "outreachDraft": "HOW TO START: Parent co-operative, preschool only. Call to join waitlist.",
-            "philosophyScore": "",
+            "cadenceDays": "90",
             "proximityScore": "",
-            "reputationScore": ""
+            "costScore": "",
+            "reputationScore": "",
+            "complianceScore": "",
+            "capacityScore": "",
+            "philosophyScore": "",
+            "outreachDraft": "HOW TO START: Parent co-operative, preschool only. Call to join waitlist."
           },
           "id": "cc30-29",
           "log": [
@@ -1494,7 +1494,7 @@
               "ts": "2026-07-06"
             }
           ],
-          "status": "To Apply"
+          "status": "Not Pursuing"
         },
         {
           "createdAt": "2026-07-06",
