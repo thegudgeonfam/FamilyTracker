@@ -1875,6 +1875,35 @@
             "philosophyScore": "",
             "outreachDraft": "Contact Information\nCentre Supervisor: Sabrina Sowkey\n\nEmail: yorkhumber@lefca.org\n\nCentre Phone: 416-241-5534\n\nSupervisor Cell: 416-843-5124\n"
           }
+        },
+        {
+          "id": "85axvjf6",
+          "status": "Applied – Awaiting Confirmation",
+          "createdAt": "2026-07-17",
+          "fields": {
+            "name": "Silverthorn Early Learning Earth Centre",
+            "address": "2700 Eglinton Ave W, Toronto, ON M6M 1V1",
+            "crossStreets": "",
+            "ageRange": "",
+            "infantProgram": "Yes",
+            "auspice": "Non-profit",
+            "cwelcc": "Yes",
+            "elcaqiRating": "",
+            "estMonthlyFee": "",
+            "channel": "OneHSN",
+            "appliedDate": "",
+            "contact": "",
+            "confirmationReceived": "",
+            "lastReconfirm": "",
+            "cadenceDays": "90",
+            "proximityScore": "",
+            "costScore": "",
+            "reputationScore": "",
+            "complianceScore": "",
+            "capacityScore": "",
+            "philosophyScore": "",
+            "outreachDraft": "Contact Information\nCentre Supervisor: Daisy Hoang\n\nEmail: silverthorn@lefca.org\n\nCentre Phone: 416-653-9702\n\nSupervisor Cell: 416-566-5747"
+          }
         }
       ],
       "description": "Licensed daycare shortlist & applications near Lansdowne & Dupont. Ranked with a weighted fit score — open any card to score it and see the breakdown. \"Applied – Awaiting Confirmation\" is its own stage because some centres never email to confirm you're on their waitlist — it auto-flags 30 days after you apply so you know to call and check.",
