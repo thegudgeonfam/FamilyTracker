@@ -1289,28 +1289,28 @@
         {
           "createdAt": "2026-07-06",
           "fields": {
+            "name": "Keelmount Daycare Centre",
             "address": "99 Mountview Ave, Toronto",
-            "ageRange": "Toddler / Preschool / Kindergarten / School-age",
-            "appliedDate": "",
-            "auspice": "Non-profit",
-            "cadenceDays": 90,
-            "capacityScore": "",
-            "channel": "Direct phone/email",
-            "complianceScore": "",
-            "confirmationReceived": "",
-            "contact": "416-763-6824",
-            "costScore": "",
             "crossStreets": "Keele / Annette (High Park N)",
+            "ageRange": "Toddler / Preschool / Kindergarten / School-age",
+            "infantProgram": "No - toddler starts 18mo+",
+            "auspice": "Non-profit",
             "cwelcc": "Yes",
             "elcaqiRating": "",
             "estMonthlyFee": "",
-            "infantProgram": "No - toddler starts 18mo+",
+            "channel": "Direct phone/email",
+            "appliedDate": "",
+            "contact": "416-763-6824",
+            "confirmationReceived": "",
             "lastReconfirm": "",
-            "name": "Keelmount Daycare Centre",
-            "outreachDraft": "HOW TO START: Toddler up (no infant room). Call to join waitlist.",
-            "philosophyScore": "",
+            "cadenceDays": "90",
             "proximityScore": "",
-            "reputationScore": ""
+            "costScore": "",
+            "reputationScore": "",
+            "complianceScore": "",
+            "capacityScore": "",
+            "philosophyScore": "",
+            "outreachDraft": "HOW TO START: Toddler up (no infant room). Call to join waitlist."
           },
           "id": "cc30-23",
           "log": [
@@ -1319,7 +1319,7 @@
               "ts": "2026-07-06"
             }
           ],
-          "status": "To Apply"
+          "status": "Not Pursuing"
         },
         {
           "createdAt": "2026-07-06",
