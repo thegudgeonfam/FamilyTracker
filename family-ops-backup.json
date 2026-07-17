@@ -643,28 +643,28 @@
         {
           "createdAt": "2026-07-05",
           "fields": {
+            "name": "West End Parents' Daycare",
             "address": "375 Dovercourt Rd, Toronto",
-            "ageRange": "18 months – Grade 6",
-            "appliedDate": "",
-            "auspice": "Non-profit (parent co-op)",
-            "cadenceDays": 90,
-            "capacityScore": 5,
-            "channel": "Unknown",
-            "complianceScore": "",
-            "confirmationReceived": "",
-            "contact": "",
-            "costScore": "",
             "crossStreets": "Dovercourt Rd, south of Bloor",
+            "ageRange": "18 months – Grade 6",
+            "infantProgram": "No - toddler starts 18mo+",
+            "auspice": "Non-profit",
             "cwelcc": "Unconfirmed",
             "elcaqiRating": "Unconfirmed",
             "estMonthlyFee": "",
-            "infantProgram": "No - toddler starts 18mo+",
+            "channel": "Unknown",
+            "appliedDate": "",
+            "contact": "",
+            "confirmationReceived": "",
             "lastReconfirm": "",
-            "name": "West End Parents' Daycare",
-            "outreachDraft": "Subject: Waitlist Inquiry - Toddler Care Starting ~2028\n\nHi West End Parents' Daycare team,\n\nWe live near Lansdowne & Dupont and are expecting our first child in March 2027. We love that you're a long-running parent co-op and would like to learn more about registering interest for a toddler spot — ideally starting at exactly 12 months (around March 2028), though we understand your program is typically listed as starting at 18 months, so we wanted to ask directly whether early admission is ever possible. Also keen to hear about CWELCC status and any co-op participation expectations.\n\nThank you,\n{{PARENT_NAMES}}\n{{EMAIL}} · {{PHONE}}",
-            "philosophyScore": 6,
-            "proximityScore": 5,
-            "reputationScore": 6
+            "cadenceDays": "90",
+            "proximityScore": "5",
+            "costScore": "",
+            "reputationScore": "6",
+            "complianceScore": "",
+            "capacityScore": "5",
+            "philosophyScore": "6",
+            "outreachDraft": "Subject: Waitlist Inquiry - Toddler Care Starting ~2028\n\nHi West End Parents' Daycare team,\n\nWe live near Lansdowne & Dupont and are expecting our first child in March 2027. We love that you're a long-running parent co-op and would like to learn more about registering interest for a toddler spot — ideally starting at exactly 12 months (around March 2028), though we understand your program is typically listed as starting at 18 months, so we wanted to ask directly whether early admission is ever possible. Also keen to hear about CWELCC status and any co-op participation expectations.\n\nThank you,\n{{PARENT_NAMES}}\n{{EMAIL}} · {{PHONE}}"
           },
           "id": "4ebxccc0",
           "log": [
@@ -673,7 +673,7 @@
               "ts": "2026-07-05"
             }
           ],
-          "status": "To Apply"
+          "status": "Not Pursuing"
         },
         {
           "createdAt": "2026-07-05",
