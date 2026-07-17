@@ -534,28 +534,28 @@
         {
           "createdAt": "2026-07-05",
           "fields": {
+            "name": "Perth Avenue Early Learning Centre (LEF)",
             "address": "14 Ruskin Ave, Toronto",
-            "ageRange": "Toddler (1.5y) – School age",
-            "appliedDate": "",
-            "auspice": "Non-profit",
-            "cadenceDays": 90,
-            "capacityScore": 6,
-            "channel": "Unknown",
-            "complianceScore": 6,
-            "confirmationReceived": "",
-            "contact": "",
-            "costScore": 7,
             "crossStreets": "Symington Ave / Bloor St W",
+            "ageRange": "Toddler (1.5y) – School age",
+            "infantProgram": "No - toddler starts 18mo+",
+            "auspice": "Non-profit",
             "cwelcc": "Yes",
             "elcaqiRating": "Unconfirmed — check centre page",
             "estMonthlyFee": "",
-            "infantProgram": "No - toddler starts 18mo+",
+            "channel": "Unknown",
+            "appliedDate": "",
+            "contact": "",
+            "confirmationReceived": "",
             "lastReconfirm": "",
-            "name": "Perth Avenue Early Learning Centre (LEF)",
-            "outreachDraft": "Subject: Waitlist Inquiry - Toddler Care Starting ~2028\n\nHi Perth Avenue Early Learning Centre team,\n\nWe live near Lansdowne & Dupont and are expecting our first child in March 2027, hoping for our child to start at exactly 12 months, around March 2028. We understand your toddler program is typically listed as starting at 18 months, and part of the Learning Enrichment Foundation and CWELCC-enrolled — would you consider early admission at 12 months?\n\nCould you tell us about your current waitlist length and what's needed to register interest now?\n\nThank you,\n{{PARENT_NAMES}}\n{{EMAIL}} · {{PHONE}}",
-            "philosophyScore": 7,
-            "proximityScore": 7,
-            "reputationScore": 6
+            "cadenceDays": "90",
+            "proximityScore": "7",
+            "costScore": "7",
+            "reputationScore": "6",
+            "complianceScore": "6",
+            "capacityScore": "6",
+            "philosophyScore": "7",
+            "outreachDraft": "Subject: Waitlist Inquiry - Toddler Care Starting ~2028\n\nHi Perth Avenue Early Learning Centre team,\n\nWe live near Lansdowne & Dupont and are expecting our first child in March 2027, hoping for our child to start at exactly 12 months, around March 2028. We understand your toddler program is typically listed as starting at 18 months, and part of the Learning Enrichment Foundation and CWELCC-enrolled — would you consider early admission at 12 months?\n\nCould you tell us about your current waitlist length and what's needed to register interest now?\n\nThank you,\n{{PARENT_NAMES}}\n{{EMAIL}} · {{PHONE}}"
           },
           "id": "da8o8oqr",
           "log": [
@@ -564,7 +564,7 @@
               "ts": "2026-07-05"
             }
           ],
-          "status": "To Apply"
+          "status": "Not Pursuing"
         },
         {
           "createdAt": "2026-07-05",
