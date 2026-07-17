@@ -1759,6 +1759,35 @@
             "philosophyScore": "",
             "outreachDraft": ""
           }
+        },
+        {
+          "id": "tgansy6x",
+          "status": "Applied – Awaiting Confirmation",
+          "createdAt": "2026-07-17",
+          "fields": {
+            "name": "Kids & Company — Bloor (Bloor St E)",
+            "address": "",
+            "crossStreets": "",
+            "ageRange": "",
+            "infantProgram": "Yes",
+            "auspice": "Non-profit",
+            "cwelcc": "Yes",
+            "elcaqiRating": "",
+            "estMonthlyFee": "",
+            "channel": "OneHSN",
+            "appliedDate": "",
+            "contact": "",
+            "confirmationReceived": "",
+            "lastReconfirm": "",
+            "cadenceDays": "90",
+            "proximityScore": "",
+            "costScore": "",
+            "reputationScore": "",
+            "complianceScore": "",
+            "capacityScore": "",
+            "philosophyScore": "",
+            "outreachDraft": ""
+          }
         }
       ],
       "description": "Licensed daycare shortlist & applications near Lansdowne & Dupont. Ranked with a weighted fit score — open any card to score it and see the breakdown. \"Applied – Awaiting Confirmation\" is its own stage because some centres never email to confirm you're on their waitlist — it auto-flags 30 days after you apply so you know to call and check.",
