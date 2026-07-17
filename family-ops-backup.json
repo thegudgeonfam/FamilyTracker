@@ -1359,41 +1359,6 @@
         {
           "createdAt": "2026-07-06",
           "fields": {
-            "address": "30 Turnberry Ave, Toronto",
-            "ageRange": "Infant / Toddler / Preschool / Kindergarten / School-age",
-            "appliedDate": "",
-            "auspice": "Non-profit",
-            "cadenceDays": 90,
-            "capacityScore": "",
-            "channel": "Direct phone/email",
-            "complianceScore": "",
-            "confirmationReceived": "",
-            "contact": "416-658-1699",
-            "costScore": "",
-            "crossStreets": "Turnberry / Weston Rd / St Clair",
-            "cwelcc": "Yes",
-            "elcaqiRating": "",
-            "estMonthlyFee": "",
-            "infantProgram": "Yes",
-            "lastReconfirm": "",
-            "name": "General Mercer Early Learning Centre",
-            "outreachDraft": "HOW TO START: Has infant room. Call to join waitlist.",
-            "philosophyScore": "",
-            "proximityScore": "",
-            "reputationScore": ""
-          },
-          "id": "cc30-25",
-          "log": [
-            {
-              "text": "Added from 'closest 30 to 9 Foundry Ave' wave (1.68 km from home). Application method verified via City of Toronto Child Care Locator + centre website on 2026-07-06. Status Not Applied until a confirmation email arrives at thegudgeonfam@gmail.com.",
-              "ts": "2026-07-06"
-            }
-          ],
-          "status": "To Apply"
-        },
-        {
-          "createdAt": "2026-07-06",
-          "fields": {
             "address": "2211 Dundas St W, Toronto",
             "ageRange": "Toddler / Preschool",
             "appliedDate": "",
