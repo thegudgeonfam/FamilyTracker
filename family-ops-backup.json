@@ -215,28 +215,28 @@
         {
           "createdAt": "2026-07-05",
           "fields": {
+            "name": "Kids & Company — Liberty Village",
             "address": "1100 King St W, Toronto",
-            "ageRange": "0 – 6 years (true infant program, up to ~15mo in the infant room)",
-            "appliedDate": "",
-            "auspice": "Commercial",
-            "cadenceDays": 90,
-            "capacityScore": 8,
-            "channel": "Direct online form",
-            "complianceScore": 4,
-            "confirmationReceived": "",
-            "contact": "(416) 531-6222",
-            "costScore": 4,
             "crossStreets": "King St W, east of Dufferin St",
+            "ageRange": "0 – 6 years (true infant program, up to ~15mo in the infant room)",
+            "infantProgram": "Yes",
+            "auspice": "Commercial",
             "cwelcc": "Yes",
             "elcaqiRating": "Not assessed (no City service agreement — commercial, no fee subsidy at this location)",
             "estMonthlyFee": "Likely premium vs. non-profit centres — confirm",
-            "infantProgram": "Yes",
+            "channel": "Direct online form",
+            "appliedDate": "",
+            "contact": "(416) 531-6222",
+            "confirmationReceived": "",
             "lastReconfirm": "",
-            "name": "Kids & Company — Liberty Village",
-            "outreachDraft": "Kids & Company has a real registration form: https://kidsandcompany.com/register/ — select the Liberty Village location.\n\nBackup email if needed:\n\nSubject: Infant Enrollment Inquiry - Starting ~March 2028\n\nHi Kids & Company Liberty Village team,\n\nWe live near Lansdowne & Dupont and are expecting our first child in March 2027. We understand you run a true infant program and are CWELCC-enrolled. We'd like our child to start at exactly 12 months, around March 2028.\n\nCould you tell us your current infant waitlist length, CWELCC-adjusted fees, and what's needed to register interest now?\n\nThank you,\n{{PARENT_NAMES}}\n{{EMAIL}} · {{PHONE}}",
-            "philosophyScore": 5,
-            "proximityScore": 4,
-            "reputationScore": 6
+            "cadenceDays": "90",
+            "proximityScore": "4",
+            "costScore": "4",
+            "reputationScore": "6",
+            "complianceScore": "4",
+            "capacityScore": "8",
+            "philosophyScore": "5",
+            "outreachDraft": "Kids & Company has a real registration form: https://kidsandcompany.com/register/ — select the Liberty Village location.\n\nBackup email if needed:\n\nSubject: Infant Enrollment Inquiry - Starting ~March 2028\n\nHi Kids & Company Liberty Village team,\n\nWe live near Lansdowne & Dupont and are expecting our first child in March 2027. We understand you run a true infant program and are CWELCC-enrolled. We'd like our child to start at exactly 12 months, around March 2028.\n\nCould you tell us your current infant waitlist length, CWELCC-adjusted fees, and what's needed to register interest now?\n\nThank you,\n{{PARENT_NAMES}}\n{{EMAIL}} · {{PHONE}}"
           },
           "id": "dzda68or",
           "log": [
@@ -245,7 +245,7 @@
               "ts": "2026-07-05"
             }
           ],
-          "status": "To Apply"
+          "status": "Applied – Awaiting Confirmation"
         },
         {
           "createdAt": "2026-07-05",
