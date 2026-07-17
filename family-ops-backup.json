@@ -1359,28 +1359,28 @@
         {
           "createdAt": "2026-07-06",
           "fields": {
+            "name": "Ola Day Care Inc.",
             "address": "2211 Dundas St W, Toronto",
-            "ageRange": "Toddler / Preschool",
-            "appliedDate": "",
-            "auspice": "Commercial",
-            "cadenceDays": 90,
-            "capacityScore": "",
-            "channel": "Direct phone/email",
-            "complianceScore": "",
-            "confirmationReceived": "",
-            "contact": "647-351-6521 · oladaycare@gmail.com",
-            "costScore": "",
             "crossStreets": "Dundas W / Bloor",
+            "ageRange": "Toddler / Preschool",
+            "infantProgram": "No - toddler starts 18mo+",
+            "auspice": "Commercial",
             "cwelcc": "Yes",
             "elcaqiRating": "",
             "estMonthlyFee": "",
-            "infantProgram": "No - toddler starts 18mo+",
+            "channel": "Direct phone/email",
+            "appliedDate": "",
+            "contact": "647-351-6521 · oladaycare@gmail.com",
+            "confirmationReceived": "",
             "lastReconfirm": "",
-            "name": "Ola Day Care Inc.",
-            "outreachDraft": "HOW TO START: Toddler up. Email oladaycare@gmail.com (listed primary contact) or call.",
-            "philosophyScore": "",
+            "cadenceDays": "90",
             "proximityScore": "",
-            "reputationScore": ""
+            "costScore": "",
+            "reputationScore": "",
+            "complianceScore": "",
+            "capacityScore": "",
+            "philosophyScore": "",
+            "outreachDraft": "HOW TO START: Toddler up. Email oladaycare@gmail.com (listed primary contact) or call."
           },
           "id": "cc30-26",
           "log": [
@@ -1389,7 +1389,7 @@
               "ts": "2026-07-06"
             }
           ],
-          "status": "To Apply"
+          "status": "Not Pursuing"
         },
         {
           "createdAt": "2026-07-06",
