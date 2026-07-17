@@ -787,28 +787,28 @@
         {
           "createdAt": "2026-07-06",
           "fields": {
+            "name": "Centre de la Petite Enfance – Les Amis du Monde (French)",
             "address": "55 Pelham Ave, Toronto",
-            "ageRange": "Infant / Toddler / Preschool / Kindergarten / School-age",
-            "appliedDate": "",
-            "auspice": "Non-profit",
-            "cadenceDays": 90,
-            "capacityScore": "",
-            "channel": "Direct phone/email",
-            "complianceScore": "",
-            "confirmationReceived": "",
-            "contact": "Regine Epolo-Mayela · 416-410-2232",
-            "costScore": "",
             "crossStreets": "Dundas / Dupont",
+            "ageRange": "Infant / Toddler / Preschool / Kindergarten / School-age",
+            "infantProgram": "Yes",
+            "auspice": "Non-profit",
             "cwelcc": "Yes",
             "elcaqiRating": "",
             "estMonthlyFee": "",
-            "infantProgram": "Yes",
+            "channel": "Direct phone/email",
+            "appliedDate": "",
+            "contact": "Regine Epolo-Mayela · 416-410-2232",
+            "confirmationReceived": "",
             "lastReconfirm": "",
-            "name": "Centre de la Petite Enfance – Les Amis du Monde (French)",
-            "outreachDraft": "HOW TO START: French-language, non-profit in École Élémentaire Charles-Sauriol. Call to join waitlist.",
-            "philosophyScore": "",
+            "cadenceDays": "90",
             "proximityScore": "",
-            "reputationScore": ""
+            "costScore": "",
+            "reputationScore": "",
+            "complianceScore": "",
+            "capacityScore": "",
+            "philosophyScore": "",
+            "outreachDraft": "HOW TO START: French-language, non-profit in École Élémentaire Charles-Sauriol. Call to join waitlist."
           },
           "id": "cc30-02",
           "log": [
@@ -817,7 +817,7 @@
               "ts": "2026-07-06"
             }
           ],
-          "status": "To Apply"
+          "status": "Not Pursuing"
         },
         {
           "createdAt": "2026-07-06",
