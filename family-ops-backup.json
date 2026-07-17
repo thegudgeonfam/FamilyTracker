@@ -1001,28 +1001,28 @@
         {
           "createdAt": "2026-07-06",
           "fields": {
+            "name": "Little Angels Childcare Learning Centre",
             "address": "1695 Dufferin St, Toronto",
-            "ageRange": "Infant / Toddler / Preschool",
-            "appliedDate": "",
-            "auspice": "Commercial",
-            "cadenceDays": 90,
-            "capacityScore": "",
-            "channel": "Direct phone/email",
-            "complianceScore": "",
-            "confirmationReceived": "",
-            "contact": "Chantel (supervisor) · 416-652-1868 · info@littleangelsccc.ca",
-            "costScore": "",
             "crossStreets": "Dufferin / St Clair W",
+            "ageRange": "Infant / Toddler / Preschool",
+            "infantProgram": "Yes",
+            "auspice": "Commercial",
             "cwelcc": "Yes",
             "elcaqiRating": "",
             "estMonthlyFee": "",
-            "infantProgram": "Yes",
+            "channel": "Direct phone/email",
+            "appliedDate": "",
+            "contact": "Chantel (supervisor) · 416-652-1868 · info@littleangelsccc.ca",
+            "confirmationReceived": "",
             "lastReconfirm": "",
-            "name": "Little Angels Childcare Learning Centre",
-            "outreachDraft": "HOW TO START: Has infant room. No online form — call or email info@littleangelsccc.ca to join waitlist.",
-            "philosophyScore": "",
+            "cadenceDays": "90",
             "proximityScore": "",
-            "reputationScore": ""
+            "costScore": "",
+            "reputationScore": "",
+            "complianceScore": "",
+            "capacityScore": "",
+            "philosophyScore": "",
+            "outreachDraft": "HOW TO START: Has infant room. No online form — call or email info@littleangelsccc.ca to join waitlist."
           },
           "id": "cc30-12",
           "log": [
@@ -1031,7 +1031,7 @@
               "ts": "2026-07-06"
             }
           ],
-          "status": "To Apply"
+          "status": "Applied – Awaiting Confirmation"
         },
         {
           "createdAt": "2026-07-06",
