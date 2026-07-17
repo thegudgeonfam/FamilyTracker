@@ -390,45 +390,6 @@
         {
           "createdAt": "2026-07-05",
           "fields": {
-            "address": "City-run program — Toronto Home Child Care providers are located across the city (map shows coverage everywhere except the central core); also covers TELCCS-operated centres you select during registration",
-            "ageRange": "Infancy – 12 years (home child care) / varies by TELCCS centre",
-            "appliedDate": "2026-07-06",
-            "auspice": "Non-profit",
-            "cadenceDays": "90",
-            "capacityScore": "7",
-            "channel": "Direct online form",
-            "complianceScore": "7",
-            "confirmationReceived": "",
-            "contact": "311 (City of Toronto) for TELCCS general inquiries",
-            "costScore": "8",
-            "crossStreets": "City-wide program, not a single site",
-            "cwelcc": "Yes",
-            "elcaqiRating": "Not applicable to home child care; TELCCS centres individually rated — check per centre",
-            "estMonthlyFee": "Full-fee or subsidized, based on which registration path you use",
-            "infantProgram": "Yes",
-            "lastReconfirm": "",
-            "name": "TELCCS — Toronto Home Child Care & City Centres (direct online registration)",
-            "outreachDraft": "TELCCS has a real online registration form rather than an email process — this is the fastest one to actually submit today:\n\n1. If you want to be considered for the Child Care Fee Subsidy as well as TELCCS waitlists, apply here: http://secure.toronto.ca/children/subsidy/\n2. If you'll pay full fee, register directly here: http://secure.toronto.ca/children/fullfee/\n\nEither form lets you select specific TELCCS centres and/or Toronto Home Child Care as your preference, for a start at 12 months (~March 2028). Fill in {{PARENT_NAMES}}, {{ADDRESS}}, {{PHONE}}, {{EMAIL}}, {{CHILD_DOB}} as prompted by the form.",
-            "philosophyScore": "6",
-            "proximityScore": "6",
-            "reputationScore": "6"
-          },
-          "id": "2m2it0gs",
-          "log": [
-            {
-              "text": "Researched earlier in this process but not actually added to the tracker until now (2026-07-06) — this is arguably the single easiest one to act on today since it's a genuine online form (secure.toronto.ca), not an email/phone ask. One registration covers both Toronto Home Child Care (infants accepted, city-wide provider network) and any TELCCS centres you select. Also worth checking the TELCCS Centres list for one near Lansdowne & Dupont: https://www.toronto.ca/community-people/children-parenting/children-programs-activities/licensed-child-care/toronto-early-learning-and-child-care-services/telccs-centre-locations/",
-              "ts": "2026-07-05"
-            },
-            {
-              "text": "CORRECTED 2026-07-12: family confirmed the TELCCS registration form was actually submitted, selecting Davenport Perth, Rawlinson, and Jesse Ketchum as preferred centres. This had never been reflected on the tracker — full git history and Gmail showed no record of it, so it was flagged as missing rather than assumed. Submission date (2026-07-06) is inferred from context, not from a confirmation email or user-provided date — no TELCCS confirmation email has arrived at thegudgeonfam@gmail.com, so this card and its three selected centres are set to Applied – Awaiting Confirmation, not On Waitlist.",
-              "ts": "2026-07-12"
-            }
-          ],
-          "status": "On Waitlist"
-        },
-        {
-          "createdAt": "2026-07-05",
-          "fields": {
             "address": "Brandon Ave & Foundry Ave, Toronto (on your street)",
             "ageRange": "Unknown — not yet open",
             "appliedDate": "",
