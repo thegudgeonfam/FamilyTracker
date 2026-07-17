@@ -861,28 +861,28 @@
         {
           "createdAt": "2026-07-06",
           "fields": {
+            "name": "Carleton Village Early Learning Centre (Learning Enrichment Foundation)",
             "address": "315 Osler St, Toronto",
-            "ageRange": "Infant / Toddler / Preschool / Kindergarten / School-age",
-            "appliedDate": "",
-            "auspice": "Non-profit",
-            "cadenceDays": 90,
-            "capacityScore": "",
-            "channel": "Direct phone/email",
-            "complianceScore": "",
-            "confirmationReceived": "",
-            "contact": "Kelly Bovair · 416-651-2550",
-            "costScore": "",
             "crossStreets": "Davenport / Symington",
+            "ageRange": "Infant / Toddler / Preschool / Kindergarten / School-age",
+            "infantProgram": "Yes",
+            "auspice": "Non-profit",
             "cwelcc": "Yes",
             "elcaqiRating": "",
             "estMonthlyFee": "",
-            "infantProgram": "Yes",
+            "channel": "Direct phone/email",
+            "appliedDate": "",
+            "contact": "Kelly Bovair · 416-651-2550",
+            "confirmationReceived": "",
             "lastReconfirm": "",
-            "name": "Carleton Village Early Learning Centre",
-            "outreachDraft": "HOW TO START: Non-profit in Carleton Village PS North. Has infant room. Call to join waitlist.",
-            "philosophyScore": "",
+            "cadenceDays": "90",
             "proximityScore": "",
-            "reputationScore": ""
+            "costScore": "",
+            "reputationScore": "",
+            "complianceScore": "",
+            "capacityScore": "",
+            "philosophyScore": "",
+            "outreachDraft": "HOW TO START: Non-profit in Carleton Village PS North. Has infant room. Call to join waitlist."
           },
           "id": "cc30-06",
           "log": [
@@ -891,7 +891,7 @@
               "ts": "2026-07-06"
             }
           ],
-          "status": "To Apply"
+          "status": "Applied – Awaiting Confirmation"
         },
         {
           "createdAt": "2026-07-06",
