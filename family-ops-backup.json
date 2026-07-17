@@ -1324,28 +1324,28 @@
         {
           "createdAt": "2026-07-06",
           "fields": {
+            "name": "The Village Nursery School",
             "address": "2241 Dundas St W, Toronto",
-            "ageRange": "Preschool",
-            "appliedDate": "",
-            "auspice": "Commercial",
-            "cadenceDays": 90,
-            "capacityScore": "",
-            "channel": "Direct phone/email",
-            "complianceScore": "",
-            "confirmationReceived": "",
-            "contact": "647-984-4525",
-            "costScore": "",
             "crossStreets": "Dundas W / Bloor",
+            "ageRange": "Preschool",
+            "infantProgram": "No - toddler starts 18mo+",
+            "auspice": "Commercial",
             "cwelcc": "Yes",
             "elcaqiRating": "",
             "estMonthlyFee": "",
-            "infantProgram": "No - toddler starts 18mo+",
+            "channel": "Direct phone/email",
+            "appliedDate": "",
+            "contact": "647-984-4525",
+            "confirmationReceived": "",
             "lastReconfirm": "",
-            "name": "The Village Nursery School",
-            "outreachDraft": "HOW TO START: Preschool only. Call to join waitlist.",
-            "philosophyScore": "",
+            "cadenceDays": "90",
             "proximityScore": "",
-            "reputationScore": ""
+            "costScore": "",
+            "reputationScore": "",
+            "complianceScore": "",
+            "capacityScore": "",
+            "philosophyScore": "",
+            "outreachDraft": "HOW TO START: Preschool only. Call to join waitlist."
           },
           "id": "cc30-24",
           "log": [
@@ -1354,7 +1354,7 @@
               "ts": "2026-07-06"
             }
           ],
-          "status": "To Apply"
+          "status": "Not Pursuing"
         },
         {
           "createdAt": "2026-07-06",
