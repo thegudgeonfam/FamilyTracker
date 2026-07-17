@@ -1141,28 +1141,28 @@
         {
           "createdAt": "2026-07-06",
           "fields": {
+            "name": "Chabad of Midtown (Preschool & Daycare)",
             "address": "1034 St Clair Ave W, Toronto",
-            "ageRange": "Infant / Toddler / Preschool",
-            "appliedDate": "",
-            "auspice": "Non-profit",
-            "cadenceDays": 90,
-            "capacityScore": "",
-            "channel": "Direct phone/email",
-            "complianceScore": "",
-            "confirmationReceived": "",
-            "contact": "416-516-2005 · chabadmidtownschool.com",
-            "costScore": "",
             "crossStreets": "St Clair W / Oakwood",
+            "ageRange": "Infant / Toddler / Preschool",
+            "infantProgram": "Yes",
+            "auspice": "Non-profit",
             "cwelcc": "Yes",
             "elcaqiRating": "",
             "estMonthlyFee": "",
-            "infantProgram": "Yes",
+            "channel": "Direct phone/email",
+            "appliedDate": "",
+            "contact": "416-516-2005 · chabadmidtownschool.com",
+            "confirmationReceived": "",
             "lastReconfirm": "",
-            "name": "Chabad of Midtown (Preschool & Daycare)",
-            "outreachDraft": "HOW TO START: Jewish community daycare (chabadmidtownschool.com). Has infant room. Contact centre to apply.",
-            "philosophyScore": "",
+            "cadenceDays": "90",
             "proximityScore": "",
-            "reputationScore": ""
+            "costScore": "",
+            "reputationScore": "",
+            "complianceScore": "",
+            "capacityScore": "",
+            "philosophyScore": "",
+            "outreachDraft": "HOW TO START: Jewish community daycare (chabadmidtownschool.com). Has infant room. Contact centre to apply."
           },
           "id": "cc30-17",
           "log": [
@@ -1171,7 +1171,7 @@
               "ts": "2026-07-06"
             }
           ],
-          "status": "To Apply"
+          "status": "Not Pursuing"
         },
         {
           "createdAt": "2026-07-06",
