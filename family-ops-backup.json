@@ -320,28 +320,28 @@
         {
           "createdAt": "2026-07-05",
           "fields": {
+            "name": "Windermere Early Learning Centre (CDI)",
             "address": "103 The Queensway, Toronto, ON M6S 5B3",
-            "ageRange": "0 – 4 years (true infant program), 57 spaces",
-            "appliedDate": "",
-            "auspice": "Non-profit",
-            "cadenceDays": 90,
-            "capacityScore": 6,
-            "channel": "Direct online form",
-            "complianceScore": 6,
-            "confirmationReceived": "",
-            "contact": "windermere@childdevelop.ca",
-            "costScore": 7,
             "crossStreets": "Swansea, Queensway/Windermere",
+            "ageRange": "0 – 4 years (true infant program), 57 spaces",
+            "infantProgram": "Yes",
+            "auspice": "Non-profit",
             "cwelcc": "Yes",
             "elcaqiRating": "Unconfirmed — check centre ELCAQI page",
             "estMonthlyFee": "",
-            "infantProgram": "Yes",
+            "channel": "Direct online form",
+            "appliedDate": "",
+            "contact": "windermere@childdevelop.ca",
+            "confirmationReceived": "",
             "lastReconfirm": "",
-            "name": "Windermere Early Learning Centre (CDI)",
-            "outreachDraft": "CDI has a real \"Join the waitlist\" form for this location: https://childdevelop.ca/early-years-child-care-services/licensed-child-care-centres/early-learning-centres-locations/windermere-wait-list-application-form/\n\nBackup email if needed:\n\nSubject: Infant Waitlist Application - Starting ~March 2028\n\nHi Windermere Early Learning Centre team,\n\nWe live near Lansdowne & Dupont and are expecting our first child in March 2027. We understand you're a non-profit, CWELCC-enrolled centre (run by the Child Development Institute) with a true infant program (57 spaces). We'd like to apply now for care starting at exactly 12 months, around March 2028.\n\nCould you confirm current infant waitlist length?\n\nThank you,\n{{PARENT_NAMES}}\n{{EMAIL}} · {{PHONE}}",
-            "philosophyScore": 6,
-            "proximityScore": 4,
-            "reputationScore": 6
+            "cadenceDays": "90",
+            "proximityScore": "4",
+            "costScore": "7",
+            "reputationScore": "6",
+            "complianceScore": "6",
+            "capacityScore": "6",
+            "philosophyScore": "6",
+            "outreachDraft": "CDI has a real \"Join the waitlist\" form for this location: https://childdevelop.ca/early-years-child-care-services/licensed-child-care-centres/early-learning-centres-locations/windermere-wait-list-application-form/\n\nBackup email if needed:\n\nSubject: Infant Waitlist Application - Starting ~March 2028\n\nHi Windermere Early Learning Centre team,\n\nWe live near Lansdowne & Dupont and are expecting our first child in March 2027. We understand you're a non-profit, CWELCC-enrolled centre (run by the Child Development Institute) with a true infant program (57 spaces). We'd like to apply now for care starting at exactly 12 months, around March 2028.\n\nCould you confirm current infant waitlist length?\n\nThank you,\n{{PARENT_NAMES}}\n{{EMAIL}} · {{PHONE}}"
           },
           "id": "bknmi744",
           "log": [
@@ -350,7 +350,7 @@
               "ts": "2026-07-05"
             }
           ],
-          "status": "To Apply"
+          "status": "Applied – Awaiting Confirmation"
         },
         {
           "createdAt": "2026-07-05",
