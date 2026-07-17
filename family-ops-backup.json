@@ -1933,6 +1933,35 @@
             "philosophyScore": "",
             "outreachDraft": "Contact Information\nCentre Supervisor: Sindy Torres & Gehad Abas \n\nEmail: immaculate@lefca.org\n\nCentre Phone: 416-760-2809\n\nSupervisor Cell: 647-204-1868\n\n"
           }
+        },
+        {
+          "id": "49hift64",
+          "status": "Applied – Awaiting Confirmation",
+          "createdAt": "2026-07-17",
+          "fields": {
+            "name": "George Harvey Child Care Centre (LEF)",
+            "address": "1700 Keele Street, Toronto, On. M6M 3W5",
+            "crossStreets": "",
+            "ageRange": "",
+            "infantProgram": "Yes",
+            "auspice": "Non-profit",
+            "cwelcc": "Yes",
+            "elcaqiRating": "",
+            "estMonthlyFee": "",
+            "channel": "OneHSN",
+            "appliedDate": "",
+            "contact": "",
+            "confirmationReceived": "",
+            "lastReconfirm": "",
+            "cadenceDays": "90",
+            "proximityScore": "",
+            "costScore": "",
+            "reputationScore": "",
+            "complianceScore": "",
+            "capacityScore": "",
+            "philosophyScore": "",
+            "outreachDraft": "Contact Information\nCentre Supervisor: Rajanpreet Kaur\n\nEmail: georgeharvey@lefca.org\n\nCentre Phone: 416-658-9244"
+          }
         }
       ],
       "description": "Licensed daycare shortlist & applications near Lansdowne & Dupont. Ranked with a weighted fit score — open any card to score it and see the breakdown. \"Applied – Awaiting Confirmation\" is its own stage because some centres never email to confirm you're on their waitlist — it auto-flags 30 days after you apply so you know to call and check.",
