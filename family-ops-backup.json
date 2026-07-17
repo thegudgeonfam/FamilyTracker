@@ -678,28 +678,28 @@
         {
           "createdAt": "2026-07-05",
           "fields": {
+            "name": "Fruitful Pursuits (licensed home child care)",
             "address": "Dufferin Grove / Brockton / Bloordale / Dundas West area (exact address on inquiry)",
-            "ageRange": "15 months – 5 years",
-            "appliedDate": "",
-            "auspice": "Home childcare (licensed)",
-            "cadenceDays": 90,
-            "capacityScore": "",
-            "channel": "Direct phone/email",
-            "complianceScore": "",
-            "confirmationReceived": "",
-            "contact": "",
-            "costScore": "",
             "crossStreets": "Home childcare — general area only",
+            "ageRange": "15 months – 5 years",
+            "infantProgram": "Yes",
+            "auspice": "Home childcare (licensed)",
             "cwelcc": "Unconfirmed",
             "elcaqiRating": "Not applicable to home childcare",
             "estMonthlyFee": "",
-            "infantProgram": "No - toddler starts 15mo+",
+            "channel": "Direct phone/email",
+            "appliedDate": "",
+            "contact": "",
+            "confirmationReceived": "",
             "lastReconfirm": "",
-            "name": "Fruitful Pursuits (licensed home child care)",
-            "outreachDraft": "Subject: Waitlist Inquiry - Home Child Care Starting ~2028\n\nHi there,\n\nWe live near Lansdowne & Dupont and are expecting our first child in March 2027. Your play-based, outdoor-focused approach caught our eye. We'd love to learn more about availability for a start around 15-18 months (roughly mid-late 2028), your licensing agency, and whether you're CWELCC-enrolled.\n\nThank you,\n{{PARENT_NAMES}}\n{{EMAIL}} · {{PHONE}}",
-            "philosophyScore": 7,
+            "cadenceDays": "90",
             "proximityScore": "",
-            "reputationScore": ""
+            "costScore": "",
+            "reputationScore": "",
+            "complianceScore": "",
+            "capacityScore": "",
+            "philosophyScore": "7",
+            "outreachDraft": "Subject: Waitlist Inquiry - Home Child Care Starting ~2028\n\nHi there,\n\nWe live near Lansdowne & Dupont and are expecting our first child in March 2027. Your play-based, outdoor-focused approach caught our eye. We'd love to learn more about availability for a start around 15-18 months (roughly mid-late 2028), your licensing agency, and whether you're CWELCC-enrolled.\n\nThank you,\n{{PARENT_NAMES}}\n{{EMAIL}} · {{PHONE}}"
           },
           "id": "n9pje51o",
           "log": [
@@ -708,7 +708,7 @@
               "ts": "2026-07-05"
             }
           ],
-          "status": "To Apply"
+          "status": "Not Pursuing"
         },
         {
           "createdAt": "2026-07-05",
