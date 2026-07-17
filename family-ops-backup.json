@@ -1817,6 +1817,35 @@
             "philosophyScore": "",
             "outreachDraft": ""
           }
+        },
+        {
+          "id": "gwz34me4",
+          "status": "Applied – Awaiting Confirmation",
+          "createdAt": "2026-07-17",
+          "fields": {
+            "name": "Donald C MacDonald Child Care Centre",
+            "address": "116 Industry Street. Toronto ON M6M 4L8",
+            "crossStreets": "",
+            "ageRange": "",
+            "infantProgram": "Yes",
+            "auspice": "Non-profit",
+            "cwelcc": "Yes",
+            "elcaqiRating": "",
+            "estMonthlyFee": "",
+            "channel": "OneHSN",
+            "appliedDate": "",
+            "contact": "",
+            "confirmationReceived": "",
+            "lastReconfirm": "",
+            "cadenceDays": "90",
+            "proximityScore": "",
+            "costScore": "",
+            "reputationScore": "",
+            "complianceScore": "",
+            "capacityScore": "",
+            "philosophyScore": "",
+            "outreachDraft": "Contact Information\nCentre Supervisor: Kelly Costa-De Faria\n\nEmail: dcmacdonaldchildcare@lefca.org\n\nCentre Phone: 416-769-2328\n\nSupervisor Cell: 437-349-3334"
+          }
         }
       ],
       "description": "Licensed daycare shortlist & applications near Lansdowne & Dupont. Ranked with a weighted fit score — open any card to score it and see the breakdown. \"Applied – Awaiting Confirmation\" is its own stage because some centres never email to confirm you're on their waitlist — it auto-flags 30 days after you apply so you know to call and check.",
