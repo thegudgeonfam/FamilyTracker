@@ -892,28 +892,28 @@
         {
           "createdAt": "2026-07-06",
           "fields": {
+            "name": "PLASP – Pauline Junior Public School",
             "address": "100 Pauline Ave, Toronto",
-            "ageRange": "Kindergarten / School-age",
-            "appliedDate": "",
-            "auspice": "Non-profit",
-            "cadenceDays": 90,
-            "capacityScore": "",
-            "channel": "Direct online form",
-            "complianceScore": "",
-            "confirmationReceived": "",
-            "contact": "PLASP · 1-888-739-4102",
-            "costScore": "",
             "crossStreets": "Dufferin / Bloor",
+            "ageRange": "Kindergarten / School-age",
+            "infantProgram": "No - toddler starts 18mo+",
+            "auspice": "Non-profit",
             "cwelcc": "Yes",
             "elcaqiRating": "",
             "estMonthlyFee": "",
-            "infantProgram": "No - toddler starts 18mo+",
+            "channel": "Direct online form",
+            "appliedDate": "",
+            "contact": "PLASP · 1-888-739-4102",
+            "confirmationReceived": "",
             "lastReconfirm": "",
-            "name": "PLASP – Pauline Junior Public School",
-            "outreachDraft": "HOW TO START: Before/after-school only. Online registration at plasp.ca.",
-            "philosophyScore": "",
+            "cadenceDays": "90",
             "proximityScore": "",
-            "reputationScore": ""
+            "costScore": "",
+            "reputationScore": "",
+            "complianceScore": "",
+            "capacityScore": "",
+            "philosophyScore": "",
+            "outreachDraft": "HOW TO START: Before/after-school only. Online registration at plasp.ca."
           },
           "id": "cc30-08",
           "log": [
@@ -922,7 +922,7 @@
               "ts": "2026-07-06"
             }
           ],
-          "status": "To Apply"
+          "status": "Not Pursuing"
         },
         {
           "createdAt": "2026-07-06",
