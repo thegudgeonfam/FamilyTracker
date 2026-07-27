@@ -303,8 +303,16 @@
       reason.textContent = item.reason || "";
       box.appendChild(reason);
 
+      const hasCandidates = (item.candidates || []).length > 0;
+
       const candWrap = document.createElement("div");
       candWrap.className = "review-candidates";
+      if (!hasCandidates) {
+        const note = document.createElement("div");
+        note.className = "review-nocard";
+        note.textContent = "No card to update — informational only.";
+        candWrap.appendChild(note);
+      }
       item.candidates.forEach((cand, idx) => {
         const row = document.createElement("label");
         row.className = "review-cand";
@@ -340,15 +348,19 @@
 
       const actions = document.createElement("div");
       actions.className = "review-actions";
-      const confirmBtn = document.createElement("button");
-      confirmBtn.className = "btn btn-primary";
-      confirmBtn.textContent = "Apply selected";
-      confirmBtn.addEventListener("click", () => applyReviewItem(item, box));
       const dismissBtn = document.createElement("button");
       dismissBtn.className = "btn";
-      dismissBtn.textContent = "Dismiss";
+      dismissBtn.textContent = hasCandidates ? "Dismiss" : "Got it";
       dismissBtn.addEventListener("click", () => dismissReviewItem(item));
-      actions.append(dismissBtn, confirmBtn);
+      if (hasCandidates) {
+        const confirmBtn = document.createElement("button");
+        confirmBtn.className = "btn btn-primary";
+        confirmBtn.textContent = "Apply selected";
+        confirmBtn.addEventListener("click", () => applyReviewItem(item, box));
+        actions.append(dismissBtn, confirmBtn);
+      } else {
+        actions.append(dismissBtn);
+      }
       box.appendChild(actions);
 
       container.appendChild(box);

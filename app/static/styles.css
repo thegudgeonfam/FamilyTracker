@@ -264,6 +264,12 @@ body {
   margin-bottom: 10px;
 }
 .review-candidates { display: flex; flex-direction: column; gap: 8px; }
+.review-nocard {
+  font-size: 0.8rem;
+  font-style: italic;
+  color: var(--text-muted);
+  padding: 2px 0 4px;
+}
 .review-cand {
   display: flex;
   align-items: center;
