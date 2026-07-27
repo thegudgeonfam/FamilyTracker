@@ -1,8 +1,12 @@
 """Local family-ops tracker server.
 
 Owns family-ops-backup.json directly: serves it to the browser UI, writes
-edits back to disk, auto-commits changes to git, and periodically pushes
-to GitHub so there's no manual export/backup/commit step left to do by hand.
+edits back to disk, auto-commits changes to git, and periodically reconciles
+with GitHub so there's no manual export/backup/commit step left to do by hand.
+
+Single-writer model: every change — from the browser UI or from the email-sync
+routine — comes through this server's /api/data endpoint. Nothing else edits the
+file or runs git, which is what keeps the two macOS accounts from colliding.
 """
 import json
 import os
@@ -27,6 +31,7 @@ PUSH_INTERVAL_SECONDS = 20 * 60
 app = Flask(__name__, static_folder=None)
 
 _write_lock = threading.Lock()
+_git_lock = threading.Lock()
 _commit_timer = None
 _commit_timer_lock = threading.Lock()
 
@@ -38,12 +43,13 @@ def run_git(*args):
 
 
 def commit_data_file():
-    run_git("add", "family-ops-backup.json")
-    staged = run_git("diff", "--cached", "--quiet", "--", "family-ops-backup.json")
-    if staged.returncode == 0:
-        return
-    message = f"Tracker update — {datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M UTC')}"
-    run_git("commit", "-m", message)
+    with _git_lock:
+        run_git("add", "family-ops-backup.json")
+        staged = run_git("diff", "--cached", "--quiet", "--", "family-ops-backup.json")
+        if staged.returncode == 0:
+            return
+        message = f"Tracker update — {datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M UTC')}"
+        run_git("commit", "-m", message)
 
 
 def schedule_commit():
@@ -56,19 +62,37 @@ def schedule_commit():
         _commit_timer.start()
 
 
-def push_if_ahead():
-    log = run_git("log", "origin/main..HEAD", "--oneline")
-    if log.returncode != 0:
-        return
-    if log.stdout.strip():
-        run_git("push", "origin", "main")
+def sync_and_push():
+    """Reconcile with origin, then push.
+
+    Fetches first so we know origin's real state (the old code compared against a
+    stale remote-tracking ref and would wedge silently on any divergence). If
+    origin moved ahead, replay our local commits on top of it. On a genuine
+    conflict we abort and leave everything intact rather than risk clobbering
+    the family's data — a human can sort it out. All git work is serialized
+    behind _git_lock so a debounced commit can't race the rebase.
+    """
+    with _git_lock:
+        # Nothing to reconcile if we can't reach origin (offline / auth failure).
+        if run_git("fetch", "origin").returncode != 0:
+            return
+
+        behind = run_git("rev-list", "--count", "HEAD..origin/main")
+        if behind.returncode == 0 and behind.stdout.strip() not in ("", "0"):
+            if run_git("rebase", "origin/main").returncode != 0:
+                run_git("rebase", "--abort")
+                return  # real conflict — don't lose data; wait for a human
+
+        ahead = run_git("rev-list", "--count", "origin/main..HEAD")
+        if ahead.returncode == 0 and ahead.stdout.strip() not in ("", "0"):
+            run_git("push", "origin", "main")
 
 
 def push_loop():
     while True:
         time.sleep(PUSH_INTERVAL_SECONDS)
         try:
-            push_if_ahead()
+            sync_and_push()
         except Exception:
             pass
 
@@ -115,7 +139,7 @@ def main():
         app.run(host="127.0.0.1", port=PORT, debug=False)
     finally:
         commit_data_file()
-        push_if_ahead()
+        sync_and_push()
 
 
 if __name__ == "__main__":
