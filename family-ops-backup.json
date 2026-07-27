@@ -250,28 +250,28 @@
         {
           "createdAt": "2026-07-05",
           "fields": {
-            "name": "Wee Watch — Toronto West (home child care agency)",
             "address": "Home child care agency — matches families to a licensed home provider in your area",
-            "crossStreets": "Serves Toronto West generally",
             "ageRange": "Infant – 12 years (via individual home providers)",
-            "infantProgram": "Yes",
+            "appliedDate": "",
             "auspice": "Home childcare (licensed)",
+            "cadenceDays": "90",
+            "capacityScore": "7",
+            "channel": "OneHSN",
+            "complianceScore": "6",
+            "confirmationReceived": "",
+            "contact": "",
+            "costScore": "8",
+            "crossStreets": "Serves Toronto West generally",
             "cwelcc": "Yes",
             "elcaqiRating": "Not applicable (home childcare, assessed via agency visits, not ELCAQI)",
             "estMonthlyFee": "$22/day per CWELCC cap (as of Jan 2025) — confirm current rate",
-            "channel": "OneHSN",
-            "appliedDate": "",
-            "contact": "",
-            "confirmationReceived": "",
+            "infantProgram": "Yes",
             "lastReconfirm": "",
-            "cadenceDays": "90",
-            "proximityScore": "7",
-            "costScore": "8",
-            "reputationScore": "6",
-            "complianceScore": "6",
-            "capacityScore": "7",
+            "name": "Wee Watch — Toronto West (home child care agency)",
+            "outreachDraft": "Subject: Infant Care Application - Starting ~March 2028\n\nHi Wee Watch Toronto West team,\n\nWe live near Lansdowne & Dupont and are expecting our first child in March 2027. We understand your agency matches families with licensed home providers who accept infants, and that you're CWELCC-enrolled. We'd like to start the application process now for care beginning at exactly 12 months, around March 2028.\n\nCould you let us know your process for matching us with a provider, current availability in our area, and what's needed to apply today?\n\nThank you,\n{{PARENT_NAMES}}\n{{EMAIL}} · {{PHONE}}",
             "philosophyScore": "6",
-            "outreachDraft": "Subject: Infant Care Application - Starting ~March 2028\n\nHi Wee Watch Toronto West team,\n\nWe live near Lansdowne & Dupont and are expecting our first child in March 2027. We understand your agency matches families with licensed home providers who accept infants, and that you're CWELCC-enrolled. We'd like to start the application process now for care beginning at exactly 12 months, around March 2028.\n\nCould you let us know your process for matching us with a provider, current availability in our area, and what's needed to apply today?\n\nThank you,\n{{PARENT_NAMES}}\n{{EMAIL}} · {{PHONE}}"
+            "proximityScore": "7",
+            "reputationScore": "6"
           },
           "id": "u0lrydc4",
           "log": [
@@ -1001,28 +1001,28 @@
         {
           "createdAt": "2026-07-06",
           "fields": {
-            "name": "Little Angels Childcare Learning Centre",
             "address": "1695 Dufferin St, Toronto",
-            "crossStreets": "Dufferin / St Clair W",
             "ageRange": "Infant / Toddler / Preschool",
-            "infantProgram": "Yes",
+            "appliedDate": "",
             "auspice": "Commercial",
+            "cadenceDays": "90",
+            "capacityScore": "",
+            "channel": "Direct phone/email",
+            "complianceScore": "",
+            "confirmationReceived": "Yes",
+            "contact": "Chantel (supervisor) · 416-652-1868 · info@littleangelsccc.ca",
+            "costScore": "",
+            "crossStreets": "Dufferin / St Clair W",
             "cwelcc": "Yes",
             "elcaqiRating": "",
             "estMonthlyFee": "",
-            "channel": "Direct phone/email",
-            "appliedDate": "",
-            "contact": "Chantel (supervisor) · 416-652-1868 · info@littleangelsccc.ca",
-            "confirmationReceived": "",
-            "lastReconfirm": "",
-            "cadenceDays": "90",
-            "proximityScore": "",
-            "costScore": "",
-            "reputationScore": "",
-            "complianceScore": "",
-            "capacityScore": "",
+            "infantProgram": "Yes",
+            "lastReconfirm": "2026-07-21",
+            "name": "Little Angels Childcare Learning Centre",
+            "outreachDraft": "HOW TO START: Has infant room. No online form — call or email info@littleangelsccc.ca to join waitlist.",
             "philosophyScore": "",
-            "outreachDraft": "HOW TO START: Has infant room. No online form — call or email info@littleangelsccc.ca to join waitlist."
+            "proximityScore": "",
+            "reputationScore": ""
           },
           "id": "cc30-12",
           "log": [
@@ -1394,28 +1394,28 @@
         {
           "createdAt": "2026-07-06",
           "fields": {
-            "name": "McMurrich Sprouts",
             "address": "115 Winona Dr, Toronto",
-            "crossStreets": "Winona / St Clair W",
             "ageRange": "Infant / Toddler / Preschool / Kindergarten / School-age",
-            "infantProgram": "Yes",
+            "appliedDate": "",
             "auspice": "Non-profit",
+            "cadenceDays": "90",
+            "capacityScore": "",
+            "channel": "Direct phone/email",
+            "complianceScore": "",
+            "confirmationReceived": "Yes",
+            "contact": "416-656-7957",
+            "costScore": "",
+            "crossStreets": "Winona / St Clair W",
             "cwelcc": "Yes",
             "elcaqiRating": "",
             "estMonthlyFee": "",
-            "channel": "Direct phone/email",
-            "appliedDate": "",
-            "contact": "416-656-7957",
-            "confirmationReceived": "",
-            "lastReconfirm": "",
-            "cadenceDays": "90",
-            "proximityScore": "",
-            "costScore": "",
-            "reputationScore": "",
-            "complianceScore": "",
-            "capacityScore": "",
+            "infantProgram": "Yes",
+            "lastReconfirm": "2026-07-17",
+            "name": "McMurrich Sprouts",
+            "outreachDraft": "HOW TO START: Has infant room. Same building as Oakwood & McMurrich Co-op. Call to join waitlist.",
             "philosophyScore": "",
-            "outreachDraft": "HOW TO START: Has infant room. Same building as Oakwood & McMurrich Co-op. Call to join waitlist."
+            "proximityScore": "",
+            "reputationScore": ""
           },
           "id": "cc30-28",
           "log": [
@@ -2307,11 +2307,129 @@
         "from": "morgan@onehsn.ca",
         "subject": "Thanks for reaching out",
         "threadId": "19f32c9dac361465"
+      },
+      {
+        "action": "auto-applied",
+        "threadId": "19f717499494c45f",
+        "from": "info@littleangelsccc.ca",
+        "subject": "Re: Little Angels Child Care Centre - Waitlist",
+        "cardName": "Little Angels Childcare Learning Centre",
+        "change": "On Waitlist -> On Waitlist; confirmationReceived=Yes; lastReconfirm=2026-07-21 (added Baby Gudgeon to infant waitlist for March 2028)"
+      },
+      {
+        "action": "auto-applied",
+        "threadId": "19f718bb32baa5f8",
+        "from": "no-reply@mcmurrichsprouts.com",
+        "subject": "McMurrich Sprouts - Waiting List (Gudgeon)",
+        "cardName": "McMurrich Sprouts",
+        "change": "On Waitlist -> On Waitlist; confirmationReceived=Yes; lastReconfirm=2026-07-17 (application received for waiting list)"
       }
     ],
-    "lastProcessedEpoch": 1752071210,
-    "lastRunAt": "2026-07-12T19:52:00.000Z",
-    "pending": []
+    "lastProcessedEpoch": 1784665436,
+    "lastRunAt": "2026-07-27T20:22:58.000Z",
+    "pending": [
+      {
+        "id": "es-20260721-learningnest",
+        "threadId": "19f858a3baef8b6d",
+        "receivedAt": "2026-07-21T16:37:36Z",
+        "from": "michaela.cappadocia@childventures.ca",
+        "subject": "Exciting News: A Space is Available at The Learning Nest Academy!",
+        "snippet": "We have a handful of openings available for Infant, Toddler and Preschool, start dates Sept–Oct 2026.",
+        "reason": "Space-available / offer signal — offers are never auto-applied. Also a mass \"Dear Families\" email, so confirm it is a real space for us before moving to Offer Received.",
+        "candidates": [
+          {
+            "cardId": "pjexn2ws",
+            "cardName": "The Learning Nest - Junction",
+            "boardId": "childcare",
+            "currentStatus": "On Waitlist",
+            "suggestedStatus": "Offer Received",
+            "selected": true
+          }
+        ]
+      },
+      {
+        "id": "es-20260720-network",
+        "threadId": "19f8049ac85050cf",
+        "receivedAt": "2026-07-20T16:08:55Z",
+        "from": "Group@networkchildcare.com",
+        "subject": "Waitlist",
+        "snippet": "Thank you for your interest in Network Childcare Services for the care of Baby Gudgeon. This email is to confirm that you are on my waitlist.",
+        "reason": "Shared Network sender (Group@networkchildcare.com) does not say which of the Network centres. Pick the centre(s) this applies to.",
+        "candidates": [
+          {
+            "cardId": "0i32bipe",
+            "cardName": "Network Child Care Services — Ossington Avenue North",
+            "boardId": "childcare",
+            "currentStatus": "On Waitlist",
+            "suggestedStatus": "On Waitlist",
+            "selected": false
+          },
+          {
+            "cardId": "nccs-justkids",
+            "cardName": "Network Child Care Services – Just Kids Centre",
+            "boardId": "childcare",
+            "currentStatus": "On Waitlist",
+            "suggestedStatus": "On Waitlist",
+            "selected": false
+          },
+          {
+            "cardId": "bbcvs1ps",
+            "cardName": "Network Child Care Services — Ossington Avenue South",
+            "boardId": "childcare",
+            "currentStatus": "On Waitlist",
+            "suggestedStatus": "On Waitlist",
+            "selected": false
+          },
+          {
+            "cardId": "cc30-11",
+            "cardName": "Network Child Care Services – Wade Avenue Centre",
+            "boardId": "childcare",
+            "currentStatus": "On Waitlist",
+            "suggestedStatus": "On Waitlist",
+            "selected": false
+          }
+        ]
+      },
+      {
+        "id": "es-20260717-lef",
+        "threadId": "19f7150384dbe245",
+        "receivedAt": "2026-07-17T18:21:49Z",
+        "from": "childcare@lefca.org",
+        "subject": "Register Your Child For Our Waitlist",
+        "snippet": "Thank you for your interest in The Learning Enrichment Foundation Children and Families Department.",
+        "reason": "Generic LEF registration instructions covering all LEF centres — not a per-centre confirmation. No card change unless you want to mark a specific LEF centre.",
+        "candidates": []
+      },
+      {
+        "id": "es-20260715-weewatch",
+        "threadId": "19f66eea5095b811",
+        "receivedAt": "2026-07-15T17:58:35Z",
+        "from": "swirlingleaves21@gmail.com",
+        "subject": "Wee Watch TW",
+        "snippet": "We have received your childcare application. We work 3-4 months in advance... Please note we do not accept subsidy from the City of Toronto.",
+        "reason": "Application-received confirmation, but from a personal gmail (not a dedicated centre address) and it flags \"no City subsidy\" — worth a human confirm before treating as a firm waitlist spot.",
+        "candidates": [
+          {
+            "cardId": "u0lrydc4",
+            "cardName": "Wee Watch — Toronto West (home child care agency)",
+            "boardId": "childcare",
+            "currentStatus": "On Waitlist",
+            "suggestedStatus": "On Waitlist",
+            "selected": true
+          }
+        ]
+      },
+      {
+        "id": "es-20260713-cityoftoronto",
+        "threadId": "19f5c0a04b1cbbf4",
+        "receivedAt": "2026-07-13T15:13:07Z",
+        "from": "ChildCareOffice@toronto.ca",
+        "subject": "Waitlist Confirmation",
+        "snippet": "We've received your registration request — City of Toronto. Please do not respond to this automated email.",
+        "reason": "City of Toronto central waitlist confirmation — the City list feeds many centres and does not map to one card. Informational; no single-card change.",
+        "candidates": []
+      }
+    ]
   },
   "homeLocation": {
     "label": "Lansdowne Ave & Dupont St, Toronto",
