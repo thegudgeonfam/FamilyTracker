@@ -2339,33 +2339,30 @@
         "from": "swirlingleaves21@gmail.com",
         "subject": "Wee Watch TW",
         "threadId": "19f66eea5095b811"
+      },
+      {
+        "at": "2026-07-27T20:41:21.254Z",
+        "action": "dismissed",
+        "from": "childcare@lefca.org",
+        "subject": "Register Your Child For Our Waitlist",
+        "threadId": "19f7150384dbe245",
+        "cardName": "(dismissed — no change)",
+        "change": ""
+      },
+      {
+        "at": "2026-07-27T20:41:22.036Z",
+        "action": "dismissed",
+        "from": "ChildCareOffice@toronto.ca",
+        "subject": "Waitlist Confirmation",
+        "threadId": "19f5c0a04b1cbbf4",
+        "cardName": "(dismissed — no change)",
+        "change": ""
       }
     ],
     "lastProcessedEpoch": 1784665436,
     "lastRunAt": "2026-07-27T20:26:37.000Z",
     "lastRunSummary": "4 applied, 3 flagged",
-    "pending": [
-      {
-        "candidates": [],
-        "from": "childcare@lefca.org",
-        "id": "es-20260717-lef",
-        "reason": "Generic LEF registration instructions covering all LEF centres — not a per-centre confirmation. No card change unless you want to mark a specific LEF centre.",
-        "receivedAt": "2026-07-17T18:21:49Z",
-        "snippet": "Thank you for your interest in The Learning Enrichment Foundation Children and Families Department.",
-        "subject": "Register Your Child For Our Waitlist",
-        "threadId": "19f7150384dbe245"
-      },
-      {
-        "candidates": [],
-        "from": "ChildCareOffice@toronto.ca",
-        "id": "es-20260713-cityoftoronto",
-        "reason": "City of Toronto TELCCS CENTRAL waitlist confirmation — family placed on the City waitlist effective 05-Jul-2026, client file # 1254246. This feeds the City-run centres you selected, so it does not map to a single card. Informational — record the file number for reference.",
-        "receivedAt": "2026-07-13T15:13:07Z",
-        "snippet": "We've received your registration request — City of Toronto. Please do not respond to this automated email.",
-        "subject": "Waitlist Confirmation",
-        "threadId": "19f5c0a04b1cbbf4"
-      }
-    ]
+    "pending": []
   },
   "homeLocation": {
     "label": "Lansdowne Ave & Dupont St, Toronto",
