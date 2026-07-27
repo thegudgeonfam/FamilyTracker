@@ -2343,26 +2343,8 @@
     ],
     "lastProcessedEpoch": 1784665436,
     "lastRunAt": "2026-07-27T20:26:37.000Z",
+    "lastRunSummary": "4 applied, 3 flagged",
     "pending": [
-      {
-        "candidates": [
-          {
-            "boardId": "childcare",
-            "cardId": "pjexn2ws",
-            "cardName": "The Learning Nest - Junction",
-            "currentStatus": "On Waitlist",
-            "selected": false,
-            "suggestedStatus": "On Waitlist"
-          }
-        ],
-        "from": "michaela.cappadocia@childventures.ca",
-        "id": "es-20260721-learningnest",
-        "reason": "Mass 'Dear Families' email offering a handful of spaces with START DATES Sept–Oct 2026, reply by July 31 2026 to be considered. You need care starting March 2028 (baby due March 2027), so this window almost certainly does not fit — likely no action, but decide before July 31 whether to reply to stay on their interest list. Not a personal offer.",
-        "receivedAt": "2026-07-21T16:37:36Z",
-        "snippet": "We have a handful of openings available for Infant, Toddler and Preschool, start dates Sept–Oct 2026.",
-        "subject": "Exciting News: A Space is Available at The Learning Nest Academy!",
-        "threadId": "19f858a3baef8b6d"
-      },
       {
         "candidates": [],
         "from": "childcare@lefca.org",
@@ -2383,8 +2365,7 @@
         "subject": "Waitlist Confirmation",
         "threadId": "19f5c0a04b1cbbf4"
       }
-    ],
-    "lastRunSummary": "4 applied, 3 flagged"
+    ]
   },
   "homeLocation": {
     "label": "Lansdowne Ave & Dupont St, Toronto",
