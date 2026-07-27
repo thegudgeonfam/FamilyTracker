@@ -2326,19 +2326,19 @@
       },
       {
         "action": "auto-applied",
-        "threadId": "19f8049ac85050cf",
+        "cardName": "Network Child Care Services — Ossington Avenue North",
+        "change": "On Waitlist -> On Waitlist; confirmationReceived=Yes; lastReconfirm=2026-07-20 (shared Group@ sender, but signature = Marlene Silva-Armas, Supervisor Ossington Ave North, ext 4028)",
         "from": "Group@networkchildcare.com",
         "subject": "Waitlist",
-        "cardName": "Network Child Care Services — Ossington Avenue North",
-        "change": "On Waitlist -> On Waitlist; confirmationReceived=Yes; lastReconfirm=2026-07-20 (shared Group@ sender, but signature = Marlene Silva-Armas, Supervisor Ossington Ave North, ext 4028)"
+        "threadId": "19f8049ac85050cf"
       },
       {
         "action": "auto-applied",
-        "threadId": "19f66eea5095b811",
+        "cardName": "Wee Watch — Toronto West (home child care agency)",
+        "change": "On Waitlist -> On Waitlist; confirmationReceived=Yes; lastReconfirm=2026-07-15 (application received by Wee Watch Toronto West (agency does home-care matching); NOTE: does not accept City of Toronto subsidy; CWELCC $22/day)",
         "from": "swirlingleaves21@gmail.com",
         "subject": "Wee Watch TW",
-        "cardName": "Wee Watch — Toronto West (home child care agency)",
-        "change": "On Waitlist -> On Waitlist; confirmationReceived=Yes; lastReconfirm=2026-07-15 (application received by Wee Watch Toronto West (agency does home-care matching); NOTE: does not accept City of Toronto subsidy; CWELCC $22/day)"
+        "threadId": "19f66eea5095b811"
       }
     ],
     "lastProcessedEpoch": 1784665436,
@@ -2383,7 +2383,8 @@
         "subject": "Waitlist Confirmation",
         "threadId": "19f5c0a04b1cbbf4"
       }
-    ]
+    ],
+    "lastRunSummary": "4 applied, 3 flagged"
   },
   "homeLocation": {
     "label": "Lansdowne Ave & Dupont St, Toronto",
