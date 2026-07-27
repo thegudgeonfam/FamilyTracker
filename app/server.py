@@ -5,6 +5,7 @@ edits back to disk, auto-commits changes to git, and periodically pushes
 to GitHub so there's no manual export/backup/commit step left to do by hand.
 """
 import json
+import os
 import subprocess
 import threading
 import time
@@ -107,7 +108,8 @@ def put_data():
 def main():
     threading.Thread(target=push_loop, daemon=True).start()
     url = f"http://127.0.0.1:{PORT}"
-    threading.Timer(1.0, lambda: webbrowser.open(url)).start()
+    if not os.environ.get("FAMILY_TRACKER_HEADLESS"):
+        threading.Timer(1.0, lambda: webbrowser.open(url)).start()
     print(f"Family tracker running at {url}")
     try:
         app.run(host="127.0.0.1", port=PORT, debug=False)

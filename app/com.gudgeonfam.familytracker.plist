@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.gudgeonfam.familytracker</string>
+
+    <key>UserName</key>
+    <string>coreygudgeon</string>
+
+    <key>ProgramArguments</key>
+    <array>
+        <string>/Users/coreygudgeon/FamilyTracker/app/.venv/bin/python3</string>
+        <string>/Users/coreygudgeon/FamilyTracker/app/server.py</string>
+    </array>
+
+    <key>WorkingDirectory</key>
+    <string>/Users/coreygudgeon/FamilyTracker/app</string>
+
+    <key>EnvironmentVariables</key>
+    <dict>
+        <key>FAMILY_TRACKER_HEADLESS</key>
+        <string>1</string>
+    </dict>
+
+    <key>RunAtLoad</key>
+    <true/>
+    <key>KeepAlive</key>
+    <true/>
+
+    <key>StandardOutPath</key>
+    <string>/Users/coreygudgeon/Library/Logs/familytracker.log</string>
+    <key>StandardErrorPath</key>
+    <string>/Users/coreygudgeon/Library/Logs/familytracker.err.log</string>
+</dict>
+</plist>
