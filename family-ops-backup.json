@@ -250,28 +250,28 @@
         {
           "createdAt": "2026-07-05",
           "fields": {
+            "name": "Wee Watch — Toronto West (home child care agency)",
             "address": "Home child care agency — matches families to a licensed home provider in your area",
-            "ageRange": "Infant – 12 years (via individual home providers)",
-            "appliedDate": "",
-            "auspice": "Home childcare (licensed)",
-            "cadenceDays": "90",
-            "capacityScore": "7",
-            "channel": "OneHSN",
-            "complianceScore": "6",
-            "confirmationReceived": "",
-            "contact": "",
-            "costScore": "8",
             "crossStreets": "Serves Toronto West generally",
+            "ageRange": "Infant – 12 years (via individual home providers)",
+            "infantProgram": "Yes",
+            "auspice": "Home childcare (licensed)",
             "cwelcc": "Yes",
             "elcaqiRating": "Not applicable (home childcare, assessed via agency visits, not ELCAQI)",
             "estMonthlyFee": "$22/day per CWELCC cap (as of Jan 2025) — confirm current rate",
-            "infantProgram": "Yes",
+            "channel": "OneHSN",
+            "appliedDate": "",
+            "contact": "",
+            "confirmationReceived": "",
             "lastReconfirm": "",
-            "name": "Wee Watch — Toronto West (home child care agency)",
-            "outreachDraft": "Subject: Infant Care Application - Starting ~March 2028\n\nHi Wee Watch Toronto West team,\n\nWe live near Lansdowne & Dupont and are expecting our first child in March 2027. We understand your agency matches families with licensed home providers who accept infants, and that you're CWELCC-enrolled. We'd like to start the application process now for care beginning at exactly 12 months, around March 2028.\n\nCould you let us know your process for matching us with a provider, current availability in our area, and what's needed to apply today?\n\nThank you,\n{{PARENT_NAMES}}\n{{EMAIL}} · {{PHONE}}",
-            "philosophyScore": "6",
+            "cadenceDays": "90",
             "proximityScore": "7",
-            "reputationScore": "6"
+            "costScore": "8",
+            "reputationScore": "6",
+            "complianceScore": "6",
+            "capacityScore": "7",
+            "philosophyScore": "6",
+            "outreachDraft": "Subject: Infant Care Application - Starting ~March 2028\n\nHi Wee Watch Toronto West team,\n\nWe live near Lansdowne & Dupont and are expecting our first child in March 2027. We understand your agency matches families with licensed home providers who accept infants, and that you're CWELCC-enrolled. We'd like to start the application process now for care beginning at exactly 12 months, around March 2028.\n\nCould you let us know your process for matching us with a provider, current availability in our area, and what's needed to apply today?\n\nThank you,\n{{PARENT_NAMES}}\n{{EMAIL}} · {{PHONE}}"
           },
           "id": "u0lrydc4",
           "log": [
@@ -280,7 +280,7 @@
               "ts": "2026-07-05"
             }
           ],
-          "status": "Applied – Awaiting Confirmation"
+          "status": "On Waitlist"
         },
         {
           "createdAt": "2026-07-05",
