@@ -390,28 +390,28 @@
         {
           "createdAt": "2026-07-05",
           "fields": {
-            "name": "Upcoming: Brandon Ave & Foundry Ave centre",
             "address": "Brandon Ave & Foundry Ave, Toronto (on your street)",
-            "crossStreets": "Brandon Ave / Foundry Ave",
             "ageRange": "Unknown — not yet open",
-            "infantProgram": "Unconfirmed",
+            "appliedDate": "",
             "auspice": "Unknown",
+            "cadenceDays": "30",
+            "capacityScore": "",
+            "channel": "Unknown",
+            "complianceScore": "",
+            "confirmationReceived": "",
+            "contact": "",
+            "costScore": "",
+            "crossStreets": "Brandon Ave / Foundry Ave",
             "cwelcc": "Unconfirmed",
             "elcaqiRating": "Not applicable yet",
             "estMonthlyFee": "",
-            "channel": "Unknown",
-            "appliedDate": "",
-            "contact": "",
-            "confirmationReceived": "",
+            "infantProgram": "Unconfirmed",
             "lastReconfirm": "",
-            "cadenceDays": "30",
-            "proximityScore": "10",
-            "costScore": "",
-            "reputationScore": "",
-            "complianceScore": "",
-            "capacityScore": "",
+            "name": "Upcoming: Brandon Ave & Foundry Ave centre",
+            "outreachDraft": "",
             "philosophyScore": "",
-            "outreachDraft": ""
+            "proximityScore": "10",
+            "reputationScore": ""
           },
           "id": "el3ypjib",
           "log": [
@@ -2397,6 +2397,6 @@
     "phone": "Justine (cell): 647-971-8628",
     "preferredStartDate": "2028-03-01"
   },
-  "revision": 3,
+  "revision": 4,
   "version": 2
 }
