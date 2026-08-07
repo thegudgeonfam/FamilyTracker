@@ -128,6 +128,22 @@ def get_data():
     return jsonify(doc)
 
 
+@app.route("/api/meta", methods=["GET"])
+def get_meta():
+    """Cheap freshness probe for the UI: revision + email-sync bookkeeping."""
+    with _write_lock:
+        doc = read_data()
+        mtime = DATA_FILE.stat().st_mtime
+    es = doc.get("emailSync") or {}
+    return jsonify({
+        "revision": doc.get("revision", 0),
+        "modifiedAt": datetime.fromtimestamp(mtime, timezone.utc).isoformat(),
+        "lastRunAt": es.get("lastRunAt"),
+        "lastRunSummary": es.get("lastRunSummary"),
+        "pendingCount": len(es.get("pending") or []),
+    })
+
+
 @app.route("/api/data", methods=["PUT"])
 def put_data():
     payload = request.get_json(force=True)

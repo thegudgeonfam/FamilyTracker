@@ -3,6 +3,8 @@
   let currentBoardId = null;
   let editingCard = null; // { boardId, card } or null for new
   let saveTimer = null;
+  let dirty = false; // edits not yet confirmed saved
+  let lastMeta = null; // latest /api/meta payload
 
   const el = (sel) => document.querySelector(sel);
   const tabsEl = el("#board-tabs");
@@ -18,12 +20,64 @@
     const res = await fetch("/api/data");
     data = await res.json();
     if (!data.emailSync) data.emailSync = { pending: [], activity: [] };
-    currentBoardId = data.boardOrder[0];
+    // Keep the user's current tab across refreshes; fall back to the first board.
+    currentBoardId = data.boardOrder.includes(currentBoardId)
+      ? currentBoardId
+      : data.boardOrder[0];
     renderTabs();
     renderBoard();
     renderReviewButton();
-    setStatus("Loaded", false);
+    setStatus(idleText(), false);
   }
+
+  function fmtWhen(iso) {
+    if (!iso) return null;
+    const d = new Date(iso);
+    if (isNaN(d)) return null;
+    if (d.toDateString() === new Date().toDateString())
+      return d.toLocaleTimeString([], { hour: "numeric", minute: "2-digit" });
+    return d.toLocaleDateString([], { month: "short", day: "numeric" });
+  }
+
+  function idleText() {
+    const iso =
+      (lastMeta && lastMeta.lastRunAt) ||
+      (data && data.emailSync && data.emailSync.lastRunAt);
+    const when = fmtWhen(iso);
+    return when ? `Up to date · email sync ${when}` : "Up to date";
+  }
+
+  function uiBusy() {
+    return (
+      dirty ||
+      editingCard !== null ||
+      !reviewModalEl.classList.contains("hidden")
+    );
+  }
+
+  async function pollMeta() {
+    if (!data) return;
+    try {
+      const res = await fetch("/api/meta", { cache: "no-store" });
+      if (!res.ok) throw new Error();
+      lastMeta = await res.json();
+      if (uiBusy()) return; // never yank data out from under an edit
+      if (lastMeta.revision !== data.revision) {
+        await load();
+        setStatus("Updated — pulled latest changes", false);
+        setTimeout(() => {
+          if (!uiBusy()) setStatus(idleText(), false);
+        }, 4000);
+      } else {
+        setStatus(idleText(), false);
+      }
+    } catch (e) {
+      setStatus("Can't reach tracker server", false, true);
+    }
+  }
+
+  setInterval(pollMeta, 60 * 1000);
+  window.addEventListener("focus", pollMeta);
 
   function setStatus(text, dirty, isError) {
     statusEl.textContent = text;
@@ -42,6 +96,7 @@
       if (res.status === 409) {
         // Someone else (the email sync, or the other account) wrote since we
         // loaded. Reload their version rather than overwrite it.
+        dirty = false;
         await load();
         setStatus("Updated elsewhere — reloaded. Please re-apply your last change.", false, true);
         return;
@@ -49,6 +104,7 @@
       if (!res.ok) throw new Error(await res.text());
       const body = await res.json();
       if (body && typeof body.revision === "number") data.revision = body.revision;
+      dirty = false;
       setStatus("Saved", false);
     } catch (e) {
       setStatus("Save failed — retrying…", false, true);
@@ -57,6 +113,7 @@
   }
 
   function scheduleSave() {
+    dirty = true;
     setStatus("Unsaved changes…", true);
     clearTimeout(saveTimer);
     saveTimer = setTimeout(save, 600);
