@@ -2341,28 +2341,48 @@
         "threadId": "19f66eea5095b811"
       },
       {
-        "at": "2026-07-27T20:41:21.254Z",
         "action": "dismissed",
+        "at": "2026-07-27T20:41:21.254Z",
+        "cardName": "(dismissed — no change)",
+        "change": "",
         "from": "childcare@lefca.org",
         "subject": "Register Your Child For Our Waitlist",
-        "threadId": "19f7150384dbe245",
-        "cardName": "(dismissed — no change)",
-        "change": ""
+        "threadId": "19f7150384dbe245"
       },
       {
-        "at": "2026-07-27T20:41:22.036Z",
         "action": "dismissed",
+        "at": "2026-07-27T20:41:22.036Z",
+        "cardName": "(dismissed — no change)",
+        "change": "",
         "from": "ChildCareOffice@toronto.ca",
         "subject": "Waitlist Confirmation",
-        "threadId": "19f5c0a04b1cbbf4",
-        "cardName": "(dismissed — no change)",
-        "change": ""
+        "threadId": "19f5c0a04b1cbbf4"
       }
     ],
     "lastProcessedEpoch": 1784665436,
-    "lastRunAt": "2026-07-27T20:26:37.000Z",
+    "lastRunAt": "2026-08-07T21:12:14.220Z",
     "lastRunSummary": "4 applied, 3 flagged",
-    "pending": []
+    "pending": [
+      {
+        "id": "297131f5",
+        "threadId": "19f858a3baef8b6d",
+        "receivedAt": "2026-07-21T16:37:36Z",
+        "from": "michaela.cappadocia@childventures.ca",
+        "subject": "Exciting News: A Space is Available at The Learning Nest Academy!",
+        "snippet": "Dear Families, We have a handful of openings available for our Infant, Toddler and Preschool Programs for . start dates ranging between September and October 2026. If you would like to be considered for a space, please reply to this email by July 31st, 2026.",
+        "reason": "Space-available offer for Infant/Toddler/Preschool, Sept-Oct 2026 start. Sender (Michaela Cappadocia, 51 Vine Ave, learningnest.ca) matches The Learning Nest - Junction exactly. Required a reply by July 31, 2026 to be considered; no reply from this account found in Sent, and that deadline has now passed (today is Aug 7, 2026). Offers are never auto-applied -- confirm whether you replied elsewhere/in time before changing status, or treat as a missed window.",
+        "candidates": [
+          {
+            "cardId": "pjexn2ws",
+            "cardName": "The Learning Nest - Junction",
+            "boardId": "childcare",
+            "currentStatus": "On Waitlist",
+            "suggestedStatus": "Offer Received",
+            "selected": true
+          }
+        ]
+      }
+    ]
   },
   "homeLocation": {
     "label": "Lansdowne Ave & Dupont St, Toronto",
