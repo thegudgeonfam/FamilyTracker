@@ -118,6 +118,7 @@
     board.statuses.forEach((status) => {
       const col = document.createElement("div");
       col.className = "column";
+      col.dataset.status = status;
 
       const header = document.createElement("div");
       header.className = "column-header";
@@ -160,6 +161,10 @@
     const workingFields = isNew
       ? Object.fromEntries(board.fields.map((f) => [f.key, f.default ?? ""]))
       : { ...card.fields };
+
+    el("#card-modal-heading").textContent = isNew
+      ? "New card"
+      : card.fields[board.titleField] || "(untitled)";
 
     modalBodyEl.innerHTML = "";
 
@@ -451,6 +456,12 @@
     openReview();
     scheduleSave();
   }
+
+  document.addEventListener("keydown", (e) => {
+    if (e.key !== "Escape") return;
+    if (!modalEl.classList.contains("hidden")) closeModal();
+    reviewModalEl.classList.add("hidden");
+  });
 
   reviewBtn.addEventListener("click", openReview);
   el("#review-close").addEventListener("click", () => reviewModalEl.classList.add("hidden"));
