@@ -2359,17 +2359,17 @@
         "threadId": "19f5c0a04b1cbbf4"
       },
       {
-        "at": "2026-08-07T21:15:16.875Z",
         "action": "dismissed",
+        "at": "2026-08-07T21:15:16.875Z",
+        "cardName": "(dismissed — no change)",
+        "change": "",
         "from": "michaela.cappadocia@childventures.ca",
         "subject": "Exciting News: A Space is Available at The Learning Nest Academy!",
-        "threadId": "19f858a3baef8b6d",
-        "cardName": "(dismissed — no change)",
-        "change": ""
+        "threadId": "19f858a3baef8b6d"
       }
     ],
     "lastProcessedEpoch": 1784665436,
-    "lastRunAt": "2026-08-07T21:12:14.220Z",
+    "lastRunAt": "2026-08-07T21:25:51.000Z",
     "lastRunSummary": "4 applied, 3 flagged",
     "pending": []
   },
