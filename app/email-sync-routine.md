@@ -5,11 +5,14 @@ Its job: read **new inbound** childcare emails, reflect them on the tracker, and
 
 ## How this routine writes changes (single-writer model)
 
-The routine runs under a **different macOS account** than the one that owns the tracker
-files. It must **never** edit `family-ops-backup.json` or run `git` directly — it has no
-permission to, and attempting it is what used to make the sync fail silently.
+The routine must **never** edit `family-ops-backup.json` or run `git` directly —
+attempting it is what used to make the sync fail silently. (The scheduled task may be
+installed under **both** macOS accounts at **staggered times** — Corey 8:07, Justine
+9:00 — so it runs whichever account is active. That's safe only because the server
+rejects stale writes by revision and the epoch/threadId watermarks make the second
+run a no-op; never register two copies under the *same* account.)
 
-Instead, the local tracker server (`app/server.py`) is the **only** writer. The routine
+The local tracker server (`app/server.py`) is the **only** writer. The routine
 talks to it over HTTP:
 
 - **Read:**  `GET  http://127.0.0.1:4173/api/data` → the full tracker JSON.
@@ -18,9 +21,16 @@ talks to it over HTTP:
   to GitHub itself. The routine runs no git commands.
 
 The PUT body must be the whole document and still contain the top-level `boards` and
-`boardOrder` keys, or the server returns HTTP 400. GET the document, mutate it in place,
-PUT it back. If the server is unreachable, **stop and report it** — do not fall back to
-editing files or git.
+`boardOrder` keys, or the server returns HTTP 400. GET the document, mutate it in place
+(leave the top-level `revision` field untouched — the server uses it to detect
+concurrent edits), PUT it back. If the server is unreachable, **stop and report it** —
+do not fall back to editing files or git.
+
+- **HTTP 409** on PUT means someone edited the tracker while you were working: GET the
+  document again and re-apply your changes to the fresh copy, then PUT again. Do not
+  retry the stale body.
+- **HTTP 400** mentioning card removal means your payload lost cards — that's a bug in
+  your mutation, not something to confirm past. Stop and report it.
 
 ## Ground rules
 
@@ -45,10 +55,10 @@ editing files or git.
    can restart it. Do not touch files or git.
 
 2. **Find new mail.** Read `emailSync.lastProcessedEpoch` (unix seconds of the newest email
-   handled last run). Search Gmail for childcare-related inbound mail newer than that, e.g.
-   query: `newer_than:7d -in:sent (waitlist OR "waiting list" OR daycare OR childcare OR
-   "child care" OR onehsn OR "child care centre" OR enrol OR offer)`. Widen the window only
-   if `lastProcessedEpoch` is older than 7 days. Skip anything at or before `lastProcessedEpoch`.
+   examined last run). Search Gmail using that epoch directly — Gmail's `after:` accepts unix
+   seconds — e.g. query: `after:<lastProcessedEpoch> -in:sent (waitlist OR "waiting list" OR
+   daycare OR childcare OR "child care" OR onehsn OR "child care centre" OR enrol OR offer)`.
+   No fixed-day window, no widening logic. Skip anything at or before `lastProcessedEpoch`.
 
 3. **For each new email, identify the centre(s).** Match, in priority order:
    - sender address / domain vs. a card's `fields.contact` email or the centre's known domain;
@@ -69,6 +79,8 @@ editing files or git.
      On auto-apply: set `card.status`, set `fields.confirmationReceived = "Yes"`,
      set `fields.lastReconfirm` = the email date (YYYY-MM-DD). Append an `emailSync.activity`
      entry with `action:"auto-applied"`, the from/subject/threadId, `cardName`, and `change`.
+     **Every activity entry must include `at` (now, ISO) and `threadId`** — dedupe and the
+     audit trail depend on them.
    - **Flag** (append to `emailSync.pending`) when: more than one card could match, the
      sender domain is shared across several cards, it's a multi-centre email, there are
      duplicate cards for the same centre, or the target status is unclear. Each pending item:
@@ -79,11 +91,21 @@ editing files or git.
    - **Never auto-move to `Enrolled`, `Offer Received`, or `Not Pursuing`** — those are always flags.
 
 6. **Update bookkeeping.** Set `emailSync.lastRunAt` = now (ISO), and
-   `emailSync.lastProcessedEpoch` = the newest processed email's unix seconds.
+   `emailSync.lastProcessedEpoch` = the unix seconds of the newest email **examined this
+   run — auto-applied, flagged, or ignored as informational, all of them count.** Flagged
+   mail is safe to advance past because it's already durably in `pending`. (Leaving the
+   epoch behind makes every future run re-scan an ever-growing window.)
 
 7. **PUT** the full modified JSON back to `http://127.0.0.1:4173/api/data`. Confirm the
    response is HTTP 200 `{"ok": true}`. The server writes, commits, and pushes on its own.
-   If the PUT is not 200, report it plainly — do not retry blindly and do not touch files/git.
+   On 409, GET fresh and re-apply (see above). Any other non-200: report it plainly — do
+   not retry blindly and do not touch files/git.
+
+8. **Offers are time-critical.** Toronto centres commonly give 24–48 hours to accept a
+   spot. If this run flagged a suspected **offer**, send a push notification (if a
+   notification tool is available in this session) naming the centre and the email's
+   received date, so it doesn't sit unseen until someone opens the tracker. If no
+   notification tool is available, make the offer the first line of your run summary.
 
 ## Notes
 

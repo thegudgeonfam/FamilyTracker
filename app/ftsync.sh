@@ -31,6 +31,10 @@ case "${1:-}" in
     code=$(curl -s -o /dev/null -w '%{http_code}' --max-time 15 \
       -X PUT "$URL" -H 'Content-Type: application/json' --data-binary @"$DATA")
     echo "HTTP $code"
+    if [ "$code" = "409" ]; then
+      echo "revision conflict: tracker changed since 'get' — re-run get and re-apply your changes" >&2
+      exit 3
+    fi
     [ "$code" = "200" ] || exit 1
     ;;
   *)

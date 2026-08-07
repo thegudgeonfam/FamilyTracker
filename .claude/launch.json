@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "family-tracker",
+      "runtimeExecutable": "app/.venv/bin/python3",
+      "runtimeArgs": ["app/server.py"],
+      "port": 4173
+    }
+  ]
+}

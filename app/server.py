@@ -10,6 +10,7 @@ file or runs git, which is what keeps the two macOS accounts from colliding.
 """
 import json
 import os
+import signal
 import subprocess
 import threading
 import time
@@ -107,11 +108,24 @@ def static_files(filename):
     return send_from_directory(STATIC_DIR, filename)
 
 
+def read_data():
+    with open(DATA_FILE, "r", encoding="utf-8") as f:
+        return json.load(f)
+
+
+def count_cards(doc):
+    boards = doc.get("boards", {})
+    return sum(
+        len(b.get("cards", [])) for b in boards.values() if isinstance(b, dict)
+    )
+
+
 @app.route("/api/data", methods=["GET"])
 def get_data():
     with _write_lock:
-        with open(DATA_FILE, "r", encoding="utf-8") as f:
-            return jsonify(json.load(f))
+        doc = read_data()
+    doc.setdefault("revision", 0)
+    return jsonify(doc)
 
 
 @app.route("/api/data", methods=["PUT"])
@@ -121,15 +135,48 @@ def put_data():
         return jsonify({"error": "payload missing boards/boardOrder"}), 400
 
     with _write_lock:
-        with open(DATA_FILE, "w", encoding="utf-8") as f:
+        current = read_data()
+        current_rev = current.get("revision", 0)
+        # Optimistic concurrency: the client must echo the revision it GOT.
+        # A mismatch means someone else wrote in between — without this check
+        # the stale client would silently erase the other writer's changes.
+        if payload.get("revision") != current_rev:
+            return jsonify({
+                "error": "stale or missing revision — GET the latest document and re-apply your changes",
+                "revision": current_rev,
+            }), 409
+
+        # The UI only ever removes one card at a time; a large drop means a
+        # gutted payload, not an edit.
+        dropped = count_cards(current) - count_cards(payload)
+        if dropped > 5 and request.args.get("confirm_removal") != str(dropped):
+            return jsonify({
+                "error": f"payload removes {dropped} cards; re-send with ?confirm_removal={dropped} if intentional",
+            }), 400
+
+        payload["revision"] = current_rev + 1
+        tmp = DATA_FILE.with_name(DATA_FILE.name + ".tmp")
+        with open(tmp, "w", encoding="utf-8") as f:
             json.dump(payload, f, indent=2, ensure_ascii=False)
             f.write("\n")
+            f.flush()
+            os.fsync(f.fileno())
+        os.replace(tmp, DATA_FILE)
 
     schedule_commit()
-    return jsonify({"ok": True})
+    return jsonify({"ok": True, "revision": payload["revision"]})
+
+
+def _graceful_exit(signum, frame):
+    # launchd stops us with SIGTERM; Flask's dev server won't unwind to the
+    # finally block on its own, so flush the last commit/push here.
+    commit_data_file()
+    sync_and_push()
+    os._exit(0)
 
 
 def main():
+    signal.signal(signal.SIGTERM, _graceful_exit)
     threading.Thread(target=push_loop, daemon=True).start()
     url = f"http://127.0.0.1:{PORT}"
     if not os.environ.get("FAMILY_TRACKER_HEADLESS"):

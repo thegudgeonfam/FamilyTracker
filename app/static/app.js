@@ -39,7 +39,16 @@
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(data),
       });
+      if (res.status === 409) {
+        // Someone else (the email sync, or the other account) wrote since we
+        // loaded. Reload their version rather than overwrite it.
+        await load();
+        setStatus("Updated elsewhere — reloaded. Please re-apply your last change.", false, true);
+        return;
+      }
       if (!res.ok) throw new Error(await res.text());
+      const body = await res.json();
+      if (body && typeof body.revision === "number") data.revision = body.revision;
       setStatus("Saved", false);
     } catch (e) {
       setStatus("Save failed — retrying…", false, true);

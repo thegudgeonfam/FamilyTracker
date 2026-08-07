@@ -11,3 +11,9 @@ family-ops-backup.pre-*.json
 # Local app virtualenv
 app/.venv/
 app/__pycache__/
+
+# Server's atomic-write scratch file
+family-ops-backup.json.tmp
+
+# Per-machine Claude permission grants (launch.json IS tracked)
+.claude/settings.local.json
