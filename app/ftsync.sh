@@ -15,7 +15,7 @@
 
 set -euo pipefail
 
-STATE_DIR="/tmp/ftsync"
+STATE_DIR="${TMPDIR:-/tmp}/ftsync"   # per-user on macOS, so either account can run this
 DATA="$STATE_DIR/data.json"
 URL="http://127.0.0.1:4173/api/data"
 mkdir -p "$STATE_DIR"
