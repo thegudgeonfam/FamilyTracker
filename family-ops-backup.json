@@ -2368,10 +2368,30 @@
         "threadId": "19f858a3baef8b6d"
       }
     ],
-    "lastProcessedEpoch": 1784665436,
-    "lastRunAt": "2026-08-17T04:31:05Z",
+    "lastProcessedEpoch": 1787077194,
+    "lastRunAt": "2026-08-20T02:31:09Z",
     "lastRunSummary": "no new mail",
-    "pending": []
+    "pending": [
+      {
+        "id": "es-1a0161a1c56b426d",
+        "threadId": "1a0161a1c56b426d",
+        "receivedAt": "2026-08-18T18:19:54Z",
+        "from": "michaela.cappadocia@childventures.ca",
+        "subject": "Exciting News: A Space is Available at The Learning Nest Academy!",
+        "snippet": "Dear Families, We're happy to share that enrolment is now open for families wishing to start between September and December 2026. If you'd like your child to be considered for a space, simply reply to this email.",
+        "reason": "Subject says a space is available, but the body is a bulk enrolment-open campaign (sent via SendGrid with an unsubscribe link, addressed to 'Dear Families') inviting a reply to be considered on a first-come first-served basis — not a confirmed personal offer. Sender (Michaela Cappadocia) and address (51 Vine Ave) match The Learning Nest - Junction unambiguously, but offers always require human confirmation, and here a reply may be needed before any real spot is offered.",
+        "candidates": [
+          {
+            "cardId": "pjexn2ws",
+            "cardName": "The Learning Nest - Junction",
+            "boardId": "childcare",
+            "currentStatus": "On Waitlist",
+            "suggestedStatus": "Offer Received",
+            "selected": true
+          }
+        ]
+      }
+    ]
   },
   "homeLocation": {
     "label": "Lansdowne Ave & Dupont St, Toronto",
@@ -2397,6 +2417,6 @@
     "phone": "Justine (cell): 647-971-8628",
     "preferredStartDate": "2028-03-01"
   },
-  "revision": 13,
+  "revision": 14,
   "version": 2
 }
