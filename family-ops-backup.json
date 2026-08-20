@@ -2368,17 +2368,17 @@
         "threadId": "19f858a3baef8b6d"
       },
       {
-        "at": "2026-08-20T02:32:42.420Z",
         "action": "confirmed",
+        "at": "2026-08-20T02:32:42.420Z",
+        "cardName": "The Learning Nest - Junction",
+        "change": "On Waitlist → On Waitlist",
         "from": "michaela.cappadocia@childventures.ca",
         "subject": "Exciting News: A Space is Available at The Learning Nest Academy!",
-        "threadId": "1a0161a1c56b426d",
-        "cardName": "The Learning Nest - Junction",
-        "change": "On Waitlist → On Waitlist"
+        "threadId": "1a0161a1c56b426d"
       }
     ],
     "lastProcessedEpoch": 1787077194,
-    "lastRunAt": "2026-08-20T02:31:09Z",
+    "lastRunAt": "2026-08-20T15:06:32Z",
     "lastRunSummary": "no new mail",
     "pending": []
   },
@@ -2406,6 +2406,6 @@
     "phone": "Justine (cell): 647-971-8628",
     "preferredStartDate": "2028-03-01"
   },
-  "revision": 15,
+  "revision": 16,
   "version": 2
 }
