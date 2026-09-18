@@ -2377,10 +2377,30 @@
         "threadId": "1a0161a1c56b426d"
       }
     ],
-    "lastProcessedEpoch": 1789475324,
-    "lastRunAt": "2026-09-15T12:28:44Z",
+    "lastProcessedEpoch": 1789656939,
+    "lastRunAt": "2026-09-18T01:03:00Z",
     "lastRunSummary": "no new mail",
-    "pending": []
+    "pending": [
+      {
+        "id": "es-20260918T010300",
+        "threadId": "1a0afde2d33a69ff",
+        "receivedAt": "2026-09-17",
+        "from": "somerset@aspiringacademicspreschool.com",
+        "subject": "RE: Registration from  Justine Wong",
+        "snippet": "Thank you for your interest in Aspiring Academics Preschool! ... I will honor your initial registration inquiry for July 17 2026 ... We are currently accepting waitlist applications for 2026-2027. I have attached the Waitlist Policy and Waitlist Application Form. The application can be filled in and emailed back to me.",
+        "reason": "Centre replied (after a ~2 month delay, orig. inquiry sent 2026-07-17) to say they will honor the original inquiry date, but this is NOT a waitlist confirmation — they are asking the family to fill out and submit the attached Waitlist Application Form (+ Waitlist Policy, Parent Handbook) to actually get on the waitlist. Card is currently \"Applied – Awaiting Confirmation\" but no real application has been submitted yet, so an automatic status change (in either direction) would be misleading. Needs a human to fill out the form and decide the right status.",
+        "candidates": [
+          {
+            "cardId": "cc30-18",
+            "cardName": "Aspiring Academics Preschool – Somerset",
+            "boardId": "childcare",
+            "currentStatus": "Applied – Awaiting Confirmation",
+            "suggestedStatus": "To Apply",
+            "selected": true
+          }
+        ]
+      }
+    ]
   },
   "homeLocation": {
     "label": "Lansdowne Ave & Dupont St, Toronto",
@@ -2406,6 +2426,6 @@
     "phone": "Justine (cell): 647-971-8628",
     "preferredStartDate": "2028-03-01"
   },
-  "revision": 44,
+  "revision": 45,
   "version": 2
 }
